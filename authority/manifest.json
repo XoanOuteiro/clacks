@@ -1,0 +1,186 @@
+{
+  "generated_at_utc": "2025-12-29T22:12:38Z",
+  "packs": [
+    {
+      "files": [
+        {
+          "path": "authority/vrt/1.17/raw/vrt-1.17.json",
+          "sha256": "3f5d1fc2e6e65097af98f77f4f34d04a7778eb8a70d9c97c13e14ca1a95199a4"
+        }
+      ],
+      "name": "bugcrowd-vrt",
+      "upstream": {
+        "release_date": "2025-08-19",
+        "url": "https://bugcrowd.com/vulnerability-rating-taxonomy/1.17.json"
+      },
+      "version": "1.17"
+    },
+    {
+      "files": [
+        {
+          "path": "authority/cwe/4.19/raw/cwec_v4.19.xml.zip",
+          "sha256": "f7a7705971796ac26aed238f62594e24ff028549586b37150da32d9bbd58c554"
+        }
+      ],
+      "name": "mitre-cwe",
+      "upstream": {
+        "bundle": "cwec_v4.19.xml",
+        "url": "https://cwe.mitre.org/data/xml/cwec_latest.xml.zip"
+      },
+      "version": "4.19"
+    },
+    {
+      "files": [
+        {
+          "path": "authority/capec/3.9/raw/capec_v3.9.zip",
+          "sha256": "c56527f3d64b7164fcdae73c1a7545ee6e83b1150546c07a93339b1543a3041d"
+        }
+      ],
+      "name": "mitre-capec",
+      "upstream": {
+        "bundle": "capec_v3.9.xml",
+        "url": "https://capec.mitre.org/data/archive/capec_latest.zip"
+      },
+      "version": "3.9"
+    },
+    {
+      "files": [
+        {
+          "path": "authority/attack/18.1/enterprise/raw/enterprise-attack-v18.1-techniques.xlsx",
+          "sha256": "622c0be66c36d16b3c003b2fbdc9aaab21f3ab8f3bec6876c41e2ee56e89ddb1"
+        },
+        {
+          "path": "authority/attack/18.1/enterprise/raw/enterprise-attack-v18.1-tactics.xlsx",
+          "sha256": "085530b82e60fd508db1d48718808264054e4fe27c3e80c4e2c4fa8dbf588561"
+        },
+        {
+          "path": "authority/attack/18.1/enterprise/raw/enterprise-attack-v18.1-relationships.xlsx",
+          "sha256": "afda9c0cbc90b61d1cce68a079ab11a005c360f214d5fdca20592f79750053a8"
+        },
+        {
+          "path": "authority/attack/18.1/enterprise/raw/enterprise-attack-v18.1-groups.xlsx",
+          "sha256": "abd312b7a48390b859ba67778fe70c6a90926b9fb8fec45f107a7a4ed96c3ce5"
+        },
+        {
+          "path": "authority/attack/18.1/enterprise/raw/enterprise-attack-v18.1-software.xlsx",
+          "sha256": "7d8e7ba4e2342904a7de873843137797bb276b13bb7358727e81417b728cadba"
+        },
+        {
+          "path": "authority/attack/18.1/enterprise/raw/enterprise-attack-v18.1-campaigns.xlsx",
+          "sha256": "7d83c6eea0cca05da700686e6c76ad9363edd9c6970df759af5703ab55e8c960"
+        },
+        {
+          "path": "authority/attack/18.1/mobile/raw/mobile-attack-v18.1-techniques.xlsx",
+          "sha256": "b00d3f3f969e99105a649e10ec995ec9c0b6915808287860ddba47da220bb698"
+        },
+        {
+          "path": "authority/attack/18.1/mobile/raw/mobile-attack-v18.1-tactics.xlsx",
+          "sha256": "dec658871fadc6766bbd74324eb983100f2e01c0ddbbe66089abdb5e528e3507"
+        },
+        {
+          "path": "authority/attack/18.1/mobile/raw/mobile-attack-v18.1-relationships.xlsx",
+          "sha256": "62c6fe6a753afe6510214ab2904acc567b808097246395d7c196a924f8228912"
+        },
+        {
+          "path": "authority/attack/18.1/mobile/raw/mobile-attack-v18.1-groups.xlsx",
+          "sha256": "5c4d545010dcfdb123b7d704e86de20eec02c4da2c316737d6e1a2f6f5c7ae58"
+        },
+        {
+          "path": "authority/attack/18.1/mobile/raw/mobile-attack-v18.1-software.xlsx",
+          "sha256": "5cd0a63f780c135bed4ae0867a45a3de3e3b97133fdbc2e0e1309e2c441e2995"
+        },
+        {
+          "path": "authority/attack/18.1/mobile/raw/mobile-attack-v18.1-campaigns.xlsx",
+          "sha256": "add91114d2a4ccbb681a322c6d157183cd2fdd3c8216e6284b8c8c603d9dcc3c"
+        },
+        {
+          "path": "authority/attack/18.1/ics/raw/ics-attack-v18.1-techniques.xlsx",
+          "sha256": "7951569e552e01ea66ca46ecf4c31260f577d694052d41b48ad59decb7577eb6"
+        },
+        {
+          "path": "authority/attack/18.1/ics/raw/ics-attack-v18.1-tactics.xlsx",
+          "sha256": "ce02fe9aae1af961e33795122acb968ce56aeb1c86cae6623a05b512a69b0561"
+        },
+        {
+          "path": "authority/attack/18.1/ics/raw/ics-attack-v18.1-relationships.xlsx",
+          "sha256": "11f8f2142f8b203f0bc82726bb79b808a2fc2a895b78a99fc396afc2cee930ae"
+        },
+        {
+          "path": "authority/attack/18.1/ics/raw/ics-attack-v18.1-groups.xlsx",
+          "sha256": "d491d70e3dd9d737c0b93a5522c1864867b53af758d4fda2d9d169558b54afcf"
+        },
+        {
+          "path": "authority/attack/18.1/ics/raw/ics-attack-v18.1-software.xlsx",
+          "sha256": "1179cb9e849c949df3dfbcec72b9a4f9e83b2dd0754b818f16e5cbe4d82f480e"
+        },
+        {
+          "path": "authority/attack/18.1/ics/raw/ics-attack-v18.1-campaigns.xlsx",
+          "sha256": "502f0b8466658ed69fcc1f99c56f8d17fd62471537e6ba749c104925ef50a305"
+        }
+      ],
+      "name": "mitre-attack-excel",
+      "upstream": {
+        "base_url": "https://attack.mitre.org/resources/",
+        "format": "excel"
+      },
+      "version": "18.1"
+    },
+    {
+      "files": [
+        {
+          "path": "authority/d3fend/1.3.0/raw/d3fend.json",
+          "sha256": "a7157ac5aa51011a82bd031ab61181cc952b0f1b621ad82fa073b0f13f10f43f"
+        },
+        {
+          "path": "authority/d3fend/1.3.0/raw/d3fend-full-mappings.json",
+          "sha256": "671377151dd2882820897f137e99df8ebd5a87d0cc69650ed9f43bf8e1a830f2"
+        }
+      ],
+      "name": "mitre-d3fend",
+      "upstream": {
+        "mappings_url": "https://d3fend.mitre.org/api/ontology/inference/d3fend-full-mappings.json",
+        "ontology_url": "https://d3fend.mitre.org/ontologies/d3fend.json"
+      },
+      "version": "1.3.0"
+    },
+    {
+      "files": [
+        {
+          "path": "authority/owasp/top10/2021/index.json",
+          "sha256": "437cc82b46cf39ebd7760b1b40f53786d05cf7a0c5cf7cc6e37b804d4dc9266f"
+        }
+      ],
+      "name": "owasp-top10",
+      "upstream": {
+        "url": "https://owasp.org/Top10/2021/"
+      },
+      "version": "2021"
+    },
+    {
+      "files": [
+        {
+          "path": "authority/owasp/top10/2025/index.json",
+          "sha256": "c594867ec1d7be865c758dcea35b0bda2d10c775806053dcd395019ba13e399c"
+        }
+      ],
+      "name": "owasp-top10",
+      "upstream": {
+        "url": "https://owasp.org/Top10/2025/en/"
+      },
+      "version": "2025"
+    },
+    {
+      "files": [
+        {
+          "path": "authority/owasp/api-top10/2023/index.json",
+          "sha256": "2d7af73b732a9c1d7350481b00be33a0c82a9909d1a84cfd0adb9706f8d95d33"
+        }
+      ],
+      "name": "owasp-api-top10",
+      "upstream": {
+        "url": "https://owasp.org/API-Security/editions/2023/en/0x11-t10/"
+      },
+      "version": "2023"
+    }
+  ]
+}

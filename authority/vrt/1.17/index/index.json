@@ -1,0 +1,4827 @@
+{
+  "nodes": {
+    "abs": {
+      "children": [
+        "unintended_acceleration_brake"
+      ],
+      "id": "abs",
+      "name": "Automatic Braking System (ABS)",
+      "parent": "automotive_security_misconfiguration",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "absent": {
+      "children": [],
+      "id": "absent",
+      "name": "Absent",
+      "parent": "ssl_certificate_pinning",
+      "priority": 5,
+      "type": "variant"
+    },
+    "account_squatting": {
+      "children": [],
+      "id": "account_squatting",
+      "name": "Account Squatting",
+      "parent": "oauth_misconfiguration",
+      "priority": 4,
+      "type": "variant"
+    },
+    "account_takeover": {
+      "children": [],
+      "id": "account_takeover",
+      "name": "Account Takeover",
+      "parent": "oauth_misconfiguration",
+      "priority": 2,
+      "type": "variant"
+    },
+    "action_specific": {
+      "children": [
+        "authenticated_action",
+        "logout",
+        "unauthenticated_action"
+      ],
+      "id": "action_specific",
+      "name": "Action-Specific",
+      "parent": "cross_site_request_forgery_csrf",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "admin_portal": {
+      "children": [],
+      "id": "admin_portal",
+      "name": "Admin Portal",
+      "parent": "exposed_portal",
+      "priority": 1,
+      "type": "variant"
+    },
+    "adversarial_example_injection": {
+      "children": [
+        "ai_misclassification_attacks"
+      ],
+      "id": "adversarial_example_injection",
+      "name": "Adversarial Example Injection",
+      "parent": "ai_application_security",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "aggregation_bias": {
+      "children": [],
+      "id": "aggregation_bias",
+      "name": "Aggregation Bias",
+      "parent": "algorithmic_biases",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "aggressive_offline_caching": {
+      "children": [],
+      "id": "aggressive_offline_caching",
+      "name": "Aggressive Offline Caching",
+      "parent": "browser_feature",
+      "priority": 5,
+      "type": "variant"
+    },
+    "ai_application_security": {
+      "children": [
+        "adversarial_example_injection",
+        "ai_safety",
+        "denial_of_service_dos",
+        "improper_input_handling",
+        "improper_output_handling",
+        "insufficient_rate_limiting",
+        "model_extraction",
+        "prompt_injection",
+        "remote_code_execution",
+        "sensitive_information_disclosure",
+        "training_data_poisoning",
+        "vector_and_embedding_weaknesses"
+      ],
+      "id": "ai_application_security",
+      "name": "AI Application Security",
+      "parent": null,
+      "priority": null,
+      "type": "category"
+    },
+    "ai_misclassification_attacks": {
+      "children": [],
+      "id": "ai_misclassification_attacks",
+      "name": "AI Misclassification Attacks",
+      "parent": "adversarial_example_injection",
+      "priority": 4,
+      "type": "variant"
+    },
+    "ai_safety": {
+      "children": [
+        "misinformation_wrong_factual_data"
+      ],
+      "id": "ai_safety",
+      "name": "AI Safety",
+      "parent": "ai_application_security",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "algorithmic_biases": {
+      "children": [
+        "aggregation_bias",
+        "processing_bias"
+      ],
+      "id": "algorithmic_biases",
+      "name": "Algorithmic Biases",
+      "parent": null,
+      "priority": null,
+      "type": "category"
+    },
+    "all_sessions": {
+      "children": [],
+      "id": "all_sessions",
+      "name": "Concurrent Sessions On Logout",
+      "parent": "failure_to_invalidate_session",
+      "priority": 5,
+      "type": "variant"
+    },
+    "allows_disposable_email_addresses": {
+      "children": [],
+      "id": "allows_disposable_email_addresses",
+      "name": "Allows Disposable Email Addresses",
+      "parent": "weak_registration_implementation",
+      "priority": 5,
+      "type": "variant"
+    },
+    "ansi_escape_codes": {
+      "children": [],
+      "id": "ansi_escape_codes",
+      "name": "ANSI Escape Codes",
+      "parent": "improper_input_handling",
+      "priority": 5,
+      "type": "variant"
+    },
+    "api_query_based_model_reconstruction": {
+      "children": [],
+      "id": "api_query_based_model_reconstruction",
+      "name": "API Query-Based Model Reconstruction",
+      "parent": "model_extraction",
+      "priority": 1,
+      "type": "variant"
+    },
+    "app_crash": {
+      "children": [
+        "malformed_android_intents",
+        "malformed_ios_url_schemes"
+      ],
+      "id": "app_crash",
+      "name": "App Crash",
+      "parent": "application_level_denial_of_service_dos",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "application_level_denial_of_service_dos": {
+      "children": [
+        "app_crash",
+        "critical_impact_and_or_easy_difficulty",
+        "excessive_resource_consumption",
+        "high_impact_and_or_medium_difficulty"
+      ],
+      "id": "application_level_denial_of_service_dos",
+      "name": "Application-Level Denial-of-Service (DoS)",
+      "parent": null,
+      "priority": null,
+      "type": "category"
+    },
+    "application_wide": {
+      "children": [],
+      "id": "application_wide",
+      "name": "Application-Wide",
+      "parent": "cross_site_request_forgery_csrf",
+      "priority": 2,
+      "type": "subcategory"
+    },
+    "authenticated_action": {
+      "children": [],
+      "id": "authenticated_action",
+      "name": "Authenticated Action",
+      "parent": "action_specific",
+      "priority": null,
+      "type": "variant"
+    },
+    "authentication_bypass": {
+      "children": [],
+      "id": "authentication_bypass",
+      "name": "Authentication Bypass",
+      "parent": "broken_authentication_and_session_management",
+      "priority": 1,
+      "type": "subcategory"
+    },
+    "auto_backup_allowed_by_default": {
+      "children": [],
+      "id": "auto_backup_allowed_by_default",
+      "name": "Auto Backup Allowed by Default",
+      "parent": "mobile_security_misconfiguration",
+      "priority": 5,
+      "type": "subcategory"
+    },
+    "autocomplete_enabled": {
+      "children": [],
+      "id": "autocomplete_enabled",
+      "name": "Autocomplete Enabled",
+      "parent": "browser_feature",
+      "priority": 5,
+      "type": "variant"
+    },
+    "autocorrect_enabled": {
+      "children": [],
+      "id": "autocorrect_enabled",
+      "name": "Autocorrect Enabled",
+      "parent": "browser_feature",
+      "priority": 5,
+      "type": "variant"
+    },
+    "automatic_user_enumeration": {
+      "children": [],
+      "id": "automatic_user_enumeration",
+      "name": "Automatic User Enumeration",
+      "parent": "exif_geolocation_data_not_stripped_from_uploaded_images",
+      "priority": 3,
+      "type": "variant"
+    },
+    "automotive_security_misconfiguration": {
+      "children": [
+        "abs",
+        "battery_management_system",
+        "can",
+        "gnss_gps",
+        "immobilizer",
+        "infotainment_radio_head_unit",
+        "rf_hub",
+        "rsu"
+      ],
+      "id": "automotive_security_misconfiguration",
+      "name": "Automotive Security Misconfiguration",
+      "parent": null,
+      "priority": null,
+      "type": "category"
+    },
+    "backdoor_injection_bias_manipulation": {
+      "children": [],
+      "id": "backdoor_injection_bias_manipulation",
+      "name": "Backdoor Injection / Bias Manipulation",
+      "parent": "training_data_poisoning",
+      "priority": 1,
+      "type": "variant"
+    },
+    "basic": {
+      "children": [],
+      "id": "basic",
+      "name": "Basic",
+      "parent": "ssti",
+      "priority": 4,
+      "type": "variant"
+    },
+    "battery_management_system": {
+      "children": [
+        "firmware_dump",
+        "fraudulent_interface"
+      ],
+      "id": "battery_management_system",
+      "name": "Battery Management System",
+      "parent": "automotive_security_misconfiguration",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "binary_planting": {
+      "children": [
+        "no_privilege_escalation",
+        "non_default_folder_privilege_escalation",
+        "privilege_escalation"
+      ],
+      "id": "binary_planting",
+      "name": "Binary Planting",
+      "parent": "client_side_injection",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "bitsquatting": {
+      "children": [],
+      "id": "bitsquatting",
+      "name": "Bitsquatting",
+      "parent": "server_security_misconfiguration",
+      "priority": 5,
+      "type": "subcategory"
+    },
+    "blockchain_infrastructure_misconfiguration": {
+      "children": [
+        "improper_bridge_validation_and_verification_logic"
+      ],
+      "id": "blockchain_infrastructure_misconfiguration",
+      "name": "Blockchain Infrastructure Misconfiguration",
+      "parent": null,
+      "priority": null,
+      "type": "category"
+    },
+    "broken_access_control": {
+      "children": [
+        "bypass_of_password_confirmation",
+        "exposed_sensitive_android_intent",
+        "exposed_sensitive_ios_url_scheme",
+        "idor"
+      ],
+      "id": "broken_access_control",
+      "name": "Broken Access Control (BAC)",
+      "parent": null,
+      "priority": null,
+      "type": "category"
+    },
+    "broken_authentication_and_session_management": {
+      "children": [
+        "authentication_bypass",
+        "cleartext_transmission_of_session_token",
+        "concurrent_logins",
+        "failure_to_invalidate_session",
+        "saml_replay",
+        "session_fixation",
+        "two_fa_bypass",
+        "weak_login_function"
+      ],
+      "id": "broken_authentication_and_session_management",
+      "name": "Broken Authentication and Session Management",
+      "parent": null,
+      "priority": null,
+      "type": "category"
+    },
+    "broken_cryptography": {
+      "children": [
+        "use_of_broken_cryptographic_primitive",
+        "use_of_vulnerable_cryptographic_library"
+      ],
+      "id": "broken_cryptography",
+      "name": "Broken Cryptography",
+      "parent": "cryptographic_weakness",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "browser_feature": {
+      "children": [
+        "aggressive_offline_caching",
+        "autocomplete_enabled",
+        "autocorrect_enabled",
+        "plaintext_password_field",
+        "save_password"
+      ],
+      "id": "browser_feature",
+      "name": "Browser Feature",
+      "parent": "external_behavior",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "brute_force": {
+      "children": [],
+      "id": "brute_force",
+      "name": "Brute Force",
+      "parent": "username_enumeration",
+      "priority": 5,
+      "type": "variant"
+    },
+    "bypass_of_function_modifiers_and_checks": {
+      "children": [],
+      "id": "bypass_of_function_modifiers_and_checks",
+      "name": "Bypass of Function Modifiers and Checks",
+      "parent": "smart_contract_misconfiguration",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "bypass_of_password_confirmation": {
+      "children": [],
+      "id": "bypass_of_password_confirmation",
+      "name": "Bypass of Password Confirmation",
+      "parent": "broken_access_control",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "bypass_of_physical_access_control": {
+      "children": [],
+      "id": "bypass_of_physical_access_control",
+      "name": "Bypass of physical access control",
+      "parent": "physical_security_issues",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "cache_control_for_a_non_sensitive_page": {
+      "children": [],
+      "id": "cache_control_for_a_non_sensitive_page",
+      "name": "Cache-Control for a Non-Sensitive Page",
+      "parent": "lack_of_security_headers",
+      "priority": 5,
+      "type": "variant"
+    },
+    "cache_control_for_a_sensitive_page": {
+      "children": [],
+      "id": "cache_control_for_a_sensitive_page",
+      "name": "Cache-Control for a Sensitive Page",
+      "parent": "lack_of_security_headers",
+      "priority": 4,
+      "type": "variant"
+    },
+    "cache_deception": {
+      "children": [],
+      "id": "cache_deception",
+      "name": "Cache Deception",
+      "parent": "server_security_misconfiguration",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "cache_poisoning": {
+      "children": [],
+      "id": "cache_poisoning",
+      "name": "Cache Poisoning",
+      "parent": "server_security_misconfiguration",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "can": {
+      "children": [
+        "injection_basic_safety_message",
+        "injection_battery_management_system",
+        "injection_disallowed_messages",
+        "injection_dos",
+        "injection_headlights",
+        "injection_powertrain",
+        "injection_pyrotechnical_device_deployment_tool",
+        "injection_sensors",
+        "injection_steering_control",
+        "injection_vehicle_anti_theft_systems"
+      ],
+      "id": "can",
+      "name": "CAN",
+      "parent": "automotive_security_misconfiguration",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "can_injection_interaction": {
+      "children": [],
+      "id": "can_injection_interaction",
+      "name": "CAN Injection / Interaction",
+      "parent": "rf_hub",
+      "priority": 2,
+      "type": "variant"
+    },
+    "captcha": {
+      "children": [
+        "implementation_vulnerability",
+        "missing"
+      ],
+      "id": "captcha",
+      "name": "CAPTCHA",
+      "parent": "server_security_misconfiguration",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "captcha_bypass": {
+      "children": [
+        "crowdsourcing",
+        "ocr_optical_character_recognition"
+      ],
+      "id": "captcha_bypass",
+      "name": "Captcha Bypass",
+      "parent": "using_components_with_known_vulnerabilities",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "certificate_error": {
+      "children": [],
+      "id": "certificate_error",
+      "name": "Certificate Error",
+      "parent": "insecure_ssl",
+      "priority": 5,
+      "type": "variant"
+    },
+    "change_email_address": {
+      "children": [],
+      "id": "change_email_address",
+      "name": "Change Email Address",
+      "parent": "lack_of_password_confirmation",
+      "priority": 5,
+      "type": "variant"
+    },
+    "change_password": {
+      "children": [],
+      "id": "change_password",
+      "name": "Change Password",
+      "parent": "no_rate_limiting_on_form",
+      "priority": 5,
+      "type": "variant"
+    },
+    "cleartext_transmission_of_sensitive_data": {
+      "children": [],
+      "id": "cleartext_transmission_of_sensitive_data",
+      "name": "Cleartext Transmission of Sensitive Data",
+      "parent": "insecure_data_transport",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "cleartext_transmission_of_session_token": {
+      "children": [],
+      "id": "cleartext_transmission_of_session_token",
+      "name": "Cleartext Transmission of Session Token",
+      "parent": "broken_authentication_and_session_management",
+      "priority": 4,
+      "type": "subcategory"
+    },
+    "clickjacking": {
+      "children": [
+        "form_input",
+        "non_sensitive_action",
+        "sensitive_action"
+      ],
+      "id": "clickjacking",
+      "name": "Clickjacking",
+      "parent": "server_security_misconfiguration",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "client_side_injection": {
+      "children": [
+        "binary_planting"
+      ],
+      "id": "client_side_injection",
+      "name": "Client-Side Injection",
+      "parent": null,
+      "priority": null,
+      "type": "category"
+    },
+    "clipboard_enabled": {
+      "children": [],
+      "id": "clipboard_enabled",
+      "name": "Clipboard Enabled",
+      "parent": "mobile_security_misconfiguration",
+      "priority": 5,
+      "type": "subcategory"
+    },
+    "cloneable_key": {
+      "children": [],
+      "id": "cloneable_key",
+      "name": "Cloneable Key",
+      "parent": "weakness_in_physical_access_control",
+      "priority": null,
+      "type": "variant"
+    },
+    "cloud_security": {
+      "children": [
+        "identity_and_access_management_iam_misconfigurations",
+        "logging_and_monitoring_issues",
+        "misconfigured_services_and_apis",
+        "network_configuration_issues",
+        "storage_misconfigurations"
+      ],
+      "id": "cloud_security",
+      "name": "Cloud Security",
+      "parent": null,
+      "priority": null,
+      "type": "category"
+    },
+    "code_execution_can_bus_pivot": {
+      "children": [],
+      "id": "code_execution_can_bus_pivot",
+      "name": "Code Execution (CAN Bus Pivot)",
+      "parent": "infotainment_radio_head_unit",
+      "priority": 2,
+      "type": "variant"
+    },
+    "code_execution_no_can_bus_pivot": {
+      "children": [],
+      "id": "code_execution_no_can_bus_pivot",
+      "name": "Code Execution (No CAN Bus Pivot)",
+      "parent": "infotainment_radio_head_unit",
+      "priority": 3,
+      "type": "variant"
+    },
+    "command_injection": {
+      "children": [],
+      "id": "command_injection",
+      "name": "Command Injection",
+      "parent": "insecure_os_firmware",
+      "priority": 1,
+      "type": "subcategory"
+    },
+    "commonly_keyed_system": {
+      "children": [],
+      "id": "commonly_keyed_system",
+      "name": "Commonly Keyed System",
+      "parent": "weakness_in_physical_access_control",
+      "priority": 2,
+      "type": "variant"
+    },
+    "concurrent_logins": {
+      "children": [],
+      "id": "concurrent_logins",
+      "name": "Concurrent Logins",
+      "parent": "broken_authentication_and_session_management",
+      "priority": 5,
+      "type": "subcategory"
+    },
+    "confirmation_bias": {
+      "children": [],
+      "id": "confirmation_bias",
+      "name": "Confirmation Bias",
+      "parent": "societal_biases",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "content_security_policy": {
+      "children": [],
+      "id": "content_security_policy",
+      "name": "Content-Security-Policy",
+      "parent": "lack_of_security_headers",
+      "priority": 5,
+      "type": "variant"
+    },
+    "content_security_policy_report_only": {
+      "children": [],
+      "id": "content_security_policy_report_only",
+      "name": "Content-Security-Policy-Report-Only",
+      "parent": "lack_of_security_headers",
+      "priority": 5,
+      "type": "variant"
+    },
+    "content_spoofing": {
+      "children": [
+        "email_html_injection",
+        "email_hyperlink_injection_based_on_email_provider",
+        "external_authentication_injection",
+        "flash_based_external_authentication_injection",
+        "homograph_idn_based",
+        "html_content_injection",
+        "iframe_injection",
+        "impersonation_via_broken_link_hijacking",
+        "rtlo",
+        "text_injection"
+      ],
+      "id": "content_spoofing",
+      "name": "Content Spoofing",
+      "parent": "server_side_injection",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "context_ignorance": {
+      "children": [],
+      "id": "context_ignorance",
+      "name": "Context Ignorance",
+      "parent": "misinterpretation_biases",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "cookie_based": {
+      "children": [],
+      "id": "cookie_based",
+      "name": "Cookie-Based",
+      "parent": "cross_site_scripting_xss",
+      "priority": 5,
+      "type": "subcategory"
+    },
+    "cookie_scoped_to_parent_domain": {
+      "children": [],
+      "id": "cookie_scoped_to_parent_domain",
+      "name": "Cookie Scoped to Parent Domain",
+      "parent": "server_security_misconfiguration",
+      "priority": 5,
+      "type": "subcategory"
+    },
+    "critical_impact_and_or_easy_difficulty": {
+      "children": [],
+      "id": "critical_impact_and_or_easy_difficulty",
+      "name": "Critical Impact and/or Easy Difficulty",
+      "parent": "application_level_denial_of_service_dos",
+      "priority": 2,
+      "type": "subcategory"
+    },
+    "cross_site_request_forgery_csrf": {
+      "children": [
+        "action_specific",
+        "application_wide",
+        "csrf_token_not_unique_per_request"
+      ],
+      "id": "cross_site_request_forgery_csrf",
+      "name": "Cross-Site Request Forgery (CSRF)",
+      "parent": null,
+      "priority": null,
+      "type": "category"
+    },
+    "cross_site_scripting_xss": {
+      "children": [
+        "cookie_based",
+        "ie_only",
+        "off_domain",
+        "referer",
+        "reflected",
+        "stored",
+        "trace_method",
+        "universal_uxss"
+      ],
+      "id": "cross_site_scripting_xss",
+      "name": "Cross-Site Scripting (XSS)",
+      "parent": null,
+      "priority": null,
+      "type": "category"
+    },
+    "cross_tenant_pii_leakage_exposure": {
+      "children": [],
+      "id": "cross_tenant_pii_leakage_exposure",
+      "name": "Cross-Tenant PII Leakage/Exposure",
+      "parent": "sensitive_information_disclosure",
+      "priority": 1,
+      "type": "variant"
+    },
+    "crowdsourcing": {
+      "children": [],
+      "id": "crowdsourcing",
+      "name": "Crowdsourcing",
+      "parent": "captcha_bypass",
+      "priority": 5,
+      "type": "variant"
+    },
+    "cryptographic_signature": {
+      "children": [],
+      "id": "cryptographic_signature",
+      "name": "Cryptographic Signature",
+      "parent": "insufficient_verification_of_data_authenticity",
+      "priority": null,
+      "type": "variant"
+    },
+    "cryptographic_weakness": {
+      "children": [
+        "broken_cryptography",
+        "incomplete_cleanup_of_keying_material",
+        "insecure_implementation",
+        "insecure_key_generation",
+        "insufficient_entropy",
+        "insufficient_verification_of_data_authenticity",
+        "key_reuse",
+        "side_channel_attack",
+        "use_of_expired_cryptographic_key_or_cert",
+        "weak_hash"
+      ],
+      "id": "cryptographic_weakness",
+      "name": "Cryptographic Weakness",
+      "parent": null,
+      "priority": null,
+      "type": "category"
+    },
+    "csrf_token_not_unique_per_request": {
+      "children": [],
+      "id": "csrf_token_not_unique_per_request",
+      "name": "CSRF Token Not Unique Per Request",
+      "parent": "cross_site_request_forgery_csrf",
+      "priority": 5,
+      "type": "subcategory"
+    },
+    "csv_injection": {
+      "children": [],
+      "id": "csv_injection",
+      "name": "CSV Injection",
+      "parent": "external_behavior",
+      "priority": 5,
+      "type": "subcategory"
+    },
+    "custom": {
+      "children": [],
+      "id": "custom",
+      "name": "Custom",
+      "parent": "ssti",
+      "priority": null,
+      "type": "variant"
+    },
+    "data_biases": {
+      "children": [
+        "pre_existing_bias",
+        "representation_bias"
+      ],
+      "id": "data_biases",
+      "name": "Data Biases",
+      "parent": null,
+      "priority": null,
+      "type": "category"
+    },
+    "data_leakage_pull_encryption_mechanism": {
+      "children": [],
+      "id": "data_leakage_pull_encryption_mechanism",
+      "name": "Data Leakage / Pull Encryption Mechanism",
+      "parent": "rf_hub",
+      "priority": 3,
+      "type": "variant"
+    },
+    "data_not_encrypted_at_rest": {
+      "children": [
+        "non_sensitive",
+        "sensitive"
+      ],
+      "id": "data_not_encrypted_at_rest",
+      "name": "Data not encrypted at rest",
+      "parent": "insecure_os_firmware",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "data_traffic_spam": {
+      "children": [],
+      "id": "data_traffic_spam",
+      "name": "Data/Traffic Spam",
+      "parent": "disclosure_of_secrets",
+      "priority": 5,
+      "type": "variant"
+    },
+    "data_uri": {
+      "children": [],
+      "id": "data_uri",
+      "name": "Data URI",
+      "parent": "off_domain",
+      "priority": 4,
+      "type": "variant"
+    },
+    "dbms_misconfiguration": {
+      "children": [
+        "excessively_privileged_user_dba"
+      ],
+      "id": "dbms_misconfiguration",
+      "name": "Database Management System (DBMS) Misconfiguration",
+      "parent": "server_security_misconfiguration",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "deanonymization_of_data": {
+      "children": [],
+      "id": "deanonymization_of_data",
+      "name": "Deanonymization of Data",
+      "parent": "zero_knowledge_security_misconfiguration",
+      "priority": 1,
+      "type": "subcategory"
+    },
+    "decentralized_application_misconfiguration": {
+      "children": [
+        "defi_security",
+        "improper_authorization",
+        "marketplace_security",
+        "protocol_security_misconfiguration"
+      ],
+      "id": "decentralized_application_misconfiguration",
+      "name": "Decentralized Application Misconfiguration",
+      "parent": null,
+      "priority": null,
+      "type": "category"
+    },
+    "default_credentials": {
+      "children": [],
+      "id": "default_credentials",
+      "name": "Default Credentials",
+      "parent": "infotainment_radio_head_unit",
+      "priority": 4,
+      "type": "variant"
+    },
+    "defeatable": {
+      "children": [],
+      "id": "defeatable",
+      "name": "Defeatable",
+      "parent": "ssl_certificate_pinning",
+      "priority": 5,
+      "type": "variant"
+    },
+    "defi_security": {
+      "children": [
+        "flash_loan_attack",
+        "function_level_accounting_error",
+        "improper_implementation_of_governance",
+        "pricing_oracle_manipulation"
+      ],
+      "id": "defi_security",
+      "name": "DeFi Security",
+      "parent": "decentralized_application_misconfiguration",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "delete_account": {
+      "children": [],
+      "id": "delete_account",
+      "name": "Delete Account",
+      "parent": "lack_of_password_confirmation",
+      "priority": 4,
+      "type": "variant"
+    },
+    "denial_of_service": {
+      "children": [],
+      "id": "denial_of_service",
+      "name": "Denial of Service",
+      "parent": "marketplace_security",
+      "priority": null,
+      "type": "variant"
+    },
+    "denial_of_service_dos": {
+      "children": [
+        "tenant_scoped"
+      ],
+      "id": "denial_of_service_dos",
+      "name": "Denial-of-Service (DoS)",
+      "parent": "ai_application_security",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "descriptive_stack_trace": {
+      "children": [],
+      "id": "descriptive_stack_trace",
+      "name": "Descriptive Stack Trace",
+      "parent": "visible_detailed_error_page",
+      "priority": 5,
+      "type": "variant"
+    },
+    "detailed_server_configuration": {
+      "children": [],
+      "id": "detailed_server_configuration",
+      "name": "Detailed Server Configuration",
+      "parent": "visible_detailed_error_page",
+      "priority": 4,
+      "type": "variant"
+    },
+    "developer_biases": {
+      "children": [
+        "implicit_bias"
+      ],
+      "id": "developer_biases",
+      "name": "Developer Biases",
+      "parent": null,
+      "priority": null,
+      "type": "category"
+    },
+    "differential_fault_analysis": {
+      "children": [],
+      "id": "differential_fault_analysis",
+      "name": "Differential Fault Analysis",
+      "parent": "side_channel_attack",
+      "priority": null,
+      "type": "variant"
+    },
+    "direct_server_access": {
+      "children": [],
+      "id": "direct_server_access",
+      "name": "Direct Server Access",
+      "parent": "waf_bypass",
+      "priority": 4,
+      "type": "variant"
+    },
+    "directory_listing_enabled": {
+      "children": [
+        "non_sensitive_data_exposure",
+        "sensitive_data_exposure"
+      ],
+      "id": "directory_listing_enabled",
+      "name": "Directory Listing Enabled",
+      "parent": "server_security_misconfiguration",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "disabled_or_insufficient_logging": {
+      "children": [],
+      "id": "disabled_or_insufficient_logging",
+      "name": "Disabled or Insufficient Logging",
+      "parent": "logging_and_monitoring_issues",
+      "priority": 5,
+      "type": "variant"
+    },
+    "disclosure_of_known_public_information": {
+      "children": [],
+      "id": "disclosure_of_known_public_information",
+      "name": "Disclosure of Known Public Information",
+      "parent": "sensitive_data_exposure",
+      "priority": 5,
+      "type": "subcategory"
+    },
+    "disclosure_of_secrets": {
+      "children": [
+        "data_traffic_spam",
+        "for_internal_asset",
+        "for_publicly_accessible_asset",
+        "intentionally_public_sample_or_invalid",
+        "non_corporate_user",
+        "pay_per_use_abuse",
+        "pii_leakage_exposure"
+      ],
+      "id": "disclosure_of_secrets",
+      "name": "Disclosure of Secrets",
+      "parent": "sensitive_data_exposure",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "dos_brick": {
+      "children": [],
+      "id": "dos_brick",
+      "name": "Denial of Service (DoS / Brick)",
+      "parent": "infotainment_radio_head_unit",
+      "priority": 4,
+      "type": "variant"
+    },
+    "email_html_injection": {
+      "children": [],
+      "id": "email_html_injection",
+      "name": "Email HTML Injection",
+      "parent": "content_spoofing",
+      "priority": 4,
+      "type": "variant"
+    },
+    "email_hyperlink_injection_based_on_email_provider": {
+      "children": [],
+      "id": "email_hyperlink_injection_based_on_email_provider",
+      "name": "Email Hyperlink Injection Based on Email Provider",
+      "parent": "content_spoofing",
+      "priority": 5,
+      "type": "variant"
+    },
+    "email_spoofing_on_non_email_domain": {
+      "children": [],
+      "id": "email_spoofing_on_non_email_domain",
+      "name": "Email Spoofing on Non-Email Domain",
+      "parent": "mail_server_misconfiguration",
+      "priority": 5,
+      "type": "variant"
+    },
+    "email_spoofing_to_inbox_due_to_missing_or_misconfigured_dmarc_on_email_domain": {
+      "children": [],
+      "id": "email_spoofing_to_inbox_due_to_missing_or_misconfigured_dmarc_on_email_domain",
+      "name": "Email Spoofing to Inbox due to Missing or Misconfigured DMARC on Email Domain",
+      "parent": "mail_server_misconfiguration",
+      "priority": 4,
+      "type": "variant"
+    },
+    "email_spoofing_to_spam_folder": {
+      "children": [],
+      "id": "email_spoofing_to_spam_folder",
+      "name": "Email Spoofing to Spam Folder",
+      "parent": "mail_server_misconfiguration",
+      "priority": 5,
+      "type": "variant"
+    },
+    "email_triggering": {
+      "children": [],
+      "id": "email_triggering",
+      "name": "Email-Triggering",
+      "parent": "no_rate_limiting_on_form",
+      "priority": 4,
+      "type": "variant"
+    },
+    "email_verification_bypass": {
+      "children": [],
+      "id": "email_verification_bypass",
+      "name": "Email Verification Bypass",
+      "parent": "server_security_misconfiguration",
+      "priority": 5,
+      "type": "subcategory"
+    },
+    "emanations_attack": {
+      "children": [],
+      "id": "emanations_attack",
+      "name": "Emanations Attack",
+      "parent": "side_channel_attack",
+      "priority": 5,
+      "type": "variant"
+    },
+    "embedding_exfiltration_model_extraction": {
+      "children": [],
+      "id": "embedding_exfiltration_model_extraction",
+      "name": "Embedding Exfiltration / Model Extraction",
+      "parent": "vector_and_embedding_weaknesses",
+      "priority": 2,
+      "type": "variant"
+    },
+    "engine_start": {
+      "children": [],
+      "id": "engine_start",
+      "name": "Engine Start",
+      "parent": "immobilizer",
+      "priority": 3,
+      "type": "variant"
+    },
+    "excessive_resource_consumption": {
+      "children": [
+        "injection_prompt"
+      ],
+      "id": "excessive_resource_consumption",
+      "name": "Excessive Resource Consumption",
+      "parent": "application_level_denial_of_service_dos",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "excessively_privileged_user_dba": {
+      "children": [],
+      "id": "excessively_privileged_user_dba",
+      "name": "Excessively Privileged User / DBA",
+      "parent": "dbms_misconfiguration",
+      "priority": 4,
+      "type": "variant"
+    },
+    "executable_download": {
+      "children": [
+        "no_secure_integrity_check",
+        "secure_integrity_check"
+      ],
+      "id": "executable_download",
+      "name": "Executable Download",
+      "parent": "insecure_data_transport",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "exif_geolocation_data_not_stripped_from_uploaded_images": {
+      "children": [
+        "automatic_user_enumeration",
+        "manual_user_enumeration"
+      ],
+      "id": "exif_geolocation_data_not_stripped_from_uploaded_images",
+      "name": "EXIF Geolocation Data Not Stripped From Uploaded Images",
+      "parent": "sensitive_data_exposure",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "exposed_data": {
+      "children": [
+        "non_sensitive_data",
+        "sensitive_data"
+      ],
+      "id": "exposed_data",
+      "name": "Exposed Data",
+      "parent": "server_side_injection",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "exposed_debug_or_admin_interfaces": {
+      "children": [],
+      "id": "exposed_debug_or_admin_interfaces",
+      "name": "Exposed Debug or Admin Interfaces",
+      "parent": "misconfigured_services_and_apis",
+      "priority": null,
+      "type": "variant"
+    },
+    "exposed_portal": {
+      "children": [
+        "admin_portal",
+        "non_admin_portal",
+        "protected"
+      ],
+      "id": "exposed_portal",
+      "name": "Exposed Portal",
+      "parent": "server_security_misconfiguration",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "exposed_sensitive_android_intent": {
+      "children": [],
+      "id": "exposed_sensitive_android_intent",
+      "name": "Exposed Sensitive Android Intent",
+      "parent": "broken_access_control",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "exposed_sensitive_ios_url_scheme": {
+      "children": [],
+      "id": "exposed_sensitive_ios_url_scheme",
+      "name": "Exposed Sensitive iOS URL Scheme",
+      "parent": "broken_access_control",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "external_authentication_injection": {
+      "children": [],
+      "id": "external_authentication_injection",
+      "name": "External Authentication Injection",
+      "parent": "content_spoofing",
+      "priority": 4,
+      "type": "variant"
+    },
+    "external_behavior": {
+      "children": [
+        "browser_feature",
+        "csv_injection",
+        "system_clipboard_leak",
+        "user_password_persisted_in_memory"
+      ],
+      "id": "external_behavior",
+      "name": "External Behavior",
+      "parent": null,
+      "priority": null,
+      "type": "category"
+    },
+    "external_dns_query_only": {
+      "children": [],
+      "id": "external_dns_query_only",
+      "name": "External - DNS Query Only",
+      "parent": "server_side_request_forgery_ssrf",
+      "priority": 5,
+      "type": "variant"
+    },
+    "external_low_impact": {
+      "children": [],
+      "id": "external_low_impact",
+      "name": "External - Low impact",
+      "parent": "server_side_request_forgery_ssrf",
+      "priority": 5,
+      "type": "variant"
+    },
+    "failure_to_invalidate_session": {
+      "children": [
+        "all_sessions",
+        "long_timeout",
+        "on_email_change",
+        "on_logout",
+        "on_logout_server_side_only",
+        "on_password_change",
+        "on_two_fa_activation_change",
+        "permission_change"
+      ],
+      "id": "failure_to_invalidate_session",
+      "name": "Failure to Invalidate Session",
+      "parent": "broken_authentication_and_session_management",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "failure_to_remove_sensitive_artifacts_from_disk": {
+      "children": [],
+      "id": "failure_to_remove_sensitive_artifacts_from_disk",
+      "name": "Failure to Remove Sensitive Artifacts from Disk",
+      "parent": "insecure_os_firmware",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "file_extension_filter_bypass": {
+      "children": [],
+      "id": "file_extension_filter_bypass",
+      "name": "File Extension Filter Bypass",
+      "parent": "unsafe_file_upload",
+      "priority": 5,
+      "type": "variant"
+    },
+    "file_inclusion": {
+      "children": [
+        "local"
+      ],
+      "id": "file_inclusion",
+      "name": "File Inclusion",
+      "parent": "server_side_injection",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "file_paths": {
+      "children": [],
+      "id": "file_paths",
+      "name": "File Paths",
+      "parent": "sensitive_data_hardcoded",
+      "priority": 5,
+      "type": "variant"
+    },
+    "fingerprinting_banner_disclosure": {
+      "children": [],
+      "id": "fingerprinting_banner_disclosure",
+      "name": "Fingerprinting/Banner Disclosure",
+      "parent": "server_security_misconfiguration",
+      "priority": 5,
+      "type": "subcategory"
+    },
+    "firmware_cannot_be_updated": {
+      "children": [],
+      "id": "firmware_cannot_be_updated",
+      "name": "Firmware cannot be updated",
+      "parent": "weakness_in_firmware_updates",
+      "priority": null,
+      "type": "variant"
+    },
+    "firmware_does_not_validate_update_integrity": {
+      "children": [],
+      "id": "firmware_does_not_validate_update_integrity",
+      "name": "Firmware does not validate update integrity",
+      "parent": "weakness_in_firmware_updates",
+      "priority": 3,
+      "type": "variant"
+    },
+    "firmware_dump": {
+      "children": [],
+      "id": "firmware_dump",
+      "name": "Firmware Dump",
+      "parent": "battery_management_system",
+      "priority": 3,
+      "type": "variant"
+    },
+    "firmware_is_not_encrypted": {
+      "children": [],
+      "id": "firmware_is_not_encrypted",
+      "name": "Firmware is not encrypted",
+      "parent": "weakness_in_firmware_updates",
+      "priority": 5,
+      "type": "variant"
+    },
+    "flash_based": {
+      "children": [],
+      "id": "flash_based",
+      "name": "Flash-Based",
+      "parent": "open_redirect",
+      "priority": 5,
+      "type": "variant"
+    },
+    "flash_based_external_authentication_injection": {
+      "children": [],
+      "id": "flash_based_external_authentication_injection",
+      "name": "Flash Based External Authentication Injection",
+      "parent": "content_spoofing",
+      "priority": 5,
+      "type": "variant"
+    },
+    "flash_loan_attack": {
+      "children": [],
+      "id": "flash_loan_attack",
+      "name": "Flash Loan Attack",
+      "parent": "defi_security",
+      "priority": null,
+      "type": "variant"
+    },
+    "for_internal_asset": {
+      "children": [],
+      "id": "for_internal_asset",
+      "name": "For Internal Asset",
+      "parent": "disclosure_of_secrets",
+      "priority": 3,
+      "type": "variant"
+    },
+    "for_publicly_accessible_asset": {
+      "children": [],
+      "id": "for_publicly_accessible_asset",
+      "name": "For Publicly Accessible Asset",
+      "parent": "disclosure_of_secrets",
+      "priority": 1,
+      "type": "variant"
+    },
+    "form_input": {
+      "children": [],
+      "id": "form_input",
+      "name": "Form Input",
+      "parent": "clickjacking",
+      "priority": 5,
+      "type": "variant"
+    },
+    "fraudulent_interface": {
+      "children": [],
+      "id": "fraudulent_interface",
+      "name": "Fraudulent Interface",
+      "parent": "battery_management_system",
+      "priority": 4,
+      "type": "variant"
+    },
+    "frontrunning_enabled_attack": {
+      "children": [],
+      "id": "frontrunning_enabled_attack",
+      "name": "Frontrunning-Enabled Attack",
+      "parent": "protocol_specific_misconfiguration",
+      "priority": 2,
+      "type": "subcategory"
+    },
+    "full_path_disclosure": {
+      "children": [],
+      "id": "full_path_disclosure",
+      "name": "Full Path Disclosure",
+      "parent": "visible_detailed_error_page",
+      "priority": 5,
+      "type": "variant"
+    },
+    "full_system_compromise": {
+      "children": [],
+      "id": "full_system_compromise",
+      "name": "Full System Compromise",
+      "parent": "remote_code_execution",
+      "priority": 1,
+      "type": "variant"
+    },
+    "function_level_accounting_error": {
+      "children": [],
+      "id": "function_level_accounting_error",
+      "name": "Function-Level Accounting Error",
+      "parent": "defi_security",
+      "priority": null,
+      "type": "variant"
+    },
+    "function_level_denial_of_service": {
+      "children": [],
+      "id": "function_level_denial_of_service",
+      "name": "Function-level Denial of Service",
+      "parent": "smart_contract_misconfiguration",
+      "priority": 3,
+      "type": "subcategory"
+    },
+    "get_based": {
+      "children": [],
+      "id": "get_based",
+      "name": "GET-Based",
+      "parent": "open_redirect",
+      "priority": 4,
+      "type": "variant"
+    },
+    "gnss_gps": {
+      "children": [
+        "spoofing"
+      ],
+      "id": "gnss_gps",
+      "name": "GNSS / GPS",
+      "parent": "automotive_security_misconfiguration",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "graphql_introspection_enabled": {
+      "children": [],
+      "id": "graphql_introspection_enabled",
+      "name": "GraphQL Introspection Enabled",
+      "parent": "sensitive_data_exposure",
+      "priority": 5,
+      "type": "subcategory"
+    },
+    "hardcoded_password": {
+      "children": [
+        "non_privileged_user",
+        "privileged_user"
+      ],
+      "id": "hardcoded_password",
+      "name": "Hardcoded Password",
+      "parent": "insecure_os_firmware",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "header_based": {
+      "children": [],
+      "id": "header_based",
+      "name": "Header-Based",
+      "parent": "open_redirect",
+      "priority": 5,
+      "type": "variant"
+    },
+    "high_impact_and_or_medium_difficulty": {
+      "children": [],
+      "id": "high_impact_and_or_medium_difficulty",
+      "name": "High Impact and/or Medium Difficulty",
+      "parent": "application_level_denial_of_service_dos",
+      "priority": 3,
+      "type": "subcategory"
+    },
+    "homograph_idn_based": {
+      "children": [],
+      "id": "homograph_idn_based",
+      "name": "Homograph/IDN-Based",
+      "parent": "content_spoofing",
+      "priority": 5,
+      "type": "variant"
+    },
+    "html_content_injection": {
+      "children": [],
+      "id": "html_content_injection",
+      "name": "HTML Content Injection",
+      "parent": "content_spoofing",
+      "priority": 5,
+      "type": "variant"
+    },
+    "http_response_manipulation": {
+      "children": [
+        "response_splitting_crlf"
+      ],
+      "id": "http_response_manipulation",
+      "name": "HTTP Response Manipulation",
+      "parent": "server_side_injection",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "identity_and_access_management_iam_misconfigurations": {
+      "children": [
+        "overly_permissive_iam_roles",
+        "publicly_accessible_iam_credentials"
+      ],
+      "id": "identity_and_access_management_iam_misconfigurations",
+      "name": "Identity and Access Management (IAM) Misconfigurations",
+      "parent": "cloud_security",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "identity_check_value": {
+      "children": [],
+      "id": "identity_check_value",
+      "name": "Integrity Check Value (ICV)",
+      "parent": "insufficient_verification_of_data_authenticity",
+      "priority": 4,
+      "type": "variant"
+    },
+    "idor": {
+      "children": [
+        "modify_sensitive_information_iterable_object_identifiers",
+        "modify_view_sensitive_information_guid",
+        "modify_view_sensitive_information_iterable_object_identifiers",
+        "view_non_sensitive_information",
+        "view_sensitive_information_iterable_object_identifiers"
+      ],
+      "id": "idor",
+      "name": "Insecure Direct Object References (IDOR)",
+      "parent": "broken_access_control",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "ie_only": {
+      "children": [],
+      "id": "ie_only",
+      "name": "IE-Only",
+      "parent": "cross_site_scripting_xss",
+      "priority": 5,
+      "type": "subcategory"
+    },
+    "iframe_injection": {
+      "children": [],
+      "id": "iframe_injection",
+      "name": "iframe Injection",
+      "parent": "content_spoofing",
+      "priority": 3,
+      "type": "variant"
+    },
+    "immobilizer": {
+      "children": [
+        "engine_start"
+      ],
+      "id": "immobilizer",
+      "name": "Immobilizer",
+      "parent": "automotive_security_misconfiguration",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "impersonation_via_broken_link_hijacking": {
+      "children": [],
+      "id": "impersonation_via_broken_link_hijacking",
+      "name": "Impersonation via Broken Link Hijacking",
+      "parent": "content_spoofing",
+      "priority": 4,
+      "type": "variant"
+    },
+    "implementation_vulnerability": {
+      "children": [],
+      "id": "implementation_vulnerability",
+      "name": "Implementation Vulnerability",
+      "parent": "captcha",
+      "priority": 4,
+      "type": "variant"
+    },
+    "implicit_bias": {
+      "children": [],
+      "id": "implicit_bias",
+      "name": "Implicit Bias",
+      "parent": "developer_biases",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "improper_asymmetric_exponent_selection": {
+      "children": [],
+      "id": "improper_asymmetric_exponent_selection",
+      "name": "Improper Asymmetric Exponent Selection",
+      "parent": "insecure_key_generation",
+      "priority": null,
+      "type": "variant"
+    },
+    "improper_asymmetric_prime_selection": {
+      "children": [],
+      "id": "improper_asymmetric_prime_selection",
+      "name": "Improper Asymmetric Prime Selection",
+      "parent": "insecure_key_generation",
+      "priority": null,
+      "type": "variant"
+    },
+    "improper_authorization": {
+      "children": [
+        "insufficient_signature_validation"
+      ],
+      "id": "improper_authorization",
+      "name": "Improper Authorization",
+      "parent": "decentralized_application_misconfiguration",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "improper_bridge_validation_and_verification_logic": {
+      "children": [],
+      "id": "improper_bridge_validation_and_verification_logic",
+      "name": "Improper Bridge Validation and Verification Logic",
+      "parent": "blockchain_infrastructure_misconfiguration",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "improper_decimals_implementation": {
+      "children": [],
+      "id": "improper_decimals_implementation",
+      "name": "Improper Decimals Implementation",
+      "parent": "smart_contract_misconfiguration",
+      "priority": 4,
+      "type": "subcategory"
+    },
+    "improper_fee_implementation": {
+      "children": [],
+      "id": "improper_fee_implementation",
+      "name": "Improper Fee Implementation",
+      "parent": "smart_contract_misconfiguration",
+      "priority": 3,
+      "type": "subcategory"
+    },
+    "improper_following_of_specification": {
+      "children": [],
+      "id": "improper_following_of_specification",
+      "name": "Improper Following of Specification (Other)",
+      "parent": "insecure_implementation",
+      "priority": null,
+      "type": "variant"
+    },
+    "improper_implementation_of_governance": {
+      "children": [],
+      "id": "improper_implementation_of_governance",
+      "name": "Improper Implementation of Governance",
+      "parent": "defi_security",
+      "priority": null,
+      "type": "variant"
+    },
+    "improper_input_handling": {
+      "children": [
+        "ansi_escape_codes",
+        "rtl_overrides",
+        "unicode_confusables"
+      ],
+      "id": "improper_input_handling",
+      "name": "Improper Input Handling",
+      "parent": "ai_application_security",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "improper_output_handling": {
+      "children": [
+        "markdown_html_injection"
+      ],
+      "id": "improper_output_handling",
+      "name": "Improper Output Handling",
+      "parent": "ai_application_security",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "improper_proof_validation_and_finalization_logic": {
+      "children": [],
+      "id": "improper_proof_validation_and_finalization_logic",
+      "name": "Improper Proof Validation and Finalization Logic",
+      "parent": "zero_knowledge_security_misconfiguration",
+      "priority": 1,
+      "type": "subcategory"
+    },
+    "improper_use_of_modifier": {
+      "children": [],
+      "id": "improper_use_of_modifier",
+      "name": "Improper Use of Modifier",
+      "parent": "smart_contract_misconfiguration",
+      "priority": 4,
+      "type": "subcategory"
+    },
+    "improper_validation_and_checks_for_deposits_and_withdrawals": {
+      "children": [],
+      "id": "improper_validation_and_checks_for_deposits_and_withdrawals",
+      "name": "Improper Validation and Checks For Deposits and Withdrawals",
+      "parent": "marketplace_security",
+      "priority": null,
+      "type": "variant"
+    },
+    "improper_validation_and_finalization_logic": {
+      "children": [],
+      "id": "improper_validation_and_finalization_logic",
+      "name": "Improper Validation and Finalization Logic",
+      "parent": "protocol_specific_misconfiguration",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "in_the_background": {
+      "children": [],
+      "id": "in_the_background",
+      "name": "In the Background",
+      "parent": "sensitive_token_in_url",
+      "priority": 5,
+      "type": "variant"
+    },
+    "inaccurate_rounding_calculation": {
+      "children": [],
+      "id": "inaccurate_rounding_calculation",
+      "name": "Inaccurate Rounding Calculation",
+      "parent": "smart_contract_misconfiguration",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "incomplete_cleanup_of_keying_material": {
+      "children": [],
+      "id": "incomplete_cleanup_of_keying_material",
+      "name": "Incomplete Cleanup of Keying Material",
+      "parent": "cryptographic_weakness",
+      "priority": 5,
+      "type": "subcategory"
+    },
+    "indicators_of_compromise": {
+      "children": [],
+      "id": "indicators_of_compromise",
+      "name": "Indicators of Compromise",
+      "parent": null,
+      "priority": null,
+      "type": "category"
+    },
+    "infotainment_radio_head_unit": {
+      "children": [
+        "code_execution_can_bus_pivot",
+        "code_execution_no_can_bus_pivot",
+        "default_credentials",
+        "dos_brick",
+        "ota_firmware_manipulation",
+        "sensitive_data_leakage_exposure",
+        "source_code_dump",
+        "unauthorized_access_to_services"
+      ],
+      "id": "infotainment_radio_head_unit",
+      "name": "Infotainment, Radio Head Unit",
+      "parent": "automotive_security_misconfiguration",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "initialization_vector_reuse": {
+      "children": [],
+      "id": "initialization_vector_reuse",
+      "name": "Initialization Vector (IV) Reuse",
+      "parent": "insufficient_entropy",
+      "priority": 5,
+      "type": "variant"
+    },
+    "injection_basic_safety_message": {
+      "children": [],
+      "id": "injection_basic_safety_message",
+      "name": "Injection (Basic Safety Message)",
+      "parent": "can",
+      "priority": 3,
+      "type": "variant"
+    },
+    "injection_battery_management_system": {
+      "children": [],
+      "id": "injection_battery_management_system",
+      "name": "Injection (Battery Management System)",
+      "parent": "can",
+      "priority": 3,
+      "type": "variant"
+    },
+    "injection_disallowed_messages": {
+      "children": [],
+      "id": "injection_disallowed_messages",
+      "name": "Injection (Disallowed Messages)",
+      "parent": "can",
+      "priority": 4,
+      "type": "variant"
+    },
+    "injection_dos": {
+      "children": [],
+      "id": "injection_dos",
+      "name": "Injection (DoS)",
+      "parent": "can",
+      "priority": 4,
+      "type": "variant"
+    },
+    "injection_headlights": {
+      "children": [],
+      "id": "injection_headlights",
+      "name": "Injection (Headlights)",
+      "parent": "can",
+      "priority": 3,
+      "type": "variant"
+    },
+    "injection_powertrain": {
+      "children": [],
+      "id": "injection_powertrain",
+      "name": "Injection (Powertrain)",
+      "parent": "can",
+      "priority": 3,
+      "type": "variant"
+    },
+    "injection_prompt": {
+      "children": [],
+      "id": "injection_prompt",
+      "name": "Injection (Prompt)",
+      "parent": "excessive_resource_consumption",
+      "priority": null,
+      "type": "variant"
+    },
+    "injection_pyrotechnical_device_deployment_tool": {
+      "children": [],
+      "id": "injection_pyrotechnical_device_deployment_tool",
+      "name": "Injection (Pyrotechnical Device Deployment Tool)",
+      "parent": "can",
+      "priority": 3,
+      "type": "variant"
+    },
+    "injection_sensors": {
+      "children": [],
+      "id": "injection_sensors",
+      "name": "Injection (Sensors)",
+      "parent": "can",
+      "priority": 3,
+      "type": "variant"
+    },
+    "injection_steering_control": {
+      "children": [],
+      "id": "injection_steering_control",
+      "name": "Injection (Steering Control)",
+      "parent": "can",
+      "priority": 3,
+      "type": "variant"
+    },
+    "injection_vehicle_anti_theft_systems": {
+      "children": [],
+      "id": "injection_vehicle_anti_theft_systems",
+      "name": "Injection (Vehicle Anti-theft Systems)",
+      "parent": "can",
+      "priority": 3,
+      "type": "variant"
+    },
+    "insecure_api_endpoints": {
+      "children": [],
+      "id": "insecure_api_endpoints",
+      "name": "Insecure API Endpoints",
+      "parent": "misconfigured_services_and_apis",
+      "priority": 4,
+      "type": "variant"
+    },
+    "insecure_cipher_suite": {
+      "children": [],
+      "id": "insecure_cipher_suite",
+      "name": "Insecure Cipher Suite",
+      "parent": "insecure_ssl",
+      "priority": 5,
+      "type": "variant"
+    },
+    "insecure_data_storage": {
+      "children": [
+        "non_sensitive_application_data_stored_unencrypted",
+        "plaintext_private_key",
+        "screen_caching_enabled",
+        "sensitive_application_data_stored_unencrypted",
+        "sensitive_information_exposure",
+        "server_side_credentials_storage"
+      ],
+      "id": "insecure_data_storage",
+      "name": "Insecure Data Storage",
+      "parent": null,
+      "priority": null,
+      "type": "category"
+    },
+    "insecure_data_transport": {
+      "children": [
+        "cleartext_transmission_of_sensitive_data",
+        "executable_download"
+      ],
+      "id": "insecure_data_transport",
+      "name": "Insecure Data Transport",
+      "parent": null,
+      "priority": null,
+      "type": "category"
+    },
+    "insecure_implementation": {
+      "children": [
+        "improper_following_of_specification",
+        "missing_cryptographic_step"
+      ],
+      "id": "insecure_implementation",
+      "name": "Insecure Implementation",
+      "parent": "cryptographic_weakness",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "insecure_key_generation": {
+      "children": [
+        "improper_asymmetric_exponent_selection",
+        "improper_asymmetric_prime_selection",
+        "insufficient_key_space",
+        "insufficient_key_stretching",
+        "key_exchange_without_entity_authentication"
+      ],
+      "id": "insecure_key_generation",
+      "name": "Insecure Key Generation",
+      "parent": "cryptographic_weakness",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "insecure_os_firmware": {
+      "children": [
+        "command_injection",
+        "data_not_encrypted_at_rest",
+        "failure_to_remove_sensitive_artifacts_from_disk",
+        "hardcoded_password",
+        "kiosk_escape_or_breakout",
+        "local_administrator_on_default_environment",
+        "over_permissioned_credentials_on_storage",
+        "poorly_configured_disk_encryption",
+        "poorly_configured_operating_system_security",
+        "recovery_of_disk_contains_sensitive_material",
+        "shared_credentials_on_storage",
+        "weakness_in_firmware_updates"
+      ],
+      "id": "insecure_os_firmware",
+      "name": "Insecure OS/Firmware",
+      "parent": null,
+      "priority": null,
+      "type": "category"
+    },
+    "insecure_redirect_uri": {
+      "children": [],
+      "id": "insecure_redirect_uri",
+      "name": "Insecure Redirect URI",
+      "parent": "oauth_misconfiguration",
+      "priority": null,
+      "type": "variant"
+    },
+    "insecure_ssl": {
+      "children": [
+        "certificate_error",
+        "insecure_cipher_suite",
+        "lack_of_forward_secrecy"
+      ],
+      "id": "insecure_ssl",
+      "name": "Insecure SSL",
+      "parent": "server_security_misconfiguration",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "insufficient_entropy": {
+      "children": [
+        "initialization_vector_reuse",
+        "limited_rng_entropy_source",
+        "predictable_initialization_vector",
+        "predictable_prng_seed",
+        "prng_seed_reuse",
+        "small_seed_space_in_prng",
+        "use_of_trng_for_nonsecurity_purpose"
+      ],
+      "id": "insufficient_entropy",
+      "name": "Insufficient Entropy",
+      "parent": "cryptographic_weakness",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "insufficient_key_space": {
+      "children": [],
+      "id": "insufficient_key_space",
+      "name": "Insufficient Key Space",
+      "parent": "insecure_key_generation",
+      "priority": 3,
+      "type": "variant"
+    },
+    "insufficient_key_stretching": {
+      "children": [],
+      "id": "insufficient_key_stretching",
+      "name": "Insufficient Key Stretching",
+      "parent": "insecure_key_generation",
+      "priority": null,
+      "type": "variant"
+    },
+    "insufficient_rate_limiting": {
+      "children": [
+        "query_flooding_api_token_abuse"
+      ],
+      "id": "insufficient_rate_limiting",
+      "name": "Insufficient Rate Limiting",
+      "parent": "ai_application_security",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "insufficient_security_configurability": {
+      "children": [
+        "lack_of_notification_email",
+        "no_password_policy",
+        "password_policy_bypass",
+        "verification_of_contact_method_not_required",
+        "weak_password_policy",
+        "weak_registration_implementation",
+        "weak_two_fa_implementation"
+      ],
+      "id": "insufficient_security_configurability",
+      "name": "Insufficient Security Configurability",
+      "parent": null,
+      "priority": null,
+      "type": "category"
+    },
+    "insufficient_signature_validation": {
+      "children": [],
+      "id": "insufficient_signature_validation",
+      "name": "Insufficient Signature Validation",
+      "parent": "improper_authorization",
+      "priority": null,
+      "type": "variant"
+    },
+    "insufficient_verification_of_data_authenticity": {
+      "children": [
+        "cryptographic_signature",
+        "identity_check_value"
+      ],
+      "id": "insufficient_verification_of_data_authenticity",
+      "name": "Insufficient Verification of Data Authenticity",
+      "parent": "cryptographic_weakness",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "integer_overflow_underflow": {
+      "children": [],
+      "id": "integer_overflow_underflow",
+      "name": "Integer Overflow / Underflow",
+      "parent": "smart_contract_misconfiguration",
+      "priority": 2,
+      "type": "subcategory"
+    },
+    "intentionally_public_sample_or_invalid": {
+      "children": [],
+      "id": "intentionally_public_sample_or_invalid",
+      "name": "Intentionally Public, Sample or Invalid",
+      "parent": "disclosure_of_secrets",
+      "priority": 5,
+      "type": "variant"
+    },
+    "inter_environment": {
+      "children": [],
+      "id": "inter_environment",
+      "name": "Inter-Environment",
+      "parent": "key_reuse",
+      "priority": 2,
+      "type": "variant"
+    },
+    "internal_high_impact": {
+      "children": [],
+      "id": "internal_high_impact",
+      "name": "Internal High Impact",
+      "parent": "server_side_request_forgery_ssrf",
+      "priority": 2,
+      "type": "variant"
+    },
+    "internal_ip_disclosure": {
+      "children": [],
+      "id": "internal_ip_disclosure",
+      "name": "Internal IP Disclosure",
+      "parent": "sensitive_data_exposure",
+      "priority": 5,
+      "type": "subcategory"
+    },
+    "internal_scan_and_or_medium_impact": {
+      "children": [],
+      "id": "internal_scan_and_or_medium_impact",
+      "name": "Internal Scan and/or Medium Impact",
+      "parent": "server_side_request_forgery_ssrf",
+      "priority": 3,
+      "type": "variant"
+    },
+    "intra_environment": {
+      "children": [],
+      "id": "intra_environment",
+      "name": "Intra-Environment",
+      "parent": "key_reuse",
+      "priority": 5,
+      "type": "variant"
+    },
+    "irreversible_function_call": {
+      "children": [],
+      "id": "irreversible_function_call",
+      "name": "Irreversible Function Call",
+      "parent": "smart_contract_misconfiguration",
+      "priority": 3,
+      "type": "subcategory"
+    },
+    "json_hijacking": {
+      "children": [],
+      "id": "json_hijacking",
+      "name": "JSON Hijacking",
+      "parent": "sensitive_data_exposure",
+      "priority": 5,
+      "type": "subcategory"
+    },
+    "key_exchange_without_entity_authentication": {
+      "children": [],
+      "id": "key_exchange_without_entity_authentication",
+      "name": "Key Exchage Without Entity Authentication",
+      "parent": "insecure_key_generation",
+      "priority": 4,
+      "type": "variant"
+    },
+    "key_fob_cloning": {
+      "children": [],
+      "id": "key_fob_cloning",
+      "name": "Key Fob Cloning",
+      "parent": "rf_hub",
+      "priority": 1,
+      "type": "variant"
+    },
+    "key_leak": {
+      "children": [],
+      "id": "key_leak",
+      "name": "Key Leak",
+      "parent": "sensitive_information_disclosure",
+      "priority": 1,
+      "type": "variant"
+    },
+    "key_reuse": {
+      "children": [
+        "inter_environment",
+        "intra_environment",
+        "lack_of_perfect_forward_secrecy"
+      ],
+      "id": "key_reuse",
+      "name": "Key Reuse",
+      "parent": "cryptographic_weakness",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "kiosk_escape_or_breakout": {
+      "children": [],
+      "id": "kiosk_escape_or_breakout",
+      "name": "Kiosk Escape or Breakout",
+      "parent": "insecure_os_firmware",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "lack_of_binary_hardening": {
+      "children": [
+        "lack_of_exploit_mitigations",
+        "lack_of_jailbreak_detection",
+        "lack_of_obfuscation",
+        "runtime_instrumentation_based"
+      ],
+      "id": "lack_of_binary_hardening",
+      "name": "Lack of Binary Hardening",
+      "parent": null,
+      "priority": null,
+      "type": "category"
+    },
+    "lack_of_exploit_mitigations": {
+      "children": [],
+      "id": "lack_of_exploit_mitigations",
+      "name": "Lack of Exploit Mitigations",
+      "parent": "lack_of_binary_hardening",
+      "priority": 5,
+      "type": "subcategory"
+    },
+    "lack_of_forward_secrecy": {
+      "children": [],
+      "id": "lack_of_forward_secrecy",
+      "name": "Lack of Forward Secrecy",
+      "parent": "insecure_ssl",
+      "priority": 5,
+      "type": "variant"
+    },
+    "lack_of_jailbreak_detection": {
+      "children": [],
+      "id": "lack_of_jailbreak_detection",
+      "name": "Lack of Jailbreak Detection",
+      "parent": "lack_of_binary_hardening",
+      "priority": 5,
+      "type": "subcategory"
+    },
+    "lack_of_network_segmentation": {
+      "children": [],
+      "id": "lack_of_network_segmentation",
+      "name": "Lack of Network Segmentation",
+      "parent": "network_configuration_issues",
+      "priority": 3,
+      "type": "variant"
+    },
+    "lack_of_notification_email": {
+      "children": [],
+      "id": "lack_of_notification_email",
+      "name": "Lack of Notification Email",
+      "parent": "insufficient_security_configurability",
+      "priority": 5,
+      "type": "subcategory"
+    },
+    "lack_of_obfuscation": {
+      "children": [],
+      "id": "lack_of_obfuscation",
+      "name": "Lack of Obfuscation",
+      "parent": "lack_of_binary_hardening",
+      "priority": 5,
+      "type": "subcategory"
+    },
+    "lack_of_password_confirmation": {
+      "children": [
+        "change_email_address",
+        "delete_account",
+        "manage_two_fa"
+      ],
+      "id": "lack_of_password_confirmation",
+      "name": "Lack of Password Confirmation",
+      "parent": "server_security_misconfiguration",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "lack_of_perfect_forward_secrecy": {
+      "children": [],
+      "id": "lack_of_perfect_forward_secrecy",
+      "name": "Lack of Perfect Forward Secrecy",
+      "parent": "key_reuse",
+      "priority": 4,
+      "type": "variant"
+    },
+    "lack_of_salt": {
+      "children": [],
+      "id": "lack_of_salt",
+      "name": "Lack of Salt",
+      "parent": "weak_hash",
+      "priority": null,
+      "type": "variant"
+    },
+    "lack_of_security_headers": {
+      "children": [
+        "cache_control_for_a_non_sensitive_page",
+        "cache_control_for_a_sensitive_page",
+        "content_security_policy",
+        "content_security_policy_report_only",
+        "public_key_pins",
+        "strict_transport_security",
+        "x_content_security_policy",
+        "x_content_type_options",
+        "x_frame_options",
+        "x_webkit_csp",
+        "x_xss_protection"
+      ],
+      "id": "lack_of_security_headers",
+      "name": "Lack of Security Headers",
+      "parent": "server_security_misconfiguration",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "lack_of_security_speed_bump_page": {
+      "children": [],
+      "id": "lack_of_security_speed_bump_page",
+      "name": "Lack of Security Speed Bump Page",
+      "parent": "unvalidated_redirects_and_forwards",
+      "priority": 5,
+      "type": "subcategory"
+    },
+    "ldap_injection": {
+      "children": [],
+      "id": "ldap_injection",
+      "name": "LDAP Injection",
+      "parent": "server_side_injection",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "limited_rng_entropy_source": {
+      "children": [],
+      "id": "limited_rng_entropy_source",
+      "name": "Limited Random Number Generator (RNG) Entropy Source",
+      "parent": "insufficient_entropy",
+      "priority": 4,
+      "type": "variant"
+    },
+    "local": {
+      "children": [],
+      "id": "local",
+      "name": "Local",
+      "parent": "file_inclusion",
+      "priority": 1,
+      "type": "variant"
+    },
+    "local_administrator_on_default_environment": {
+      "children": [],
+      "id": "local_administrator_on_default_environment",
+      "name": "Local Administrator on default environment",
+      "parent": "insecure_os_firmware",
+      "priority": 2,
+      "type": "subcategory"
+    },
+    "local_attack_vector": {
+      "children": [],
+      "id": "local_attack_vector",
+      "name": "Local Attack Vector",
+      "parent": "session_fixation",
+      "priority": 5,
+      "type": "variant"
+    },
+    "logging_and_monitoring_issues": {
+      "children": [
+        "disabled_or_insufficient_logging"
+      ],
+      "id": "logging_and_monitoring_issues",
+      "name": "Logging and Monitoring Issues",
+      "parent": "cloud_security",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "login": {
+      "children": [],
+      "id": "login",
+      "name": "Login",
+      "parent": "no_rate_limiting_on_form",
+      "priority": 4,
+      "type": "variant"
+    },
+    "logout": {
+      "children": [],
+      "id": "logout",
+      "name": "Logout",
+      "parent": "action_specific",
+      "priority": 5,
+      "type": "variant"
+    },
+    "long_timeout": {
+      "children": [],
+      "id": "long_timeout",
+      "name": "Long Timeout",
+      "parent": "failure_to_invalidate_session",
+      "priority": 5,
+      "type": "variant"
+    },
+    "mail_server_misconfiguration": {
+      "children": [
+        "email_spoofing_on_non_email_domain",
+        "email_spoofing_to_inbox_due_to_missing_or_misconfigured_dmarc_on_email_domain",
+        "email_spoofing_to_spam_folder",
+        "missing_or_misconfigured_spf_and_or_dkim",
+        "no_spoofing_protection_on_email_domain"
+      ],
+      "id": "mail_server_misconfiguration",
+      "name": "Mail Server Misconfiguration",
+      "parent": "server_security_misconfiguration",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "malformed_android_intents": {
+      "children": [],
+      "id": "malformed_android_intents",
+      "name": "Malformed Android Intents",
+      "parent": "app_crash",
+      "priority": 5,
+      "type": "variant"
+    },
+    "malformed_ios_url_schemes": {
+      "children": [],
+      "id": "malformed_ios_url_schemes",
+      "name": "Malformed iOS URL Schemes",
+      "parent": "app_crash",
+      "priority": 5,
+      "type": "variant"
+    },
+    "malicious_order_offer": {
+      "children": [],
+      "id": "malicious_order_offer",
+      "name": "Malicious Order Offer",
+      "parent": "marketplace_security",
+      "priority": 2,
+      "type": "variant"
+    },
+    "malicious_superuser_risk": {
+      "children": [],
+      "id": "malicious_superuser_risk",
+      "name": "Malicious Superuser Risk",
+      "parent": "smart_contract_misconfiguration",
+      "priority": 3,
+      "type": "subcategory"
+    },
+    "manage_two_fa": {
+      "children": [],
+      "id": "manage_two_fa",
+      "name": "Manage 2FA",
+      "parent": "lack_of_password_confirmation",
+      "priority": 5,
+      "type": "variant"
+    },
+    "manual_user_enumeration": {
+      "children": [],
+      "id": "manual_user_enumeration",
+      "name": "Manual User Enumeration",
+      "parent": "exif_geolocation_data_not_stripped_from_uploaded_images",
+      "priority": 4,
+      "type": "variant"
+    },
+    "markdown_html_injection": {
+      "children": [],
+      "id": "markdown_html_injection",
+      "name": "Markdown/HTML Injection",
+      "parent": "improper_output_handling",
+      "priority": 4,
+      "type": "variant"
+    },
+    "marketplace_security": {
+      "children": [
+        "denial_of_service",
+        "improper_validation_and_checks_for_deposits_and_withdrawals",
+        "malicious_order_offer",
+        "miscalculated_accounting_logic",
+        "ofac_bypass",
+        "orderbook_manipulation",
+        "price_or_fee_manipulation",
+        "signer_account_takeover",
+        "unauthorized_asset_transfer"
+      ],
+      "id": "marketplace_security",
+      "name": "Marketplace Security",
+      "parent": "decentralized_application_misconfiguration",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "master_key_identification": {
+      "children": [],
+      "id": "master_key_identification",
+      "name": "Master Key Identification",
+      "parent": "weakness_in_physical_access_control",
+      "priority": null,
+      "type": "variant"
+    },
+    "miscalculated_accounting_logic": {
+      "children": [],
+      "id": "miscalculated_accounting_logic",
+      "name": "Miscalculated Accounting Logic",
+      "parent": "marketplace_security",
+      "priority": null,
+      "type": "variant"
+    },
+    "misconfigured_dns": {
+      "children": [
+        "missing_caa_record",
+        "subdomain_takeover",
+        "zone_transfer"
+      ],
+      "id": "misconfigured_dns",
+      "name": "Misconfigured DNS",
+      "parent": "server_security_misconfiguration",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "misconfigured_services_and_apis": {
+      "children": [
+        "exposed_debug_or_admin_interfaces",
+        "insecure_api_endpoints"
+      ],
+      "id": "misconfigured_services_and_apis",
+      "name": "Misconfigured Services and APIs",
+      "parent": "cloud_security",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "misconfigured_staking_logic": {
+      "children": [],
+      "id": "misconfigured_staking_logic",
+      "name": "Misconfigured Staking Logic",
+      "parent": "protocol_specific_misconfiguration",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "misconfigured_trusted_setup": {
+      "children": [],
+      "id": "misconfigured_trusted_setup",
+      "name": "Misconfigured Trusted Setup",
+      "parent": "zero_knowledge_security_misconfiguration",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "misinformation_wrong_factual_data": {
+      "children": [],
+      "id": "misinformation_wrong_factual_data",
+      "name": "Misinformation / Wrong Factual Data",
+      "parent": "ai_safety",
+      "priority": 4,
+      "type": "variant"
+    },
+    "misinterpretation_biases": {
+      "children": [
+        "context_ignorance"
+      ],
+      "id": "misinterpretation_biases",
+      "name": "Misinterpretation Biases",
+      "parent": null,
+      "priority": null,
+      "type": "category"
+    },
+    "mismatching_bit_lengths": {
+      "children": [],
+      "id": "mismatching_bit_lengths",
+      "name": "Mismatching Bit Lengths",
+      "parent": "zero_knowledge_security_misconfiguration",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "missing": {
+      "children": [],
+      "id": "missing",
+      "name": "Missing",
+      "parent": "captcha",
+      "priority": 5,
+      "type": "variant"
+    },
+    "missing_caa_record": {
+      "children": [],
+      "id": "missing_caa_record",
+      "name": "Missing Certification Authority Authorization (CAA) Record",
+      "parent": "misconfigured_dns",
+      "priority": 5,
+      "type": "variant"
+    },
+    "missing_constraint": {
+      "children": [],
+      "id": "missing_constraint",
+      "name": "Missing Constraint",
+      "parent": "zero_knowledge_security_misconfiguration",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "missing_cryptographic_step": {
+      "children": [],
+      "id": "missing_cryptographic_step",
+      "name": "Missing Cryptographic Step",
+      "parent": "insecure_implementation",
+      "priority": null,
+      "type": "variant"
+    },
+    "missing_dnssec": {
+      "children": [],
+      "id": "missing_dnssec",
+      "name": "Missing DNSSEC",
+      "parent": "server_security_misconfiguration",
+      "priority": 5,
+      "type": "subcategory"
+    },
+    "missing_failsafe": {
+      "children": [],
+      "id": "missing_failsafe",
+      "name": "Missing Failsafe",
+      "parent": "weak_two_fa_implementation",
+      "priority": 5,
+      "type": "variant"
+    },
+    "missing_or_misconfigured_spf_and_or_dkim": {
+      "children": [],
+      "id": "missing_or_misconfigured_spf_and_or_dkim",
+      "name": "Missing or Misconfigured SPF and/or DKIM",
+      "parent": "mail_server_misconfiguration",
+      "priority": 5,
+      "type": "variant"
+    },
+    "missing_range_check": {
+      "children": [],
+      "id": "missing_range_check",
+      "name": "Missing Range Check",
+      "parent": "zero_knowledge_security_misconfiguration",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "missing_secure_or_httponly_cookie_flag": {
+      "children": [
+        "non_session_cookie",
+        "session_token"
+      ],
+      "id": "missing_secure_or_httponly_cookie_flag",
+      "name": "Missing Secure or HTTPOnly Cookie Flag",
+      "parent": "server_security_misconfiguration",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "missing_state_parameter": {
+      "children": [],
+      "id": "missing_state_parameter",
+      "name": "Missing/Broken State Parameter",
+      "parent": "oauth_misconfiguration",
+      "priority": null,
+      "type": "variant"
+    },
+    "missing_subresource_integrity": {
+      "children": [],
+      "id": "missing_subresource_integrity",
+      "name": "Missing Subresource Integrity",
+      "parent": "server_security_misconfiguration",
+      "priority": 5,
+      "type": "subcategory"
+    },
+    "mixed_content": {
+      "children": [],
+      "id": "mixed_content",
+      "name": "Mixed Content (HTTPS Sourcing HTTP)",
+      "parent": "sensitive_data_exposure",
+      "priority": 5,
+      "type": "subcategory"
+    },
+    "mobile_security_misconfiguration": {
+      "children": [
+        "auto_backup_allowed_by_default",
+        "clipboard_enabled",
+        "ssl_certificate_pinning",
+        "tapjacking"
+      ],
+      "id": "mobile_security_misconfiguration",
+      "name": "Mobile Security Misconfiguration",
+      "parent": null,
+      "priority": null,
+      "type": "category"
+    },
+    "model_extraction": {
+      "children": [
+        "api_query_based_model_reconstruction"
+      ],
+      "id": "model_extraction",
+      "name": "Model Extraction",
+      "parent": "ai_application_security",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "modify_sensitive_information_iterable_object_identifiers": {
+      "children": [],
+      "id": "modify_sensitive_information_iterable_object_identifiers",
+      "name": "Modify Sensitive Information(Iterable Object Identifiers)",
+      "parent": "idor",
+      "priority": 2,
+      "type": "variant"
+    },
+    "modify_view_sensitive_information_guid": {
+      "children": [],
+      "id": "modify_view_sensitive_information_guid",
+      "name": "Modify/View Sensitive Information(Complex Object Identifiers GUID/UUID)",
+      "parent": "idor",
+      "priority": 4,
+      "type": "variant"
+    },
+    "modify_view_sensitive_information_iterable_object_identifiers": {
+      "children": [],
+      "id": "modify_view_sensitive_information_iterable_object_identifiers",
+      "name": "Modify/View Sensitive Information(Iterable Object Identifiers)",
+      "parent": "idor",
+      "priority": 1,
+      "type": "variant"
+    },
+    "network_configuration_issues": {
+      "children": [
+        "lack_of_network_segmentation",
+        "open_management_ports_to_the_internet"
+      ],
+      "id": "network_configuration_issues",
+      "name": "Network Configuration Issues",
+      "parent": "cloud_security",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "network_security_misconfiguration": {
+      "children": [
+        "telnet_enabled"
+      ],
+      "id": "network_security_misconfiguration",
+      "name": "Network Security Misconfiguration",
+      "parent": null,
+      "priority": null,
+      "type": "category"
+    },
+    "no_antivirus": {
+      "children": [],
+      "id": "no_antivirus",
+      "name": "No Antivirus",
+      "parent": "unsafe_file_upload",
+      "priority": 5,
+      "type": "variant"
+    },
+    "no_password_policy": {
+      "children": [],
+      "id": "no_password_policy",
+      "name": "No Password Policy",
+      "parent": "insufficient_security_configurability",
+      "priority": 4,
+      "type": "subcategory"
+    },
+    "no_privilege_escalation": {
+      "children": [],
+      "id": "no_privilege_escalation",
+      "name": "No Privilege Escalation",
+      "parent": "binary_planting",
+      "priority": 5,
+      "type": "variant"
+    },
+    "no_rate_limiting_on_form": {
+      "children": [
+        "change_password",
+        "email_triggering",
+        "login",
+        "registration",
+        "sms_triggering"
+      ],
+      "id": "no_rate_limiting_on_form",
+      "name": "No Rate Limiting on Form",
+      "parent": "server_security_misconfiguration",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "no_secure_integrity_check": {
+      "children": [],
+      "id": "no_secure_integrity_check",
+      "name": "No Secure Integrity Check",
+      "parent": "executable_download",
+      "priority": 4,
+      "type": "variant"
+    },
+    "no_size_limit": {
+      "children": [],
+      "id": "no_size_limit",
+      "name": "No Size Limit",
+      "parent": "unsafe_file_upload",
+      "priority": 5,
+      "type": "variant"
+    },
+    "no_spoofing_protection_on_email_domain": {
+      "children": [],
+      "id": "no_spoofing_protection_on_email_domain",
+      "name": "No Spoofing Protection on Email Domain",
+      "parent": "mail_server_misconfiguration",
+      "priority": 3,
+      "type": "variant"
+    },
+    "node_level_denial_of_service": {
+      "children": [],
+      "id": "node_level_denial_of_service",
+      "name": "Node-level Denial of Service",
+      "parent": "protocol_security_misconfiguration",
+      "priority": 1,
+      "type": "variant"
+    },
+    "non_admin_portal": {
+      "children": [],
+      "id": "non_admin_portal",
+      "name": "Non-Admin Portal",
+      "parent": "exposed_portal",
+      "priority": 3,
+      "type": "variant"
+    },
+    "non_admin_to_anyone": {
+      "children": [],
+      "id": "non_admin_to_anyone",
+      "name": "Non-Privileged User to Anyone",
+      "parent": "stored",
+      "priority": 2,
+      "type": "variant"
+    },
+    "non_brute_force": {
+      "children": [],
+      "id": "non_brute_force",
+      "name": "Non-Brute Force",
+      "parent": "username_enumeration",
+      "priority": 4,
+      "type": "variant"
+    },
+    "non_corporate_user": {
+      "children": [],
+      "id": "non_corporate_user",
+      "name": "Non-Corporate User",
+      "parent": "disclosure_of_secrets",
+      "priority": 5,
+      "type": "variant"
+    },
+    "non_default_folder_privilege_escalation": {
+      "children": [],
+      "id": "non_default_folder_privilege_escalation",
+      "name": "Non-Default Folder Privilege Escalation",
+      "parent": "binary_planting",
+      "priority": 5,
+      "type": "variant"
+    },
+    "non_privileged_user": {
+      "children": [],
+      "id": "non_privileged_user",
+      "name": "Non-Privileged User",
+      "parent": "hardcoded_password",
+      "priority": 2,
+      "type": "variant"
+    },
+    "non_self": {
+      "children": [],
+      "id": "non_self",
+      "name": "Non-Self",
+      "parent": "reflected",
+      "priority": 3,
+      "type": "variant"
+    },
+    "non_sensitive": {
+      "children": [],
+      "id": "non_sensitive",
+      "name": "Non sensitive",
+      "parent": "data_not_encrypted_at_rest",
+      "priority": 5,
+      "type": "variant"
+    },
+    "non_sensitive_action": {
+      "children": [],
+      "id": "non_sensitive_action",
+      "name": "Non-Sensitive Action",
+      "parent": "clickjacking",
+      "priority": 5,
+      "type": "variant"
+    },
+    "non_sensitive_application_data_stored_unencrypted": {
+      "children": [],
+      "id": "non_sensitive_application_data_stored_unencrypted",
+      "name": "Non-Sensitive Application Data Stored Unencrypted",
+      "parent": "insecure_data_storage",
+      "priority": 5,
+      "type": "subcategory"
+    },
+    "non_sensitive_data": {
+      "children": [],
+      "id": "non_sensitive_data",
+      "name": "Non Sensitive Data",
+      "parent": "exposed_data",
+      "priority": 5,
+      "type": "variant"
+    },
+    "non_sensitive_data_exposure": {
+      "children": [],
+      "id": "non_sensitive_data_exposure",
+      "name": "Non-Sensitive Data Exposure",
+      "parent": "directory_listing_enabled",
+      "priority": 5,
+      "type": "variant"
+    },
+    "non_sensitive_token": {
+      "children": [],
+      "id": "non_sensitive_token",
+      "name": "Non-Sensitive Token",
+      "parent": "via_localstorage_sessionstorage",
+      "priority": 5,
+      "type": "variant"
+    },
+    "non_sensitive_token_in_url": {
+      "children": [],
+      "id": "non_sensitive_token_in_url",
+      "name": "Non-Sensitive Token in URL",
+      "parent": "sensitive_data_exposure",
+      "priority": 5,
+      "type": "subcategory"
+    },
+    "non_session_cookie": {
+      "children": [],
+      "id": "non_session_cookie",
+      "name": "Non-Session Cookie",
+      "parent": "missing_secure_or_httponly_cookie_flag",
+      "priority": 5,
+      "type": "variant"
+    },
+    "not_operational": {
+      "children": [],
+      "id": "not_operational",
+      "name": "Not Operational or Intended Public Access",
+      "parent": "weak_login_function",
+      "priority": 5,
+      "type": "variant"
+    },
+    "oauth_misconfiguration": {
+      "children": [
+        "account_squatting",
+        "account_takeover",
+        "insecure_redirect_uri",
+        "missing_state_parameter"
+      ],
+      "id": "oauth_misconfiguration",
+      "name": "OAuth Misconfiguration",
+      "parent": "server_security_misconfiguration",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "oauth_secret": {
+      "children": [],
+      "id": "oauth_secret",
+      "name": "OAuth Secret",
+      "parent": "sensitive_data_hardcoded",
+      "priority": 5,
+      "type": "variant"
+    },
+    "ocr_optical_character_recognition": {
+      "children": [],
+      "id": "ocr_optical_character_recognition",
+      "name": "OCR (Optical Character Recognition)",
+      "parent": "captcha_bypass",
+      "priority": 5,
+      "type": "variant"
+    },
+    "ofac_bypass": {
+      "children": [],
+      "id": "ofac_bypass",
+      "name": "OFAC Bypass",
+      "parent": "marketplace_security",
+      "priority": 3,
+      "type": "variant"
+    },
+    "off_domain": {
+      "children": [
+        "data_uri"
+      ],
+      "id": "off_domain",
+      "name": "Off-Domain",
+      "parent": "cross_site_scripting_xss",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "old_two_fa_code_is_not_invalidated_after_new_code_is_generated": {
+      "children": [],
+      "id": "old_two_fa_code_is_not_invalidated_after_new_code_is_generated",
+      "name": "Old 2FA Code is Not Invalidated After New Code is Generated",
+      "parent": "weak_two_fa_implementation",
+      "priority": 5,
+      "type": "variant"
+    },
+    "on_email_change": {
+      "children": [],
+      "id": "on_email_change",
+      "name": "On Email Change",
+      "parent": "failure_to_invalidate_session",
+      "priority": 5,
+      "type": "variant"
+    },
+    "on_external_storage": {
+      "children": [],
+      "id": "on_external_storage",
+      "name": "On External Storage",
+      "parent": "sensitive_application_data_stored_unencrypted",
+      "priority": 4,
+      "type": "variant"
+    },
+    "on_internal_storage": {
+      "children": [],
+      "id": "on_internal_storage",
+      "name": "On Internal Storage",
+      "parent": "sensitive_application_data_stored_unencrypted",
+      "priority": 5,
+      "type": "variant"
+    },
+    "on_logout": {
+      "children": [],
+      "id": "on_logout",
+      "name": "On Logout (Client and Server-Side)",
+      "parent": "failure_to_invalidate_session",
+      "priority": 4,
+      "type": "variant"
+    },
+    "on_logout_server_side_only": {
+      "children": [],
+      "id": "on_logout_server_side_only",
+      "name": "On Logout (Server-Side Only)",
+      "parent": "failure_to_invalidate_session",
+      "priority": 5,
+      "type": "variant"
+    },
+    "on_password_change": {
+      "children": [],
+      "id": "on_password_change",
+      "name": "On Password Reset and/or Change",
+      "parent": "failure_to_invalidate_session",
+      "priority": 4,
+      "type": "variant"
+    },
+    "on_password_reset": {
+      "children": [],
+      "id": "on_password_reset",
+      "name": "On Password Reset",
+      "parent": "sensitive_token_in_url",
+      "priority": 5,
+      "type": "variant"
+    },
+    "on_two_fa_activation_change": {
+      "children": [],
+      "id": "on_two_fa_activation_change",
+      "name": "On 2FA Activation/Change",
+      "parent": "failure_to_invalidate_session",
+      "priority": 5,
+      "type": "variant"
+    },
+    "open_management_ports_to_the_internet": {
+      "children": [],
+      "id": "open_management_ports_to_the_internet",
+      "name": "Open Management Ports to the Internet",
+      "parent": "network_configuration_issues",
+      "priority": 3,
+      "type": "variant"
+    },
+    "open_redirect": {
+      "children": [
+        "flash_based",
+        "get_based",
+        "header_based",
+        "post_based"
+      ],
+      "id": "open_redirect",
+      "name": "Open Redirect",
+      "parent": "unvalidated_redirects_and_forwards",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "options": {
+      "children": [],
+      "id": "options",
+      "name": "OPTIONS",
+      "parent": "potentially_unsafe_http_method_enabled",
+      "priority": 5,
+      "type": "variant"
+    },
+    "orderbook_manipulation": {
+      "children": [],
+      "id": "orderbook_manipulation",
+      "name": "Orderbook Manipulation",
+      "parent": "marketplace_security",
+      "priority": 1,
+      "type": "variant"
+    },
+    "ota_firmware_manipulation": {
+      "children": [],
+      "id": "ota_firmware_manipulation",
+      "name": "OTA Firmware Manipulation",
+      "parent": "infotainment_radio_head_unit",
+      "priority": 2,
+      "type": "variant"
+    },
+    "other_plaintext_protocol_no_secure_alternative": {
+      "children": [],
+      "id": "other_plaintext_protocol_no_secure_alternative",
+      "name": "Other Plaintext Protocol with no Secure Alternative",
+      "parent": "weak_login_function",
+      "priority": 4,
+      "type": "variant"
+    },
+    "outdated_software_version": {
+      "children": [],
+      "id": "outdated_software_version",
+      "name": "Outdated Software Version",
+      "parent": "using_components_with_known_vulnerabilities",
+      "priority": 5,
+      "type": "subcategory"
+    },
+    "over_http": {
+      "children": [],
+      "id": "over_http",
+      "name": "Over HTTP",
+      "parent": "token_leakage_via_referer",
+      "priority": 4,
+      "type": "variant"
+    },
+    "over_permissioned_credentials_on_storage": {
+      "children": [],
+      "id": "over_permissioned_credentials_on_storage",
+      "name": "Over-Permissioned Credentials on Storage",
+      "parent": "insecure_os_firmware",
+      "priority": 2,
+      "type": "subcategory"
+    },
+    "overly_permissive_iam_roles": {
+      "children": [],
+      "id": "overly_permissive_iam_roles",
+      "name": "Overly Permissive IAM Roles",
+      "parent": "identity_and_access_management_iam_misconfigurations",
+      "priority": 2,
+      "type": "variant"
+    },
+    "padding_oracle_attack": {
+      "children": [],
+      "id": "padding_oracle_attack",
+      "name": "Padding Oracle Attack",
+      "parent": "side_channel_attack",
+      "priority": 4,
+      "type": "variant"
+    },
+    "parameter_pollution": {
+      "children": [
+        "social_media_sharing_buttons"
+      ],
+      "id": "parameter_pollution",
+      "name": "Parameter Pollution",
+      "parent": "server_side_injection",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "password_policy_bypass": {
+      "children": [],
+      "id": "password_policy_bypass",
+      "name": "Password Policy Bypass",
+      "parent": "insufficient_security_configurability",
+      "priority": 5,
+      "type": "subcategory"
+    },
+    "password_reset_token": {
+      "children": [],
+      "id": "password_reset_token",
+      "name": "Password Reset Token",
+      "parent": "token_leakage_via_referer",
+      "priority": 5,
+      "type": "variant"
+    },
+    "password_reset_token_sent_over_http": {
+      "children": [],
+      "id": "password_reset_token_sent_over_http",
+      "name": "Password Reset Token Sent Over HTTP",
+      "parent": "weak_password_reset_implementation",
+      "priority": 4,
+      "type": "variant"
+    },
+    "path_traversal": {
+      "children": [],
+      "id": "path_traversal",
+      "name": "Path Traversal",
+      "parent": "server_security_misconfiguration",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "pay_per_use_abuse": {
+      "children": [],
+      "id": "pay_per_use_abuse",
+      "name": "Pay-Per-Use Abuse",
+      "parent": "disclosure_of_secrets",
+      "priority": 4,
+      "type": "variant"
+    },
+    "permission_change": {
+      "children": [],
+      "id": "permission_change",
+      "name": "On Permission Change",
+      "parent": "failure_to_invalidate_session",
+      "priority": null,
+      "type": "variant"
+    },
+    "physical_security_issues": {
+      "children": [
+        "bypass_of_physical_access_control",
+        "weakness_in_physical_access_control"
+      ],
+      "id": "physical_security_issues",
+      "name": "Physical Security Issues",
+      "parent": null,
+      "priority": null,
+      "type": "category"
+    },
+    "pii_leakage_exposure": {
+      "children": [],
+      "id": "pii_leakage_exposure",
+      "name": "PII Leakage/Exposure",
+      "parent": "disclosure_of_secrets",
+      "priority": null,
+      "type": "variant"
+    },
+    "plaintext": {
+      "children": [],
+      "id": "plaintext",
+      "name": "Plaintext",
+      "parent": "server_side_credentials_storage",
+      "priority": 4,
+      "type": "variant"
+    },
+    "plaintext_password_field": {
+      "children": [],
+      "id": "plaintext_password_field",
+      "name": "Plaintext Password Field",
+      "parent": "browser_feature",
+      "priority": 5,
+      "type": "variant"
+    },
+    "plaintext_private_key": {
+      "children": [],
+      "id": "plaintext_private_key",
+      "name": "Plaintext Private Key",
+      "parent": "insecure_data_storage",
+      "priority": 1,
+      "type": "variant"
+    },
+    "poorly_configured_disk_encryption": {
+      "children": [],
+      "id": "poorly_configured_disk_encryption",
+      "name": "Poorly Configured Disk Encryption",
+      "parent": "insecure_os_firmware",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "poorly_configured_operating_system_security": {
+      "children": [],
+      "id": "poorly_configured_operating_system_security",
+      "name": "Poorly Configured Operating System Security",
+      "parent": "insecure_os_firmware",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "post_based": {
+      "children": [],
+      "id": "post_based",
+      "name": "POST-Based",
+      "parent": "open_redirect",
+      "priority": 5,
+      "type": "variant"
+    },
+    "potentially_unsafe_http_method_enabled": {
+      "children": [
+        "options",
+        "trace"
+      ],
+      "id": "potentially_unsafe_http_method_enabled",
+      "name": "Potentially Unsafe HTTP Method Enabled",
+      "parent": "server_security_misconfiguration",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "power_analysis_attack": {
+      "children": [],
+      "id": "power_analysis_attack",
+      "name": "Power Analysis Attack",
+      "parent": "side_channel_attack",
+      "priority": 5,
+      "type": "variant"
+    },
+    "pre_existing_bias": {
+      "children": [],
+      "id": "pre_existing_bias",
+      "name": "Pre-existing Bias",
+      "parent": "data_biases",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "predictable_hash_collision": {
+      "children": [],
+      "id": "predictable_hash_collision",
+      "name": "Predictable Hash Collision",
+      "parent": "weak_hash",
+      "priority": null,
+      "type": "variant"
+    },
+    "predictable_initialization_vector": {
+      "children": [],
+      "id": "predictable_initialization_vector",
+      "name": "Predictable Initialization Vector (IV)",
+      "parent": "insufficient_entropy",
+      "priority": 4,
+      "type": "variant"
+    },
+    "predictable_prng_seed": {
+      "children": [],
+      "id": "predictable_prng_seed",
+      "name": "Predictable Pseudo-Random Number Generator (PRNG) Seed",
+      "parent": "insufficient_entropy",
+      "priority": 4,
+      "type": "variant"
+    },
+    "price_or_fee_manipulation": {
+      "children": [],
+      "id": "price_or_fee_manipulation",
+      "name": "Price or Fee Manipulation",
+      "parent": "marketplace_security",
+      "priority": 2,
+      "type": "variant"
+    },
+    "pricing_oracle_manipulation": {
+      "children": [],
+      "id": "pricing_oracle_manipulation",
+      "name": "Pricing Oracle Manipulation",
+      "parent": "defi_security",
+      "priority": null,
+      "type": "variant"
+    },
+    "privacy_concerns": {
+      "children": [
+        "unnecessary_data_collection"
+      ],
+      "id": "privacy_concerns",
+      "name": "Privacy Concerns",
+      "parent": null,
+      "priority": null,
+      "type": "category"
+    },
+    "privilege_escalation": {
+      "children": [],
+      "id": "privilege_escalation",
+      "name": "Default Folder Privilege Escalation",
+      "parent": "binary_planting",
+      "priority": 3,
+      "type": "variant"
+    },
+    "privileged_user": {
+      "children": [],
+      "id": "privileged_user",
+      "name": "Privileged User",
+      "parent": "hardcoded_password",
+      "priority": 1,
+      "type": "variant"
+    },
+    "privileged_user_to_no_privilege_elevation": {
+      "children": [],
+      "id": "privileged_user_to_no_privilege_elevation",
+      "name": "Privileged User to No Privilege Elevation",
+      "parent": "stored",
+      "priority": 4,
+      "type": "variant"
+    },
+    "privileged_user_to_privilege_elevation": {
+      "children": [],
+      "id": "privileged_user_to_privilege_elevation",
+      "name": "Privileged User to Privilege Elevation",
+      "parent": "stored",
+      "priority": 3,
+      "type": "variant"
+    },
+    "prng_seed_reuse": {
+      "children": [],
+      "id": "prng_seed_reuse",
+      "name": "Pseudo-Random Number Generator (PRNG) Seed Reuse",
+      "parent": "insufficient_entropy",
+      "priority": 5,
+      "type": "variant"
+    },
+    "processing_bias": {
+      "children": [],
+      "id": "processing_bias",
+      "name": "Processing Bias",
+      "parent": "algorithmic_biases",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "prompt_injection": {
+      "children": [
+        "system_prompt_leakage"
+      ],
+      "id": "prompt_injection",
+      "name": "Prompt Injection",
+      "parent": "ai_application_security",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "protected": {
+      "children": [],
+      "id": "protected",
+      "name": "Protected",
+      "parent": "exposed_portal",
+      "priority": 5,
+      "type": "variant"
+    },
+    "protocol_security_misconfiguration": {
+      "children": [
+        "node_level_denial_of_service"
+      ],
+      "id": "protocol_security_misconfiguration",
+      "name": "Protocol Security Misconfiguration",
+      "parent": "decentralized_application_misconfiguration",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "protocol_specific_misconfiguration": {
+      "children": [
+        "frontrunning_enabled_attack",
+        "improper_validation_and_finalization_logic",
+        "misconfigured_staking_logic",
+        "sandwich_enabled_attack"
+      ],
+      "id": "protocol_specific_misconfiguration",
+      "name": "Protocol Specific Misconfiguration",
+      "parent": null,
+      "priority": null,
+      "type": "category"
+    },
+    "public_key_pins": {
+      "children": [],
+      "id": "public_key_pins",
+      "name": "Public-Key-Pins",
+      "parent": "lack_of_security_headers",
+      "priority": 5,
+      "type": "variant"
+    },
+    "publicly_accessible_cloud_storage": {
+      "children": [],
+      "id": "publicly_accessible_cloud_storage",
+      "name": "Publicly Accessible Cloud Storage",
+      "parent": "storage_misconfigurations",
+      "priority": null,
+      "type": "variant"
+    },
+    "publicly_accessible_iam_credentials": {
+      "children": [],
+      "id": "publicly_accessible_iam_credentials",
+      "name": "Publicly Accessible IAM Credentials",
+      "parent": "identity_and_access_management_iam_misconfigurations",
+      "priority": 1,
+      "type": "variant"
+    },
+    "query_flooding_api_token_abuse": {
+      "children": [],
+      "id": "query_flooding_api_token_abuse",
+      "name": "Query Flooding / API Token Abuse",
+      "parent": "insufficient_rate_limiting",
+      "priority": 4,
+      "type": "variant"
+    },
+    "race_condition": {
+      "children": [],
+      "id": "race_condition",
+      "name": "Race Condition",
+      "parent": "server_security_misconfiguration",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "recovery_of_disk_contains_sensitive_material": {
+      "children": [],
+      "id": "recovery_of_disk_contains_sensitive_material",
+      "name": "Recovery of Disk Contains Sensitive Material",
+      "parent": "insecure_os_firmware",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "reentrancy_attack": {
+      "children": [],
+      "id": "reentrancy_attack",
+      "name": "Reentrancy Attack",
+      "parent": "smart_contract_misconfiguration",
+      "priority": 1,
+      "type": "subcategory"
+    },
+    "referer": {
+      "children": [],
+      "id": "referer",
+      "name": "Referer",
+      "parent": "cross_site_scripting_xss",
+      "priority": 4,
+      "type": "subcategory"
+    },
+    "reflected": {
+      "children": [
+        "non_self"
+      ],
+      "id": "reflected",
+      "name": "Reflected",
+      "parent": "cross_site_scripting_xss",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "registration": {
+      "children": [],
+      "id": "registration",
+      "name": "Registration",
+      "parent": "no_rate_limiting_on_form",
+      "priority": 4,
+      "type": "variant"
+    },
+    "relay": {
+      "children": [],
+      "id": "relay",
+      "name": "Relay",
+      "parent": "rf_hub",
+      "priority": 5,
+      "type": "variant"
+    },
+    "remote_attack_vector": {
+      "children": [],
+      "id": "remote_attack_vector",
+      "name": "Remote Attack Vector",
+      "parent": "session_fixation",
+      "priority": 3,
+      "type": "variant"
+    },
+    "remote_code_execution": {
+      "children": [
+        "full_system_compromise",
+        "sandboxed_container_code_execution"
+      ],
+      "id": "remote_code_execution",
+      "name": "Remote Code Execution",
+      "parent": "ai_application_security",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "remote_code_execution_rce": {
+      "children": [],
+      "id": "remote_code_execution_rce",
+      "name": "Remote Code Execution (RCE)",
+      "parent": "server_side_injection",
+      "priority": 1,
+      "type": "subcategory"
+    },
+    "replay": {
+      "children": [],
+      "id": "replay",
+      "name": "Replay",
+      "parent": "rf_hub",
+      "priority": 5,
+      "type": "variant"
+    },
+    "representation_bias": {
+      "children": [],
+      "id": "representation_bias",
+      "name": "Representation Bias",
+      "parent": "data_biases",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "request_smuggling": {
+      "children": [],
+      "id": "request_smuggling",
+      "name": "HTTP Request Smuggling",
+      "parent": "server_security_misconfiguration",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "response_splitting_crlf": {
+      "children": [],
+      "id": "response_splitting_crlf",
+      "name": "Response Splitting (CRLF)",
+      "parent": "http_response_manipulation",
+      "priority": 3,
+      "type": "variant"
+    },
+    "rf_hub": {
+      "children": [
+        "can_injection_interaction",
+        "data_leakage_pull_encryption_mechanism",
+        "key_fob_cloning",
+        "relay",
+        "replay",
+        "roll_jam",
+        "unauthorized_access_turn_on"
+      ],
+      "id": "rf_hub",
+      "name": "RF Hub",
+      "parent": "automotive_security_misconfiguration",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "rfd": {
+      "children": [],
+      "id": "rfd",
+      "name": "Reflected File Download (RFD)",
+      "parent": "server_security_misconfiguration",
+      "priority": 5,
+      "type": "subcategory"
+    },
+    "roll_jam": {
+      "children": [],
+      "id": "roll_jam",
+      "name": "Roll Jam",
+      "parent": "rf_hub",
+      "priority": 5,
+      "type": "variant"
+    },
+    "rosetta_flash": {
+      "children": [],
+      "id": "rosetta_flash",
+      "name": "Rosetta Flash",
+      "parent": "using_components_with_known_vulnerabilities",
+      "priority": 5,
+      "type": "subcategory"
+    },
+    "rsu": {
+      "children": [
+        "sybil_attack"
+      ],
+      "id": "rsu",
+      "name": "Roadside Unit (RSU)",
+      "parent": "automotive_security_misconfiguration",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "rtl_overrides": {
+      "children": [],
+      "id": "rtl_overrides",
+      "name": "RTL Overrides",
+      "parent": "improper_input_handling",
+      "priority": 5,
+      "type": "variant"
+    },
+    "rtlo": {
+      "children": [],
+      "id": "rtlo",
+      "name": "Right-to-Left Override (RTLO)",
+      "parent": "content_spoofing",
+      "priority": 5,
+      "type": "variant"
+    },
+    "runtime_instrumentation_based": {
+      "children": [],
+      "id": "runtime_instrumentation_based",
+      "name": "Runtime Instrumentation-Based",
+      "parent": "lack_of_binary_hardening",
+      "priority": 5,
+      "type": "subcategory"
+    },
+    "same_site_scripting": {
+      "children": [],
+      "id": "same_site_scripting",
+      "name": "Same-Site Scripting",
+      "parent": "server_security_misconfiguration",
+      "priority": 5,
+      "type": "subcategory"
+    },
+    "saml_replay": {
+      "children": [],
+      "id": "saml_replay",
+      "name": "SAML Replay",
+      "parent": "broken_authentication_and_session_management",
+      "priority": 5,
+      "type": "subcategory"
+    },
+    "sandboxed_container_code_execution": {
+      "children": [],
+      "id": "sandboxed_container_code_execution",
+      "name": "Sandboxed Container Code Execution",
+      "parent": "remote_code_execution",
+      "priority": 2,
+      "type": "variant"
+    },
+    "sandwich_enabled_attack": {
+      "children": [],
+      "id": "sandwich_enabled_attack",
+      "name": "Sandwich-Enabled Attack",
+      "parent": "protocol_specific_misconfiguration",
+      "priority": 2,
+      "type": "subcategory"
+    },
+    "save_password": {
+      "children": [],
+      "id": "save_password",
+      "name": "Save Password",
+      "parent": "browser_feature",
+      "priority": 5,
+      "type": "variant"
+    },
+    "screen_caching_enabled": {
+      "children": [],
+      "id": "screen_caching_enabled",
+      "name": "Screen Caching Enabled",
+      "parent": "insecure_data_storage",
+      "priority": 5,
+      "type": "subcategory"
+    },
+    "secure_integrity_check": {
+      "children": [],
+      "id": "secure_integrity_check",
+      "name": "Secure Integrity Check",
+      "parent": "executable_download",
+      "priority": 5,
+      "type": "variant"
+    },
+    "self": {
+      "children": [],
+      "id": "self",
+      "name": "Self",
+      "parent": "stored",
+      "priority": 5,
+      "type": "variant"
+    },
+    "semantic_indexing": {
+      "children": [],
+      "id": "semantic_indexing",
+      "name": "Semantic Indexing",
+      "parent": "vector_and_embedding_weaknesses",
+      "priority": 3,
+      "type": "variant"
+    },
+    "sensitive": {
+      "children": [],
+      "id": "sensitive",
+      "name": "Sensitive",
+      "parent": "data_not_encrypted_at_rest",
+      "priority": null,
+      "type": "variant"
+    },
+    "sensitive_action": {
+      "children": [],
+      "id": "sensitive_action",
+      "name": "Sensitive Click-Based Action",
+      "parent": "clickjacking",
+      "priority": 4,
+      "type": "variant"
+    },
+    "sensitive_application_data_stored_unencrypted": {
+      "children": [
+        "on_external_storage",
+        "on_internal_storage"
+      ],
+      "id": "sensitive_application_data_stored_unencrypted",
+      "name": "Sensitive Application Data Stored Unencrypted",
+      "parent": "insecure_data_storage",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "sensitive_data": {
+      "children": [],
+      "id": "sensitive_data",
+      "name": "Sensitive Data",
+      "parent": "exposed_data",
+      "priority": null,
+      "type": "variant"
+    },
+    "sensitive_data_exposure": {
+      "children": [
+        "disclosure_of_known_public_information",
+        "disclosure_of_secrets",
+        "exif_geolocation_data_not_stripped_from_uploaded_images",
+        "graphql_introspection_enabled",
+        "internal_ip_disclosure",
+        "json_hijacking",
+        "mixed_content",
+        "non_sensitive_token_in_url",
+        "sensitive_data_hardcoded",
+        "sensitive_token_in_url",
+        "token_leakage_via_referer",
+        "via_localstorage_sessionstorage",
+        "visible_detailed_error_page",
+        "weak_password_reset_implementation",
+        "xssi"
+      ],
+      "id": "sensitive_data_exposure",
+      "name": "Sensitive Data Exposure",
+      "parent": "directory_listing_enabled",
+      "priority": null,
+      "type": "variant"
+    },
+    "sensitive_data_hardcoded": {
+      "children": [
+        "file_paths",
+        "oauth_secret"
+      ],
+      "id": "sensitive_data_hardcoded",
+      "name": "Sensitive Data Hardcoded",
+      "parent": "sensitive_data_exposure",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "sensitive_data_leakage_exposure": {
+      "children": [],
+      "id": "sensitive_data_leakage_exposure",
+      "name": "Sensitive data Leakage/Exposure",
+      "parent": "infotainment_radio_head_unit",
+      "priority": 1,
+      "type": "variant"
+    },
+    "sensitive_information_disclosure": {
+      "children": [
+        "cross_tenant_pii_leakage_exposure",
+        "key_leak"
+      ],
+      "id": "sensitive_information_disclosure",
+      "name": "Sensitive Information Disclosure",
+      "parent": "ai_application_security",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "sensitive_information_exposure": {
+      "children": [],
+      "id": "sensitive_information_exposure",
+      "name": "Sensitive Information Exposure",
+      "parent": "insecure_data_storage",
+      "priority": null,
+      "type": "variant"
+    },
+    "sensitive_token": {
+      "children": [],
+      "id": "sensitive_token",
+      "name": "Sensitive Token",
+      "parent": "via_localstorage_sessionstorage",
+      "priority": 4,
+      "type": "variant"
+    },
+    "sensitive_token_in_url": {
+      "children": [
+        "in_the_background",
+        "on_password_reset",
+        "user_facing"
+      ],
+      "id": "sensitive_token_in_url",
+      "name": "Sensitive Token in URL",
+      "parent": "sensitive_data_exposure",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "server_security_misconfiguration": {
+      "children": [
+        "bitsquatting",
+        "cache_deception",
+        "cache_poisoning",
+        "captcha",
+        "clickjacking",
+        "cookie_scoped_to_parent_domain",
+        "dbms_misconfiguration",
+        "directory_listing_enabled",
+        "email_verification_bypass",
+        "exposed_portal",
+        "fingerprinting_banner_disclosure",
+        "insecure_ssl",
+        "lack_of_password_confirmation",
+        "lack_of_security_headers",
+        "mail_server_misconfiguration",
+        "misconfigured_dns",
+        "missing_dnssec",
+        "missing_secure_or_httponly_cookie_flag",
+        "missing_subresource_integrity",
+        "no_rate_limiting_on_form",
+        "oauth_misconfiguration",
+        "path_traversal",
+        "potentially_unsafe_http_method_enabled",
+        "race_condition",
+        "request_smuggling",
+        "rfd",
+        "same_site_scripting",
+        "server_side_request_forgery_ssrf",
+        "software_package_takeover",
+        "ssl_attack_breach_poodle_etc",
+        "unsafe_cross_origin_resource_sharing",
+        "unsafe_file_upload",
+        "username_enumeration",
+        "using_default_credentials",
+        "waf_bypass"
+      ],
+      "id": "server_security_misconfiguration",
+      "name": "Server Security Misconfiguration",
+      "parent": null,
+      "priority": null,
+      "type": "category"
+    },
+    "server_side_credentials_storage": {
+      "children": [
+        "plaintext"
+      ],
+      "id": "server_side_credentials_storage",
+      "name": "Server-Side Credentials Storage",
+      "parent": "insecure_data_storage",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "server_side_injection": {
+      "children": [
+        "content_spoofing",
+        "exposed_data",
+        "file_inclusion",
+        "http_response_manipulation",
+        "ldap_injection",
+        "parameter_pollution",
+        "remote_code_execution_rce",
+        "sql_injection",
+        "ssti",
+        "xml_external_entity_injection_xxe"
+      ],
+      "id": "server_side_injection",
+      "name": "Server-Side Injection",
+      "parent": null,
+      "priority": null,
+      "type": "category"
+    },
+    "server_side_request_forgery_ssrf": {
+      "children": [
+        "external_dns_query_only",
+        "external_low_impact",
+        "internal_high_impact",
+        "internal_scan_and_or_medium_impact"
+      ],
+      "id": "server_side_request_forgery_ssrf",
+      "name": "Server-Side Request Forgery (SSRF)",
+      "parent": "server_security_misconfiguration",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "session_fixation": {
+      "children": [
+        "local_attack_vector",
+        "remote_attack_vector"
+      ],
+      "id": "session_fixation",
+      "name": "Session Fixation",
+      "parent": "broken_authentication_and_session_management",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "session_token": {
+      "children": [],
+      "id": "session_token",
+      "name": "Session Token",
+      "parent": "missing_secure_or_httponly_cookie_flag",
+      "priority": 4,
+      "type": "variant"
+    },
+    "shared_credentials_on_storage": {
+      "children": [],
+      "id": "shared_credentials_on_storage",
+      "name": "Shared Credentials on Storage",
+      "parent": "insecure_os_firmware",
+      "priority": 3,
+      "type": "subcategory"
+    },
+    "shared_links": {
+      "children": [],
+      "id": "shared_links",
+      "name": "Shared Links",
+      "parent": "system_clipboard_leak",
+      "priority": 5,
+      "type": "variant"
+    },
+    "side_channel_attack": {
+      "children": [
+        "differential_fault_analysis",
+        "emanations_attack",
+        "padding_oracle_attack",
+        "power_analysis_attack",
+        "timing_attack"
+      ],
+      "id": "side_channel_attack",
+      "name": "Side-Channel Attack",
+      "parent": "cryptographic_weakness",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "signer_account_takeover": {
+      "children": [],
+      "id": "signer_account_takeover",
+      "name": "Signer Account Takeover",
+      "parent": "marketplace_security",
+      "priority": 1,
+      "type": "variant"
+    },
+    "small_seed_space_in_prng": {
+      "children": [],
+      "id": "small_seed_space_in_prng",
+      "name": "Small Seed Space in Pseudo-Random Number Generator (PRNG)",
+      "parent": "insufficient_entropy",
+      "priority": 4,
+      "type": "variant"
+    },
+    "smart_contract_misconfiguration": {
+      "children": [
+        "bypass_of_function_modifiers_and_checks",
+        "function_level_denial_of_service",
+        "improper_decimals_implementation",
+        "improper_fee_implementation",
+        "improper_use_of_modifier",
+        "inaccurate_rounding_calculation",
+        "integer_overflow_underflow",
+        "irreversible_function_call",
+        "malicious_superuser_risk",
+        "reentrancy_attack",
+        "smart_contract_owner_takeover",
+        "unauthorized_smart_contract_approval",
+        "unauthorized_transfer_of_funds",
+        "uninitialized_variables"
+      ],
+      "id": "smart_contract_misconfiguration",
+      "name": "Smart Contract Misconfiguration",
+      "parent": null,
+      "priority": null,
+      "type": "category"
+    },
+    "smart_contract_owner_takeover": {
+      "children": [],
+      "id": "smart_contract_owner_takeover",
+      "name": "Smart Contract Owner Takeover",
+      "parent": "smart_contract_misconfiguration",
+      "priority": 1,
+      "type": "subcategory"
+    },
+    "sms_triggering": {
+      "children": [],
+      "id": "sms_triggering",
+      "name": "SMS-Triggering",
+      "parent": "no_rate_limiting_on_form",
+      "priority": 4,
+      "type": "variant"
+    },
+    "social_media_sharing_buttons": {
+      "children": [],
+      "id": "social_media_sharing_buttons",
+      "name": "Social Media Sharing Buttons",
+      "parent": "parameter_pollution",
+      "priority": 5,
+      "type": "variant"
+    },
+    "societal_biases": {
+      "children": [
+        "confirmation_bias",
+        "systemic_bias"
+      ],
+      "id": "societal_biases",
+      "name": "Societal Biases",
+      "parent": null,
+      "priority": null,
+      "type": "category"
+    },
+    "software_package_takeover": {
+      "children": [],
+      "id": "software_package_takeover",
+      "name": "Software Package Takeover",
+      "parent": "server_security_misconfiguration",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "source_code_dump": {
+      "children": [],
+      "id": "source_code_dump",
+      "name": "Source Code Dump",
+      "parent": "infotainment_radio_head_unit",
+      "priority": 4,
+      "type": "variant"
+    },
+    "spoofing": {
+      "children": [],
+      "id": "spoofing",
+      "name": "Spoofing",
+      "parent": "gnss_gps",
+      "priority": 4,
+      "type": "variant"
+    },
+    "sql_injection": {
+      "children": [],
+      "id": "sql_injection",
+      "name": "SQL Injection",
+      "parent": "server_side_injection",
+      "priority": 1,
+      "type": "subcategory"
+    },
+    "ssl_attack_breach_poodle_etc": {
+      "children": [],
+      "id": "ssl_attack_breach_poodle_etc",
+      "name": "SSL Attack (BREACH, POODLE etc.)",
+      "parent": "server_security_misconfiguration",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "ssl_certificate_pinning": {
+      "children": [
+        "absent",
+        "defeatable"
+      ],
+      "id": "ssl_certificate_pinning",
+      "name": "SSL Certificate Pinning",
+      "parent": "mobile_security_misconfiguration",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "ssti": {
+      "children": [
+        "basic",
+        "custom"
+      ],
+      "id": "ssti",
+      "name": "Server-Side Template Injection (SSTI)",
+      "parent": "server_side_injection",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "storage_misconfigurations": {
+      "children": [
+        "publicly_accessible_cloud_storage",
+        "unencrypted_sensitive_data_at_rest"
+      ],
+      "id": "storage_misconfigurations",
+      "name": "Storage Misconfigurations",
+      "parent": "cloud_security",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "stored": {
+      "children": [
+        "non_admin_to_anyone",
+        "privileged_user_to_no_privilege_elevation",
+        "privileged_user_to_privilege_elevation",
+        "self",
+        "url_based"
+      ],
+      "id": "stored",
+      "name": "Stored",
+      "parent": "cross_site_scripting_xss",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "strict_transport_security": {
+      "children": [],
+      "id": "strict_transport_security",
+      "name": "Strict-Transport-Security",
+      "parent": "lack_of_security_headers",
+      "priority": 5,
+      "type": "variant"
+    },
+    "subdomain_takeover": {
+      "children": [],
+      "id": "subdomain_takeover",
+      "name": "Subdomain Takeover",
+      "parent": "misconfigured_dns",
+      "priority": 3,
+      "type": "variant"
+    },
+    "sybil_attack": {
+      "children": [],
+      "id": "sybil_attack",
+      "name": "Sybil Attack",
+      "parent": "rsu",
+      "priority": 4,
+      "type": "variant"
+    },
+    "system_clipboard_leak": {
+      "children": [
+        "shared_links"
+      ],
+      "id": "system_clipboard_leak",
+      "name": "System Clipboard Leak",
+      "parent": "external_behavior",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "system_prompt_leakage": {
+      "children": [],
+      "id": "system_prompt_leakage",
+      "name": "System Prompt Leakage",
+      "parent": "prompt_injection",
+      "priority": 2,
+      "type": "variant"
+    },
+    "systemic_bias": {
+      "children": [],
+      "id": "systemic_bias",
+      "name": "Systemic Bias",
+      "parent": "societal_biases",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "tabnabbing": {
+      "children": [],
+      "id": "tabnabbing",
+      "name": "Tabnabbing",
+      "parent": "unvalidated_redirects_and_forwards",
+      "priority": 5,
+      "type": "subcategory"
+    },
+    "tapjacking": {
+      "children": [],
+      "id": "tapjacking",
+      "name": "Tapjacking",
+      "parent": "mobile_security_misconfiguration",
+      "priority": 5,
+      "type": "subcategory"
+    },
+    "telnet_enabled": {
+      "children": [],
+      "id": "telnet_enabled",
+      "name": "Telnet Enabled",
+      "parent": "network_security_misconfiguration",
+      "priority": 5,
+      "type": "subcategory"
+    },
+    "tenant_scoped": {
+      "children": [],
+      "id": "tenant_scoped",
+      "name": "Tenant-Scoped",
+      "parent": "denial_of_service_dos",
+      "priority": 4,
+      "type": "variant"
+    },
+    "text_injection": {
+      "children": [],
+      "id": "text_injection",
+      "name": "Text Injection",
+      "parent": "content_spoofing",
+      "priority": 5,
+      "type": "variant"
+    },
+    "timing_attack": {
+      "children": [],
+      "id": "timing_attack",
+      "name": "Timing Attack",
+      "parent": "side_channel_attack",
+      "priority": 4,
+      "type": "variant"
+    },
+    "token_has_long_timed_expiry": {
+      "children": [],
+      "id": "token_has_long_timed_expiry",
+      "name": "Token Has Long Timed Expiry",
+      "parent": "weak_password_reset_implementation",
+      "priority": 5,
+      "type": "variant"
+    },
+    "token_is_not_invalidated_after_email_change": {
+      "children": [],
+      "id": "token_is_not_invalidated_after_email_change",
+      "name": "Token is Not Invalidated After Email Change",
+      "parent": "weak_password_reset_implementation",
+      "priority": 5,
+      "type": "variant"
+    },
+    "token_is_not_invalidated_after_login": {
+      "children": [],
+      "id": "token_is_not_invalidated_after_login",
+      "name": "Token is Not Invalidated After Login",
+      "parent": "weak_password_reset_implementation",
+      "priority": 5,
+      "type": "variant"
+    },
+    "token_is_not_invalidated_after_new_token_is_requested": {
+      "children": [],
+      "id": "token_is_not_invalidated_after_new_token_is_requested",
+      "name": "Token is Not Invalidated After New Token is Requested",
+      "parent": "weak_password_reset_implementation",
+      "priority": 5,
+      "type": "variant"
+    },
+    "token_is_not_invalidated_after_password_change": {
+      "children": [],
+      "id": "token_is_not_invalidated_after_password_change",
+      "name": "Token is Not Invalidated After Password Change",
+      "parent": "weak_password_reset_implementation",
+      "priority": 5,
+      "type": "variant"
+    },
+    "token_is_not_invalidated_after_use": {
+      "children": [],
+      "id": "token_is_not_invalidated_after_use",
+      "name": "Token is Not Invalidated After Use",
+      "parent": "weak_password_reset_implementation",
+      "priority": 4,
+      "type": "variant"
+    },
+    "token_leakage_via_host_header_poisoning": {
+      "children": [],
+      "id": "token_leakage_via_host_header_poisoning",
+      "name": "Token Leakage via Host Header Poisoning",
+      "parent": "weak_password_reset_implementation",
+      "priority": 2,
+      "type": "variant"
+    },
+    "token_leakage_via_referer": {
+      "children": [
+        "over_http",
+        "password_reset_token",
+        "trusted_third_party",
+        "untrusted_third_party"
+      ],
+      "id": "token_leakage_via_referer",
+      "name": "Token Leakage via Referer",
+      "parent": "sensitive_data_exposure",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "trace": {
+      "children": [],
+      "id": "trace",
+      "name": "TRACE",
+      "parent": "potentially_unsafe_http_method_enabled",
+      "priority": 5,
+      "type": "variant"
+    },
+    "trace_method": {
+      "children": [],
+      "id": "trace_method",
+      "name": "TRACE Method",
+      "parent": "cross_site_scripting_xss",
+      "priority": 5,
+      "type": "subcategory"
+    },
+    "training_data_poisoning": {
+      "children": [
+        "backdoor_injection_bias_manipulation"
+      ],
+      "id": "training_data_poisoning",
+      "name": "Training Data Poisoning",
+      "parent": "ai_application_security",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "trusted_third_party": {
+      "children": [],
+      "id": "trusted_third_party",
+      "name": "Trusted 3rd Party",
+      "parent": "token_leakage_via_referer",
+      "priority": 5,
+      "type": "variant"
+    },
+    "two_fa_bypass": {
+      "children": [],
+      "id": "two_fa_bypass",
+      "name": "Second Factor Authentication (2FA) Bypass",
+      "parent": "broken_authentication_and_session_management",
+      "priority": 3,
+      "type": "subcategory"
+    },
+    "two_fa_code_is_not_updated_after_new_code_is_requested": {
+      "children": [],
+      "id": "two_fa_code_is_not_updated_after_new_code_is_requested",
+      "name": "2FA Code is Not Updated After New Code is Requested",
+      "parent": "weak_two_fa_implementation",
+      "priority": 5,
+      "type": "variant"
+    },
+    "two_fa_secret_cannot_be_rotated": {
+      "children": [],
+      "id": "two_fa_secret_cannot_be_rotated",
+      "name": "2FA Secret Cannot be Rotated",
+      "parent": "weak_two_fa_implementation",
+      "priority": 4,
+      "type": "variant"
+    },
+    "two_fa_secret_remains_obtainable_after_two_fa_is_enabled": {
+      "children": [],
+      "id": "two_fa_secret_remains_obtainable_after_two_fa_is_enabled",
+      "name": "2FA Secret Remains Obtainable After 2FA is Enabled",
+      "parent": "weak_two_fa_implementation",
+      "priority": 4,
+      "type": "variant"
+    },
+    "unauthenticated_action": {
+      "children": [],
+      "id": "unauthenticated_action",
+      "name": "Unauthenticated Action",
+      "parent": "action_specific",
+      "priority": null,
+      "type": "variant"
+    },
+    "unauthorized_access_to_services": {
+      "children": [],
+      "id": "unauthorized_access_to_services",
+      "name": "Unauthorized Access to Services (API / Endpoints)",
+      "parent": "infotainment_radio_head_unit",
+      "priority": 3,
+      "type": "variant"
+    },
+    "unauthorized_access_turn_on": {
+      "children": [],
+      "id": "unauthorized_access_turn_on",
+      "name": "Unauthorized Access / Turn On",
+      "parent": "rf_hub",
+      "priority": 4,
+      "type": "variant"
+    },
+    "unauthorized_asset_transfer": {
+      "children": [],
+      "id": "unauthorized_asset_transfer",
+      "name": "Unauthorized Asset Transfer",
+      "parent": "marketplace_security",
+      "priority": 1,
+      "type": "variant"
+    },
+    "unauthorized_smart_contract_approval": {
+      "children": [],
+      "id": "unauthorized_smart_contract_approval",
+      "name": "Unauthorized Smart Contract Approval",
+      "parent": "smart_contract_misconfiguration",
+      "priority": 2,
+      "type": "subcategory"
+    },
+    "unauthorized_transfer_of_funds": {
+      "children": [],
+      "id": "unauthorized_transfer_of_funds",
+      "name": "Unauthorized Transfer of Funds",
+      "parent": "smart_contract_misconfiguration",
+      "priority": 1,
+      "type": "subcategory"
+    },
+    "unencrypted_sensitive_data_at_rest": {
+      "children": [],
+      "id": "unencrypted_sensitive_data_at_rest",
+      "name": "Unencrypted Sensitive Data at Rest",
+      "parent": "storage_misconfigurations",
+      "priority": 2,
+      "type": "variant"
+    },
+    "unicode_confusables": {
+      "children": [],
+      "id": "unicode_confusables",
+      "name": "Unicode Confusables",
+      "parent": "improper_input_handling",
+      "priority": 5,
+      "type": "variant"
+    },
+    "uninitialized_variables": {
+      "children": [],
+      "id": "uninitialized_variables",
+      "name": "Uninitialized Variables",
+      "parent": "smart_contract_misconfiguration",
+      "priority": 1,
+      "type": "subcategory"
+    },
+    "unintended_acceleration_brake": {
+      "children": [],
+      "id": "unintended_acceleration_brake",
+      "name": "Unintended Acceleration / Brake",
+      "parent": "abs",
+      "priority": 3,
+      "type": "variant"
+    },
+    "universal_uxss": {
+      "children": [],
+      "id": "universal_uxss",
+      "name": "Universal (UXSS)",
+      "parent": "cross_site_scripting_xss",
+      "priority": 4,
+      "type": "subcategory"
+    },
+    "unnecessary_data_collection": {
+      "children": [
+        "wifi_ssid_password"
+      ],
+      "id": "unnecessary_data_collection",
+      "name": "Unnecessary Data Collection",
+      "parent": "privacy_concerns",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "unsafe_cross_origin_resource_sharing": {
+      "children": [],
+      "id": "unsafe_cross_origin_resource_sharing",
+      "name": "Unsafe Cross-Origin Resource Sharing",
+      "parent": "server_security_misconfiguration",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "unsafe_file_upload": {
+      "children": [
+        "file_extension_filter_bypass",
+        "no_antivirus",
+        "no_size_limit"
+      ],
+      "id": "unsafe_file_upload",
+      "name": "Unsafe File Upload",
+      "parent": "server_security_misconfiguration",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "untrusted_third_party": {
+      "children": [],
+      "id": "untrusted_third_party",
+      "name": "Untrusted 3rd Party",
+      "parent": "token_leakage_via_referer",
+      "priority": 4,
+      "type": "variant"
+    },
+    "unvalidated_redirects_and_forwards": {
+      "children": [
+        "lack_of_security_speed_bump_page",
+        "open_redirect",
+        "tabnabbing"
+      ],
+      "id": "unvalidated_redirects_and_forwards",
+      "name": "Unvalidated Redirects and Forwards",
+      "parent": null,
+      "priority": null,
+      "type": "category"
+    },
+    "url_based": {
+      "children": [],
+      "id": "url_based",
+      "name": "CSRF/URL-Based",
+      "parent": "stored",
+      "priority": 3,
+      "type": "variant"
+    },
+    "use_of_broken_cryptographic_primitive": {
+      "children": [],
+      "id": "use_of_broken_cryptographic_primitive",
+      "name": "Use of Broken Cryptographic Primitive",
+      "parent": "broken_cryptography",
+      "priority": 3,
+      "type": "variant"
+    },
+    "use_of_expired_cryptographic_key_or_cert": {
+      "children": [],
+      "id": "use_of_expired_cryptographic_key_or_cert",
+      "name": "Use of Expired Cryptographic Key (or Certificate)",
+      "parent": "cryptographic_weakness",
+      "priority": 4,
+      "type": "subcategory"
+    },
+    "use_of_predictable_salt": {
+      "children": [],
+      "id": "use_of_predictable_salt",
+      "name": "Use of Predictable Salt",
+      "parent": "weak_hash",
+      "priority": 5,
+      "type": "variant"
+    },
+    "use_of_trng_for_nonsecurity_purpose": {
+      "children": [],
+      "id": "use_of_trng_for_nonsecurity_purpose",
+      "name": "Use of True Random Number Generator (TRNG) for Non-Security Purpose",
+      "parent": "insufficient_entropy",
+      "priority": 5,
+      "type": "variant"
+    },
+    "use_of_vulnerable_cryptographic_library": {
+      "children": [],
+      "id": "use_of_vulnerable_cryptographic_library",
+      "name": "Use of Vulnerable Cryptographic Library",
+      "parent": "broken_cryptography",
+      "priority": 4,
+      "type": "variant"
+    },
+    "user_facing": {
+      "children": [],
+      "id": "user_facing",
+      "name": "User Facing",
+      "parent": "sensitive_token_in_url",
+      "priority": 4,
+      "type": "variant"
+    },
+    "user_password_persisted_in_memory": {
+      "children": [],
+      "id": "user_password_persisted_in_memory",
+      "name": "User Password Persisted in Memory",
+      "parent": "external_behavior",
+      "priority": 5,
+      "type": "subcategory"
+    },
+    "username_enumeration": {
+      "children": [
+        "brute_force",
+        "non_brute_force"
+      ],
+      "id": "username_enumeration",
+      "name": "Username/Email Enumeration",
+      "parent": "server_security_misconfiguration",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "using_components_with_known_vulnerabilities": {
+      "children": [
+        "captcha_bypass",
+        "outdated_software_version",
+        "rosetta_flash"
+      ],
+      "id": "using_components_with_known_vulnerabilities",
+      "name": "Using Components with Known Vulnerabilities",
+      "parent": null,
+      "priority": null,
+      "type": "category"
+    },
+    "using_default_credentials": {
+      "children": [],
+      "id": "using_default_credentials",
+      "name": "Using Default Credentials",
+      "parent": "server_security_misconfiguration",
+      "priority": 1,
+      "type": "subcategory"
+    },
+    "vector_and_embedding_weaknesses": {
+      "children": [
+        "embedding_exfiltration_model_extraction",
+        "semantic_indexing"
+      ],
+      "id": "vector_and_embedding_weaknesses",
+      "name": "Vector and Embedding Weaknesses",
+      "parent": "ai_application_security",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "verification_of_contact_method_not_required": {
+      "children": [],
+      "id": "verification_of_contact_method_not_required",
+      "name": "Verification of Contact Method not Required",
+      "parent": "insufficient_security_configurability",
+      "priority": 5,
+      "type": "subcategory"
+    },
+    "via_localstorage_sessionstorage": {
+      "children": [
+        "non_sensitive_token",
+        "sensitive_token"
+      ],
+      "id": "via_localstorage_sessionstorage",
+      "name": "Via localStorage/sessionStorage",
+      "parent": "sensitive_data_exposure",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "view_non_sensitive_information": {
+      "children": [],
+      "id": "view_non_sensitive_information",
+      "name": "View Non-Sensitive Information",
+      "parent": "idor",
+      "priority": 5,
+      "type": "variant"
+    },
+    "view_sensitive_information_iterable_object_identifiers": {
+      "children": [],
+      "id": "view_sensitive_information_iterable_object_identifiers",
+      "name": "View Sensitive Information(Iterable Object Identifiers)",
+      "parent": "idor",
+      "priority": 3,
+      "type": "variant"
+    },
+    "visible_detailed_error_page": {
+      "children": [
+        "descriptive_stack_trace",
+        "detailed_server_configuration",
+        "full_path_disclosure"
+      ],
+      "id": "visible_detailed_error_page",
+      "name": "Visible Detailed Error/Debug Page",
+      "parent": "sensitive_data_exposure",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "waf_bypass": {
+      "children": [
+        "direct_server_access"
+      ],
+      "id": "waf_bypass",
+      "name": "Web Application Firewall (WAF) Bypass",
+      "parent": "server_security_misconfiguration",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "weak_hash": {
+      "children": [
+        "lack_of_salt",
+        "predictable_hash_collision",
+        "use_of_predictable_salt"
+      ],
+      "id": "weak_hash",
+      "name": "Weak Hash",
+      "parent": "cryptographic_weakness",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "weak_login_function": {
+      "children": [
+        "not_operational",
+        "other_plaintext_protocol_no_secure_alternative"
+      ],
+      "id": "weak_login_function",
+      "name": "Weak Login Function",
+      "parent": "broken_authentication_and_session_management",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "weak_password_policy": {
+      "children": [],
+      "id": "weak_password_policy",
+      "name": "Weak Password Policy",
+      "parent": "insufficient_security_configurability",
+      "priority": 5,
+      "type": "subcategory"
+    },
+    "weak_password_reset_implementation": {
+      "children": [
+        "password_reset_token_sent_over_http",
+        "token_has_long_timed_expiry",
+        "token_is_not_invalidated_after_email_change",
+        "token_is_not_invalidated_after_login",
+        "token_is_not_invalidated_after_new_token_is_requested",
+        "token_is_not_invalidated_after_password_change",
+        "token_is_not_invalidated_after_use",
+        "token_leakage_via_host_header_poisoning"
+      ],
+      "id": "weak_password_reset_implementation",
+      "name": "Weak Password Reset Implementation",
+      "parent": "sensitive_data_exposure",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "weak_registration_implementation": {
+      "children": [
+        "allows_disposable_email_addresses"
+      ],
+      "id": "weak_registration_implementation",
+      "name": "Weak Registration Implementation",
+      "parent": "insufficient_security_configurability",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "weak_two_fa_implementation": {
+      "children": [
+        "missing_failsafe",
+        "old_two_fa_code_is_not_invalidated_after_new_code_is_generated",
+        "two_fa_code_is_not_updated_after_new_code_is_requested",
+        "two_fa_secret_cannot_be_rotated",
+        "two_fa_secret_remains_obtainable_after_two_fa_is_enabled"
+      ],
+      "id": "weak_two_fa_implementation",
+      "name": "Weak 2FA Implementation",
+      "parent": "insufficient_security_configurability",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "weakness_in_firmware_updates": {
+      "children": [
+        "firmware_cannot_be_updated",
+        "firmware_does_not_validate_update_integrity",
+        "firmware_is_not_encrypted"
+      ],
+      "id": "weakness_in_firmware_updates",
+      "name": "Weakness in Firmware Updates",
+      "parent": "insecure_os_firmware",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "weakness_in_physical_access_control": {
+      "children": [
+        "cloneable_key",
+        "commonly_keyed_system",
+        "master_key_identification"
+      ],
+      "id": "weakness_in_physical_access_control",
+      "name": "Weakness in physical access control",
+      "parent": "physical_security_issues",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "wifi_ssid_password": {
+      "children": [],
+      "id": "wifi_ssid_password",
+      "name": "WiFi SSID+Password",
+      "parent": "unnecessary_data_collection",
+      "priority": 4,
+      "type": "variant"
+    },
+    "x_content_security_policy": {
+      "children": [],
+      "id": "x_content_security_policy",
+      "name": "X-Content-Security-Policy",
+      "parent": "lack_of_security_headers",
+      "priority": 5,
+      "type": "variant"
+    },
+    "x_content_type_options": {
+      "children": [],
+      "id": "x_content_type_options",
+      "name": "X-Content-Type-Options",
+      "parent": "lack_of_security_headers",
+      "priority": 5,
+      "type": "variant"
+    },
+    "x_frame_options": {
+      "children": [],
+      "id": "x_frame_options",
+      "name": "X-Frame-Options",
+      "parent": "lack_of_security_headers",
+      "priority": 5,
+      "type": "variant"
+    },
+    "x_webkit_csp": {
+      "children": [],
+      "id": "x_webkit_csp",
+      "name": "X-Webkit-CSP",
+      "parent": "lack_of_security_headers",
+      "priority": 5,
+      "type": "variant"
+    },
+    "x_xss_protection": {
+      "children": [],
+      "id": "x_xss_protection",
+      "name": "X-XSS-Protection",
+      "parent": "lack_of_security_headers",
+      "priority": 5,
+      "type": "variant"
+    },
+    "xml_external_entity_injection_xxe": {
+      "children": [],
+      "id": "xml_external_entity_injection_xxe",
+      "name": "XML External Entity Injection (XXE)",
+      "parent": "server_side_injection",
+      "priority": 1,
+      "type": "subcategory"
+    },
+    "xssi": {
+      "children": [],
+      "id": "xssi",
+      "name": "Cross Site Script Inclusion (XSSI)",
+      "parent": "sensitive_data_exposure",
+      "priority": null,
+      "type": "subcategory"
+    },
+    "zero_knowledge_security_misconfiguration": {
+      "children": [
+        "deanonymization_of_data",
+        "improper_proof_validation_and_finalization_logic",
+        "misconfigured_trusted_setup",
+        "mismatching_bit_lengths",
+        "missing_constraint",
+        "missing_range_check"
+      ],
+      "id": "zero_knowledge_security_misconfiguration",
+      "name": "Zero Knowledge Security Misconfiguration",
+      "parent": null,
+      "priority": null,
+      "type": "category"
+    },
+    "zone_transfer": {
+      "children": [],
+      "id": "zone_transfer",
+      "name": "Zone Transfer",
+      "parent": "misconfigured_dns",
+      "priority": 4,
+      "type": "variant"
+    }
+  },
+  "roots": [
+    "ai_application_security",
+    "algorithmic_biases",
+    "application_level_denial_of_service_dos",
+    "automotive_security_misconfiguration",
+    "blockchain_infrastructure_misconfiguration",
+    "broken_access_control",
+    "broken_authentication_and_session_management",
+    "client_side_injection",
+    "cloud_security",
+    "cross_site_request_forgery_csrf",
+    "cross_site_scripting_xss",
+    "cryptographic_weakness",
+    "data_biases",
+    "decentralized_application_misconfiguration",
+    "developer_biases",
+    "external_behavior",
+    "indicators_of_compromise",
+    "insecure_data_storage",
+    "insecure_data_transport",
+    "insecure_os_firmware",
+    "insufficient_security_configurability",
+    "lack_of_binary_hardening",
+    "misinterpretation_biases",
+    "mobile_security_misconfiguration",
+    "network_security_misconfiguration",
+    "physical_security_issues",
+    "privacy_concerns",
+    "protocol_specific_misconfiguration",
+    "sensitive_data_exposure",
+    "server_security_misconfiguration",
+    "server_side_injection",
+    "smart_contract_misconfiguration",
+    "societal_biases",
+    "unvalidated_redirects_and_forwards",
+    "using_components_with_known_vulnerabilities",
+    "zero_knowledge_security_misconfiguration"
+  ],
+  "version": "1.17"
+}
