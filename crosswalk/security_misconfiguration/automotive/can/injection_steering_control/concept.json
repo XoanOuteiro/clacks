@@ -1,0 +1,31 @@
+{
+  "id": "clacks/security_misconfiguration/automotive/can/injection_steering_control",
+  "slug": "clacks/security_misconfiguration/automotive/can/injection_steering_control",
+  "title": "Injection (Steering Control)",
+  "aliases": [
+    "injection (steering control)",
+    "injection steering control",
+    "injection_steering_control"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/automotive_security_misconfiguration.can.injection_steering_control",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A05",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-16",
+        "confidence": "medium",
+        "note": "Umbrella mapping; refine if needed"
+      }
+    ]
+  }
+}

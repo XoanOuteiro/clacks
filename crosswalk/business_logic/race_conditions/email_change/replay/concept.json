@@ -1,0 +1,37 @@
+{
+  "id": "clacks/business_logic/race_conditions/email_change/replay",
+  "slug": "clacks/business_logic/race_conditions/email_change/replay",
+  "title": "Email Change Race Condition: Replay",
+  "aliases": [
+    "race condition",
+    "replay",
+    "replay",
+    "repeated request",
+    "email change"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-362",
+        "confidence": "high"
+      },
+      {
+        "id": "cwe/CWE-367",
+        "confidence": "medium"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A04",
+        "confidence": "medium"
+      }
+    ],
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/external_behavior",
+        "confidence": "low",
+        "note": "VRT best-effort: race conditions are often business-logic/external-behavior"
+      }
+    ]
+  }
+}

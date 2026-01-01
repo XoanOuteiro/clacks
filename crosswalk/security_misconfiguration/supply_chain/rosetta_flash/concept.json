@@ -1,0 +1,30 @@
+{
+  "id": "clacks/security_misconfiguration/supply_chain/rosetta_flash",
+  "slug": "clacks/security_misconfiguration/supply_chain/rosetta_flash",
+  "title": "Rosetta Flash",
+  "aliases": [
+    "rosetta flash",
+    "rosetta_flash"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/using_components_with_known_vulnerabilities.rosetta_flash",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A05",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-16",
+        "confidence": "medium",
+        "note": "Umbrella mapping; refine if needed"
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "clacks/business_logic/race_conditions/inventory_stock/state_desync/_constraints/timing_dependent",
+  "slug": "clacks/business_logic/race_conditions/inventory_stock/state_desync/_constraints/timing_dependent",
+  "title": "Timing Dependent",
+  "aliases": [
+    "timing dependent"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-693",
+        "confidence": "low",
+        "note": "Qualifier / modifier concept"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A01",
+        "confidence": "low"
+      }
+    ]
+  },
+  "kind": "specifier"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "clacks/security_misconfiguration/mobile/tapjacking",
+  "slug": "clacks/security_misconfiguration/mobile/tapjacking",
+  "title": "Tapjacking",
+  "aliases": [
+    "tapjacking"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/mobile_security_misconfiguration.tapjacking",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A05",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-16",
+        "confidence": "medium",
+        "note": "Umbrella mapping; refine if needed"
+      }
+    ]
+  }
+}

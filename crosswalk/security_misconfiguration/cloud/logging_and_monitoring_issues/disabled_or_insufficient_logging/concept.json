@@ -1,0 +1,30 @@
+{
+  "id": "clacks/security_misconfiguration/cloud/logging_and_monitoring_issues/disabled_or_insufficient_logging",
+  "slug": "clacks/security_misconfiguration/cloud/logging_and_monitoring_issues/disabled_or_insufficient_logging",
+  "title": "Disabled or Insufficient Logging",
+  "aliases": [
+    "disabled or insufficient logging",
+    "disabled_or_insufficient_logging"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/cloud_security.logging_and_monitoring_issues.disabled_or_insufficient_logging",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A05",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-16",
+        "confidence": "medium",
+        "note": "Umbrella mapping; refine if needed"
+      }
+    ]
+  }
+}

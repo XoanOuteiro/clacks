@@ -1,0 +1,31 @@
+{
+  "id": "clacks/authentication/weak_login_function/other_plaintext_protocol_no_secure_alternative",
+  "slug": "clacks/authentication/weak_login_function/other_plaintext_protocol_no_secure_alternative",
+  "title": "Other Plaintext Protocol with no Secure Alternative",
+  "aliases": [
+    "other plaintext protocol with no secure alternative",
+    "other plaintext protocol no secure alternative",
+    "other_plaintext_protocol_no_secure_alternative"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/broken_authentication_and_session_management.weak_login_function.other_plaintext_protocol_no_secure_alternative",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A07",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-287",
+        "confidence": "medium",
+        "note": "Umbrella mapping; refine if needed"
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "clacks/cryptography/insecure_implementation/missing_cryptographic_step",
+  "slug": "clacks/cryptography/insecure_implementation/missing_cryptographic_step",
+  "title": "Missing Cryptographic Step",
+  "aliases": [
+    "missing cryptographic step",
+    "missing_cryptographic_step"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/cryptographic_weakness.insecure_implementation.missing_cryptographic_step",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A02",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-310",
+        "confidence": "medium",
+        "note": "Umbrella mapping; refine if needed"
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "clacks/cryptography/weakness_in_firmware_updates/firmware_is_not_encrypted",
+  "slug": "clacks/cryptography/weakness_in_firmware_updates/firmware_is_not_encrypted",
+  "title": "Firmware is not encrypted",
+  "aliases": [
+    "firmware is not encrypted",
+    "firmware_is_not_encrypted"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/insecure_os_firmware.weakness_in_firmware_updates.firmware_is_not_encrypted",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A02",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-310",
+        "confidence": "medium",
+        "note": "Umbrella mapping; refine if needed"
+      }
+    ]
+  }
+}

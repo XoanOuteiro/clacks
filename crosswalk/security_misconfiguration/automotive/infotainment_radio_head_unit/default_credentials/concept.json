@@ -1,0 +1,30 @@
+{
+  "id": "clacks/security_misconfiguration/automotive/infotainment_radio_head_unit/default_credentials",
+  "slug": "clacks/security_misconfiguration/automotive/infotainment_radio_head_unit/default_credentials",
+  "title": "Default Credentials",
+  "aliases": [
+    "default credentials",
+    "default_credentials"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/automotive_security_misconfiguration.infotainment_radio_head_unit.default_credentials",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A07",
+        "confidence": "medium"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-521",
+        "confidence": "high",
+        "note": "Weak password requirements / default credentials"
+      }
+    ]
+  }
+}

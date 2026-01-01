@@ -3,12 +3,13 @@
   "slug": "clacks/injection/server_side/ldap_injection",
   "title": "LDAP Injection",
   "aliases": [
-    "ldap injection"
+    "ldap injection",
+    "ldap_injection"
   ],
   "mappings": {
-    "cwe": [
+    "bugcrowd_vrt": [
       {
-        "id": "cwe/CWE-90",
+        "id": "bugcrowd/vrt/server_side_injection.ldap_injection",
         "confidence": "high"
       }
     ],
@@ -18,30 +19,12 @@
         "confidence": "high"
       }
     ],
-    "owasp_api10": [
+    "cwe": [
       {
-        "id": "owasp/api/2023/API03",
-        "confidence": "high"
-      }
-    ],
-    "mitre_attack": [
-      {
-        "id": "mitre/T1190",
-        "confidence": "medium"
-      }
-    ],
-    "bugcrowd_vrt": [
-      {
-        "id": "bugcrowd/vrt/server_side_injection.ldap_injection",
-        "confidence": "high"
+        "id": "cwe/CWE-74",
+        "confidence": "medium",
+        "note": "Umbrella mapping; refine if needed"
       }
     ]
-  },
-  "also_in": [
-    {
-      "slug": "clacks/injection/server_side",
-      "confidence": "high",
-      "note": "Server-side injection class"
-    }
-  ]
+  }
 }

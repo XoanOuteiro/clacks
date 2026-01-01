@@ -1,0 +1,31 @@
+{
+  "id": "clacks/security_misconfiguration/no_rate_limiting_on_form/sms_triggering",
+  "slug": "clacks/security_misconfiguration/no_rate_limiting_on_form/sms_triggering",
+  "title": "SMS-Triggering",
+  "aliases": [
+    "sms-triggering",
+    "sms triggering",
+    "sms_triggering"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/server_security_misconfiguration.no_rate_limiting_on_form.sms_triggering",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A05",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-16",
+        "confidence": "medium",
+        "note": "Umbrella mapping; refine if needed"
+      }
+    ]
+  }
+}

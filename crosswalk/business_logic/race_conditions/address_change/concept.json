@@ -1,0 +1,38 @@
+{
+  "id": "clacks/business_logic/race_conditions/address_change",
+  "slug": "clacks/business_logic/race_conditions/address_change",
+  "title": "Race Condition in Shipping Address Change",
+  "aliases": [
+    "race condition",
+    "concurrency issue",
+    "address change"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-362",
+        "confidence": "high",
+        "note": "Concurrent Execution using Shared Resource with Improper Synchronization"
+      },
+      {
+        "id": "cwe/CWE-367",
+        "confidence": "medium",
+        "note": "TOCTOU variants may apply"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A04",
+        "confidence": "medium",
+        "note": "Often business logic / design issue"
+      }
+    ],
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/external_behavior",
+        "confidence": "low",
+        "note": "VRT may not have a dedicated race condition category; best-effort"
+      }
+    ]
+  }
+}

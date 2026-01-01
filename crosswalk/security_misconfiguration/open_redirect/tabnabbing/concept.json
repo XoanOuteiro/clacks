@@ -1,0 +1,22 @@
+{
+  "id": "clacks/security_misconfiguration/open_redirect/tabnabbing",
+  "slug": "clacks/security_misconfiguration/open_redirect/tabnabbing",
+  "title": "Tabnabbing",
+  "aliases": [
+    "tabnabbing"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/unvalidated_redirects_and_forwards.tabnabbing",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-601",
+        "confidence": "high"
+      }
+    ]
+  }
+}

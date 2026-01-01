@@ -1,0 +1,37 @@
+{
+  "id": "clacks/business_logic/ai_security/improper_output_handling/cross_site_scripting_xss",
+  "slug": "clacks/business_logic/ai_security/improper_output_handling/cross_site_scripting_xss",
+  "title": "Cross-Site Scripting (XSS)",
+  "aliases": [
+    "cross-site scripting (xss)",
+    "cross site scripting xss",
+    "cross_site_scripting_xss"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/ai_application_security.improper_output_handling.cross_site_scripting_xss",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A03",
+        "confidence": "high"
+      }
+    ],
+    "mitre_attack": [
+      {
+        "id": "mitre/T1059.007",
+        "confidence": "medium",
+        "note": "Browser JS execution; scenario-dependent ATT&CK usage"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-79",
+        "confidence": "high"
+      }
+    ]
+  }
+}

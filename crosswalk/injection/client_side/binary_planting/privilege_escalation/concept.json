@@ -1,0 +1,31 @@
+{
+  "id": "clacks/injection/client_side/binary_planting/privilege_escalation",
+  "slug": "clacks/injection/client_side/binary_planting/privilege_escalation",
+  "title": "Default Folder Privilege Escalation",
+  "aliases": [
+    "default folder privilege escalation",
+    "privilege escalation",
+    "privilege_escalation"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/client_side_injection.binary_planting.privilege_escalation",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A03",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-74",
+        "confidence": "medium",
+        "note": "Umbrella mapping; refine if needed"
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "clacks/security_misconfiguration/weak_two_fa_implementation/old_two_fa_code_is_not_invalidated_after_new_code_is_generated",
+  "slug": "clacks/security_misconfiguration/weak_two_fa_implementation/old_two_fa_code_is_not_invalidated_after_new_code_is_generated",
+  "title": "Old 2FA Code is Not Invalidated After New Code is Generated",
+  "aliases": [
+    "old 2fa code is not invalidated after new code is generated",
+    "old two fa code is not invalidated after new code is generated",
+    "old_two_fa_code_is_not_invalidated_after_new_code_is_generated"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/insufficient_security_configurability.weak_two_fa_implementation.old_two_fa_code_is_not_invalidated_after_new_code_is_generated",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A05",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-16",
+        "confidence": "medium",
+        "note": "Umbrella mapping; refine if needed"
+      }
+    ]
+  }
+}

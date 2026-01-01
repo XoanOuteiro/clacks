@@ -1,0 +1,31 @@
+{
+  "id": "clacks/business_logic/ai_security/remote_code_execution/full_system_compromise",
+  "slug": "clacks/business_logic/ai_security/remote_code_execution/full_system_compromise",
+  "title": "Full System Compromise",
+  "aliases": [
+    "full system compromise",
+    "full_system_compromise"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/ai_application_security.remote_code_execution.full_system_compromise",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A04",
+        "confidence": "medium",
+        "note": "Often design/workflow-related"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-840",
+        "confidence": "medium",
+        "note": "Umbrella mapping; refine if needed"
+      }
+    ]
+  }
+}

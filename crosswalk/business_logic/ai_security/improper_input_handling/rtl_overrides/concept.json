@@ -1,0 +1,31 @@
+{
+  "id": "clacks/business_logic/ai_security/improper_input_handling/rtl_overrides",
+  "slug": "clacks/business_logic/ai_security/improper_input_handling/rtl_overrides",
+  "title": "RTL Overrides",
+  "aliases": [
+    "rtl overrides",
+    "rtl_overrides"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/ai_application_security.improper_input_handling.rtl_overrides",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A04",
+        "confidence": "medium",
+        "note": "Often design/workflow-related"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-840",
+        "confidence": "medium",
+        "note": "Umbrella mapping; refine if needed"
+      }
+    ]
+  }
+}

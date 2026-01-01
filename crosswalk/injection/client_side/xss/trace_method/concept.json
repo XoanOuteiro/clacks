@@ -1,0 +1,36 @@
+{
+  "id": "clacks/injection/client_side/xss/trace_method",
+  "slug": "clacks/injection/client_side/xss/trace_method",
+  "title": "TRACE Method",
+  "aliases": [
+    "trace method",
+    "trace_method"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/cross_site_scripting_xss.trace_method",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A03",
+        "confidence": "high"
+      }
+    ],
+    "mitre_attack": [
+      {
+        "id": "mitre/T1059.007",
+        "confidence": "medium",
+        "note": "Browser JS execution; scenario-dependent ATT&CK usage"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-79",
+        "confidence": "high"
+      }
+    ]
+  }
+}

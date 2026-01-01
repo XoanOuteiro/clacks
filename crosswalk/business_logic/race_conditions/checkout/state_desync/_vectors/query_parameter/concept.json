@@ -1,0 +1,25 @@
+{
+  "id": "clacks/business_logic/race_conditions/checkout/state_desync/_vectors/query_parameter",
+  "slug": "clacks/business_logic/race_conditions/checkout/state_desync/_vectors/query_parameter",
+  "title": "Query Parameter",
+  "aliases": [
+    "query parameter",
+    "url parameter"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-693",
+        "confidence": "low",
+        "note": "Qualifier / modifier concept"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A01",
+        "confidence": "low"
+      }
+    ]
+  },
+  "kind": "specifier"
+}

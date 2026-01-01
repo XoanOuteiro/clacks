@@ -1,0 +1,31 @@
+{
+  "id": "clacks/authentication/failure_to_invalidate_session/on_logout_server_side_only",
+  "slug": "clacks/authentication/failure_to_invalidate_session/on_logout_server_side_only",
+  "title": "On Logout (Server-Side Only)",
+  "aliases": [
+    "on logout (server-side only)",
+    "on logout server side only",
+    "on_logout_server_side_only"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/broken_authentication_and_session_management.failure_to_invalidate_session.on_logout_server_side_only",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A07",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-287",
+        "confidence": "medium",
+        "note": "Umbrella mapping; refine if needed"
+      }
+    ]
+  }
+}

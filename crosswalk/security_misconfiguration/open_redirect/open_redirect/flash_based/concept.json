@@ -1,0 +1,24 @@
+{
+  "id": "clacks/security_misconfiguration/open_redirect/open_redirect/flash_based",
+  "slug": "clacks/security_misconfiguration/open_redirect/open_redirect/flash_based",
+  "title": "Flash-Based",
+  "aliases": [
+    "flash-based",
+    "flash based",
+    "flash_based"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/unvalidated_redirects_and_forwards.open_redirect.flash_based",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-601",
+        "confidence": "high"
+      }
+    ]
+  }
+}

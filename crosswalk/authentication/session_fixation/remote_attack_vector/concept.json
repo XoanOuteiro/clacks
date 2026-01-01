@@ -1,0 +1,30 @@
+{
+  "id": "clacks/authentication/session_fixation/remote_attack_vector",
+  "slug": "clacks/authentication/session_fixation/remote_attack_vector",
+  "title": "Remote Attack Vector",
+  "aliases": [
+    "remote attack vector",
+    "remote_attack_vector"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/broken_authentication_and_session_management.session_fixation.remote_attack_vector",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A07",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-287",
+        "confidence": "medium",
+        "note": "Umbrella mapping; refine if needed"
+      }
+    ]
+  }
+}

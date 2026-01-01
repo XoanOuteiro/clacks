@@ -1,0 +1,31 @@
+{
+  "id": "clacks/security_misconfiguration/ssl_attack_breach_poodle_etc",
+  "slug": "clacks/security_misconfiguration/ssl_attack_breach_poodle_etc",
+  "title": "SSL Attack (BREACH, POODLE etc.)",
+  "aliases": [
+    "ssl attack (breach, poodle etc.)",
+    "ssl attack breach poodle etc",
+    "ssl_attack_breach_poodle_etc"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/server_security_misconfiguration.ssl_attack_breach_poodle_etc",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A05",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-16",
+        "confidence": "medium",
+        "note": "Umbrella mapping; refine if needed"
+      }
+    ]
+  }
+}

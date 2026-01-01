@@ -1,0 +1,40 @@
+{
+  "id": "clacks/security_misconfiguration/graphql/alias_overloading_dos",
+  "slug": "clacks/security_misconfiguration/graphql/alias_overloading_dos",
+  "title": "GraphQL Alias Overloading DoS",
+  "aliases": [
+    "graphql",
+    "alias overloading"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-285",
+        "confidence": "medium"
+      },
+      {
+        "id": "cwe/CWE-400",
+        "confidence": "medium"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A05",
+        "confidence": "medium"
+      }
+    ],
+    "owasp_api10": [
+      {
+        "id": "owasp/api/2023/API04",
+        "confidence": "medium"
+      }
+    ],
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/server_security_misconfiguration",
+        "confidence": "low",
+        "note": "Best-effort: VRT does not have dedicated GraphQL tree"
+      }
+    ]
+  }
+}

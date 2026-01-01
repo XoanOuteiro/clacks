@@ -1,0 +1,30 @@
+{
+  "id": "clacks/authentication/failure_to_invalidate_session/on_email_change",
+  "slug": "clacks/authentication/failure_to_invalidate_session/on_email_change",
+  "title": "On Email Change",
+  "aliases": [
+    "on email change",
+    "on_email_change"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/broken_authentication_and_session_management.failure_to_invalidate_session.on_email_change",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A07",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-287",
+        "confidence": "medium",
+        "note": "Umbrella mapping; refine if needed"
+      }
+    ]
+  }
+}

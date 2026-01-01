@@ -1,0 +1,32 @@
+{
+  "id": "clacks/business_logic/ai_security/model_extraction/api_query_based_model_reconstruction",
+  "slug": "clacks/business_logic/ai_security/model_extraction/api_query_based_model_reconstruction",
+  "title": "API Query-Based Model Reconstruction",
+  "aliases": [
+    "api query-based model reconstruction",
+    "api query based model reconstruction",
+    "api_query_based_model_reconstruction"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/ai_application_security.model_extraction.api_query_based_model_reconstruction",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A04",
+        "confidence": "medium",
+        "note": "Often design/workflow-related"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-840",
+        "confidence": "medium",
+        "note": "Umbrella mapping; refine if needed"
+      }
+    ]
+  }
+}

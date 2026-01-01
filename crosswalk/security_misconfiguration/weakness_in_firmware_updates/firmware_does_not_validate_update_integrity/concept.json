@@ -1,0 +1,30 @@
+{
+  "id": "clacks/security_misconfiguration/weakness_in_firmware_updates/firmware_does_not_validate_update_integrity",
+  "slug": "clacks/security_misconfiguration/weakness_in_firmware_updates/firmware_does_not_validate_update_integrity",
+  "title": "Firmware does not validate update integrity",
+  "aliases": [
+    "firmware does not validate update integrity",
+    "firmware_does_not_validate_update_integrity"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/insecure_os_firmware.weakness_in_firmware_updates.firmware_does_not_validate_update_integrity",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A05",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-16",
+        "confidence": "medium",
+        "note": "Umbrella mapping; refine if needed"
+      }
+    ]
+  }
+}

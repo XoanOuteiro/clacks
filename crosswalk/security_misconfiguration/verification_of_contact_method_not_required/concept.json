@@ -1,0 +1,30 @@
+{
+  "id": "clacks/security_misconfiguration/verification_of_contact_method_not_required",
+  "slug": "clacks/security_misconfiguration/verification_of_contact_method_not_required",
+  "title": "Verification of Contact Method not Required",
+  "aliases": [
+    "verification of contact method not required",
+    "verification_of_contact_method_not_required"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/insufficient_security_configurability.verification_of_contact_method_not_required",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A05",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-16",
+        "confidence": "medium",
+        "note": "Umbrella mapping; refine if needed"
+      }
+    ]
+  }
+}

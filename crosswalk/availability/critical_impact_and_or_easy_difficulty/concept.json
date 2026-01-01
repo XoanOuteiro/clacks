@@ -1,0 +1,31 @@
+{
+  "id": "clacks/availability/critical_impact_and_or_easy_difficulty",
+  "slug": "clacks/availability/critical_impact_and_or_easy_difficulty",
+  "title": "Critical Impact and/or Easy Difficulty",
+  "aliases": [
+    "critical impact and/or easy difficulty",
+    "critical impact and or easy difficulty",
+    "critical_impact_and_or_easy_difficulty"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/application_level_denial_of_service_dos.critical_impact_and_or_easy_difficulty",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A10",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-400",
+        "confidence": "medium",
+        "note": "Umbrella mapping; refine if needed"
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "clacks/injection/client_side/xss/stored/non_admin_to_anyone",
+  "slug": "clacks/injection/client_side/xss/stored/non_admin_to_anyone",
+  "title": "Non-Privileged User to Anyone",
+  "aliases": [
+    "non-privileged user to anyone",
+    "non admin to anyone",
+    "non_admin_to_anyone"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/cross_site_scripting_xss.stored.non_admin_to_anyone",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A03",
+        "confidence": "high"
+      }
+    ],
+    "mitre_attack": [
+      {
+        "id": "mitre/T1059.007",
+        "confidence": "medium",
+        "note": "Browser JS execution; scenario-dependent ATT&CK usage"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-79",
+        "confidence": "high"
+      }
+    ]
+  }
+}

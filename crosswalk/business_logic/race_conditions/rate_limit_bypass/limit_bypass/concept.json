@@ -1,0 +1,37 @@
+{
+  "id": "clacks/business_logic/race_conditions/rate_limit_bypass/limit_bypass",
+  "slug": "clacks/business_logic/race_conditions/rate_limit_bypass/limit_bypass",
+  "title": "Rate Limit Bypass Race Condition: Limit Bypass",
+  "aliases": [
+    "race condition",
+    "limit bypass",
+    "limit bypass",
+    "quota bypass",
+    "rate limit bypass"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-362",
+        "confidence": "high"
+      },
+      {
+        "id": "cwe/CWE-367",
+        "confidence": "medium"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A04",
+        "confidence": "medium"
+      }
+    ],
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/external_behavior",
+        "confidence": "low",
+        "note": "VRT best-effort: race conditions are often business-logic/external-behavior"
+      }
+    ]
+  }
+}

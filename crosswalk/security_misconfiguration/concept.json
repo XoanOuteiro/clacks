@@ -1,10 +1,30 @@
 {
   "id": "clacks/security_misconfiguration",
   "slug": "clacks/security_misconfiguration",
-  "title": "Security Misconfiguration",
+  "title": "Indicators of Compromise",
   "aliases": [
-    "security misconfiguration",
-    "security_misconfiguration"
+    "indicators of compromise",
+    "indicators_of_compromise"
   ],
-  "mappings": {}
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/indicators_of_compromise",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A05",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-16",
+        "confidence": "medium",
+        "note": "Umbrella mapping; refine if needed"
+      }
+    ]
+  }
 }

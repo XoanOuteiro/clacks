@@ -1,0 +1,31 @@
+{
+  "id": "clacks/memory_safety/binary_hardening/runtime_instrumentation_based",
+  "slug": "clacks/memory_safety/binary_hardening/runtime_instrumentation_based",
+  "title": "Runtime Instrumentation-Based",
+  "aliases": [
+    "runtime instrumentation-based",
+    "runtime instrumentation based",
+    "runtime_instrumentation_based"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/lack_of_binary_hardening.runtime_instrumentation_based",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A04",
+        "confidence": "medium"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-119",
+        "confidence": "medium",
+        "note": "Umbrella mapping; refine if needed"
+      }
+    ]
+  }
+}

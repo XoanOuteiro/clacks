@@ -1,0 +1,37 @@
+{
+  "id": "clacks/security_misconfiguration/lack_of_security_headers/x_xss_protection",
+  "slug": "clacks/security_misconfiguration/lack_of_security_headers/x_xss_protection",
+  "title": "X-XSS-Protection",
+  "aliases": [
+    "x-xss-protection",
+    "x xss protection",
+    "x_xss_protection"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/server_security_misconfiguration.lack_of_security_headers.x_xss_protection",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A03",
+        "confidence": "high"
+      }
+    ],
+    "mitre_attack": [
+      {
+        "id": "mitre/T1059.007",
+        "confidence": "medium",
+        "note": "Browser JS execution; scenario-dependent ATT&CK usage"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-79",
+        "confidence": "high"
+      }
+    ]
+  }
+}

@@ -1,17 +1,16 @@
 {
   "id": "clacks/access_control/object_level",
   "slug": "clacks/access_control/object_level",
-  "title": "Object-Level Access Control",
+  "title": "Object-Level Authorization",
   "aliases": [
-    "object level authorization",
     "bola",
     "idor",
-    "resource authorization"
+    "object authorization"
   ],
   "mappings": {
     "cwe": [
       {
-        "id": "cwe/CWE-284",
+        "id": "cwe/CWE-639",
         "confidence": "high"
       }
     ],
@@ -29,17 +28,9 @@
     ],
     "bugcrowd_vrt": [
       {
-        "id": "bugcrowd/vrt/broken_access_control",
-        "confidence": "medium",
-        "note": "VRT groups many access control failures under Broken Access Control"
+        "id": "bugcrowd/vrt/broken_access_control.insecure_direct_object_references",
+        "confidence": "high"
       }
     ]
-  },
-  "also_in": [
-    {
-      "slug": "clacks/access_control",
-      "confidence": "high",
-      "note": "Access control umbrella"
-    }
-  ]
+  }
 }

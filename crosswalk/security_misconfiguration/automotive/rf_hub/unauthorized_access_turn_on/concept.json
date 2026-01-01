@@ -1,0 +1,31 @@
+{
+  "id": "clacks/security_misconfiguration/automotive/rf_hub/unauthorized_access_turn_on",
+  "slug": "clacks/security_misconfiguration/automotive/rf_hub/unauthorized_access_turn_on",
+  "title": "Unauthorized Access / Turn On",
+  "aliases": [
+    "unauthorized access / turn on",
+    "unauthorized access turn on",
+    "unauthorized_access_turn_on"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/automotive_security_misconfiguration.rf_hub.unauthorized_access_turn_on",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A05",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-16",
+        "confidence": "medium",
+        "note": "Umbrella mapping; refine if needed"
+      }
+    ]
+  }
+}

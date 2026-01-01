@@ -1,0 +1,23 @@
+{
+  "id": "clacks/security_misconfiguration/unsafe_file_upload/file_extension_filter_bypass",
+  "slug": "clacks/security_misconfiguration/unsafe_file_upload/file_extension_filter_bypass",
+  "title": "File Extension Filter Bypass",
+  "aliases": [
+    "file extension filter bypass",
+    "file_extension_filter_bypass"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/server_security_misconfiguration.unsafe_file_upload.file_extension_filter_bypass",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-434",
+        "confidence": "high"
+      }
+    ]
+  }
+}

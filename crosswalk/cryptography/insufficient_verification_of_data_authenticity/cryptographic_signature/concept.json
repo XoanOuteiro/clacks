@@ -1,0 +1,30 @@
+{
+  "id": "clacks/cryptography/insufficient_verification_of_data_authenticity/cryptographic_signature",
+  "slug": "clacks/cryptography/insufficient_verification_of_data_authenticity/cryptographic_signature",
+  "title": "Cryptographic Signature",
+  "aliases": [
+    "cryptographic signature",
+    "cryptographic_signature"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/cryptographic_weakness.insufficient_verification_of_data_authenticity.cryptographic_signature",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A02",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-310",
+        "confidence": "medium",
+        "note": "Umbrella mapping; refine if needed"
+      }
+    ]
+  }
+}

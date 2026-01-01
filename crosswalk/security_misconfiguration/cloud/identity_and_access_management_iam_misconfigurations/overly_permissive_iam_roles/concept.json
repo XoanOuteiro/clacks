@@ -1,0 +1,30 @@
+{
+  "id": "clacks/security_misconfiguration/cloud/identity_and_access_management_iam_misconfigurations/overly_permissive_iam_roles",
+  "slug": "clacks/security_misconfiguration/cloud/identity_and_access_management_iam_misconfigurations/overly_permissive_iam_roles",
+  "title": "Overly Permissive IAM Roles",
+  "aliases": [
+    "overly permissive iam roles",
+    "overly_permissive_iam_roles"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/cloud_security.identity_and_access_management_iam_misconfigurations.overly_permissive_iam_roles",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A05",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-16",
+        "confidence": "medium",
+        "note": "Umbrella mapping; refine if needed"
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "clacks/injection/server_side/remote_code_execution_rce",
+  "slug": "clacks/injection/server_side/remote_code_execution_rce",
+  "title": "Remote Code Execution (RCE)",
+  "aliases": [
+    "remote code execution (rce)",
+    "remote code execution rce",
+    "remote_code_execution_rce"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/server_side_injection.remote_code_execution_rce",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A03",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-74",
+        "confidence": "medium",
+        "note": "Umbrella mapping; refine if needed"
+      }
+    ]
+  }
+}

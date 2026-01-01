@@ -1,0 +1,30 @@
+{
+  "id": "clacks/security_misconfiguration/mobile/clipboard_enabled",
+  "slug": "clacks/security_misconfiguration/mobile/clipboard_enabled",
+  "title": "Clipboard Enabled",
+  "aliases": [
+    "clipboard enabled",
+    "clipboard_enabled"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/mobile_security_misconfiguration.clipboard_enabled",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A05",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-16",
+        "confidence": "medium",
+        "note": "Umbrella mapping; refine if needed"
+      }
+    ]
+  }
+}

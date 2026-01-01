@@ -1,0 +1,31 @@
+{
+  "id": "clacks/data_exposure/token_leakage_via_referer/untrusted_third_party",
+  "slug": "clacks/data_exposure/token_leakage_via_referer/untrusted_third_party",
+  "title": "Untrusted 3rd Party",
+  "aliases": [
+    "untrusted 3rd party",
+    "untrusted third party",
+    "untrusted_third_party"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/sensitive_data_exposure.token_leakage_via_referer.untrusted_third_party",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A02",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-200",
+        "confidence": "medium",
+        "note": "Umbrella mapping; refine if needed"
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "clacks/cryptography/weak_hash/lack_of_salt",
+  "slug": "clacks/cryptography/weak_hash/lack_of_salt",
+  "title": "Lack of Salt",
+  "aliases": [
+    "lack of salt",
+    "lack_of_salt"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/cryptographic_weakness.weak_hash.lack_of_salt",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A02",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-310",
+        "confidence": "medium",
+        "note": "Umbrella mapping; refine if needed"
+      }
+    ]
+  }
+}

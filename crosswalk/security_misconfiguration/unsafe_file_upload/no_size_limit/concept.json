@@ -1,0 +1,23 @@
+{
+  "id": "clacks/security_misconfiguration/unsafe_file_upload/no_size_limit",
+  "slug": "clacks/security_misconfiguration/unsafe_file_upload/no_size_limit",
+  "title": "No Size Limit",
+  "aliases": [
+    "no size limit",
+    "no_size_limit"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/server_security_misconfiguration.unsafe_file_upload.no_size_limit",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-434",
+        "confidence": "high"
+      }
+    ]
+  }
+}

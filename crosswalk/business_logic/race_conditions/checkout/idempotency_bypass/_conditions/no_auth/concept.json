@@ -1,0 +1,25 @@
+{
+  "id": "clacks/business_logic/race_conditions/checkout/idempotency_bypass/_conditions/no_auth",
+  "slug": "clacks/business_logic/race_conditions/checkout/idempotency_bypass/_conditions/no_auth",
+  "title": "No Auth",
+  "aliases": [
+    "pre-auth",
+    "no auth"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-693",
+        "confidence": "low",
+        "note": "Qualifier / modifier concept"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A01",
+        "confidence": "low"
+      }
+    ]
+  },
+  "kind": "specifier"
+}

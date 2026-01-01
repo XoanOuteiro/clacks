@@ -1,0 +1,30 @@
+{
+  "id": "clacks/security_misconfiguration/automotive/battery_management_system/firmware_dump",
+  "slug": "clacks/security_misconfiguration/automotive/battery_management_system/firmware_dump",
+  "title": "Firmware Dump",
+  "aliases": [
+    "firmware dump",
+    "firmware_dump"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/automotive_security_misconfiguration.battery_management_system.firmware_dump",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A05",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-16",
+        "confidence": "medium",
+        "note": "Umbrella mapping; refine if needed"
+      }
+    ]
+  }
+}

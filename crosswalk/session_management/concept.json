@@ -1,10 +1,24 @@
 {
   "id": "clacks/session_management",
   "slug": "clacks/session_management",
-  "title": "Session Management Issues",
+  "title": "Session Management",
   "aliases": [
     "session management",
     "session_management"
   ],
-  "mappings": {}
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-613",
+        "confidence": "high",
+        "note": "Umbrella mapping for this family"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A07",
+        "confidence": "high"
+      }
+    ]
+  }
 }

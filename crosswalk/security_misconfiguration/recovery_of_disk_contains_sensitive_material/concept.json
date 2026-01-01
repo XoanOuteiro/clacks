@@ -1,0 +1,30 @@
+{
+  "id": "clacks/security_misconfiguration/recovery_of_disk_contains_sensitive_material",
+  "slug": "clacks/security_misconfiguration/recovery_of_disk_contains_sensitive_material",
+  "title": "Recovery of Disk Contains Sensitive Material",
+  "aliases": [
+    "recovery of disk contains sensitive material",
+    "recovery_of_disk_contains_sensitive_material"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/insecure_os_firmware.recovery_of_disk_contains_sensitive_material",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A05",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-16",
+        "confidence": "medium",
+        "note": "Umbrella mapping; refine if needed"
+      }
+    ]
+  }
+}

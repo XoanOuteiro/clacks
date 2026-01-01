@@ -1,7 +1,7 @@
 {
   "id": "clacks/access_control",
   "slug": "clacks/access_control",
-  "title": "Access Control Issues",
+  "title": "Access Control",
   "aliases": [
     "access control",
     "access_control"
@@ -11,25 +11,12 @@
       {
         "id": "cwe/CWE-284",
         "confidence": "high",
-        "note": "Improper Access Control (umbrella)"
+        "note": "Umbrella mapping for this family"
       }
     ],
     "owasp_top10": [
       {
         "id": "owasp/top10/2021/A01",
-        "confidence": "high"
-      }
-    ],
-    "owasp_api10": [
-      {
-        "id": "owasp/api/2023/API01",
-        "confidence": "high",
-        "note": "BOLA is core access control issue"
-      }
-    ],
-    "bugcrowd_vrt": [
-      {
-        "id": "bugcrowd/vrt/broken_access_control",
         "confidence": "high"
       }
     ]

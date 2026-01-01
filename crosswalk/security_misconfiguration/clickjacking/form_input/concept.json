@@ -1,0 +1,24 @@
+{
+  "id": "clacks/security_misconfiguration/clickjacking/form_input",
+  "slug": "clacks/security_misconfiguration/clickjacking/form_input",
+  "title": "Form Input",
+  "aliases": [
+    "form input",
+    "form_input"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/server_security_misconfiguration.clickjacking.form_input",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-1021",
+        "confidence": "medium",
+        "note": "UI redress family CWE varies"
+      }
+    ]
+  }
+}

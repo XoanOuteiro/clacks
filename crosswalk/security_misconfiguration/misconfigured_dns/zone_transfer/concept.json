@@ -1,0 +1,30 @@
+{
+  "id": "clacks/security_misconfiguration/misconfigured_dns/zone_transfer",
+  "slug": "clacks/security_misconfiguration/misconfigured_dns/zone_transfer",
+  "title": "Zone Transfer",
+  "aliases": [
+    "zone transfer",
+    "zone_transfer"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/server_security_misconfiguration.misconfigured_dns.zone_transfer",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A05",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-16",
+        "confidence": "medium",
+        "note": "Umbrella mapping; refine if needed"
+      }
+    ]
+  }
+}

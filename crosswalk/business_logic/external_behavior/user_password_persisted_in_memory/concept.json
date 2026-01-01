@@ -1,0 +1,31 @@
+{
+  "id": "clacks/business_logic/external_behavior/user_password_persisted_in_memory",
+  "slug": "clacks/business_logic/external_behavior/user_password_persisted_in_memory",
+  "title": "User Password Persisted in Memory",
+  "aliases": [
+    "user password persisted in memory",
+    "user_password_persisted_in_memory"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/external_behavior.user_password_persisted_in_memory",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A04",
+        "confidence": "medium",
+        "note": "Often design/workflow-related"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-840",
+        "confidence": "medium",
+        "note": "Umbrella mapping; refine if needed"
+      }
+    ]
+  }
+}

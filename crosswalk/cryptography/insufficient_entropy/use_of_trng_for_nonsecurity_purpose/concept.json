@@ -1,0 +1,31 @@
+{
+  "id": "clacks/cryptography/insufficient_entropy/use_of_trng_for_nonsecurity_purpose",
+  "slug": "clacks/cryptography/insufficient_entropy/use_of_trng_for_nonsecurity_purpose",
+  "title": "Use of True Random Number Generator (TRNG) for Non-Security Purpose",
+  "aliases": [
+    "use of true random number generator (trng) for non-security purpose",
+    "use of trng for nonsecurity purpose",
+    "use_of_trng_for_nonsecurity_purpose"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/cryptographic_weakness.insufficient_entropy.use_of_trng_for_nonsecurity_purpose",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A02",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-310",
+        "confidence": "medium",
+        "note": "Umbrella mapping; refine if needed"
+      }
+    ]
+  }
+}

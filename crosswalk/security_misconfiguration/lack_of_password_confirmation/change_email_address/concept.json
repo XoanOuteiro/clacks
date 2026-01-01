@@ -1,0 +1,30 @@
+{
+  "id": "clacks/security_misconfiguration/lack_of_password_confirmation/change_email_address",
+  "slug": "clacks/security_misconfiguration/lack_of_password_confirmation/change_email_address",
+  "title": "Change Email Address",
+  "aliases": [
+    "change email address",
+    "change_email_address"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/server_security_misconfiguration.lack_of_password_confirmation.change_email_address",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A05",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-16",
+        "confidence": "medium",
+        "note": "Umbrella mapping; refine if needed"
+      }
+    ]
+  }
+}

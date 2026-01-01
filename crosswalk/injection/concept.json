@@ -11,7 +11,7 @@
       {
         "id": "cwe/CWE-74",
         "confidence": "high",
-        "note": "Umbrella CWE for injection-style weaknesses"
+        "note": "Umbrella mapping for this family"
       }
     ],
     "owasp_top10": [
@@ -24,19 +24,7 @@
       {
         "id": "mitre/T1190",
         "confidence": "medium",
-        "note": "Broad mapping: exploited via public-facing apps"
-      }
-    ],
-    "bugcrowd_vrt": [
-      {
-        "id": "bugcrowd/vrt/server_side_injection",
-        "confidence": "high",
-        "note": "Umbrella for server-side injection classes"
-      },
-      {
-        "id": "bugcrowd/vrt/client_side_injection",
-        "confidence": "medium",
-        "note": "Umbrella for client-side injection classes"
+        "note": "Broad: public-facing exploitation"
       }
     ]
   }

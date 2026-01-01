@@ -1,0 +1,30 @@
+{
+  "id": "clacks/data_exposure/visible_detailed_error_page/detailed_server_configuration",
+  "slug": "clacks/data_exposure/visible_detailed_error_page/detailed_server_configuration",
+  "title": "Detailed Server Configuration",
+  "aliases": [
+    "detailed server configuration",
+    "detailed_server_configuration"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/sensitive_data_exposure.visible_detailed_error_page.detailed_server_configuration",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A02",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-200",
+        "confidence": "medium",
+        "note": "Umbrella mapping; refine if needed"
+      }
+    ]
+  }
+}

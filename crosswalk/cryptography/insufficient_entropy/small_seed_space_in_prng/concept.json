@@ -1,0 +1,31 @@
+{
+  "id": "clacks/cryptography/insufficient_entropy/small_seed_space_in_prng",
+  "slug": "clacks/cryptography/insufficient_entropy/small_seed_space_in_prng",
+  "title": "Small Seed Space in Pseudo-Random Number Generator (PRNG)",
+  "aliases": [
+    "small seed space in pseudo-random number generator (prng)",
+    "small seed space in prng",
+    "small_seed_space_in_prng"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/cryptographic_weakness.insufficient_entropy.small_seed_space_in_prng",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A02",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-310",
+        "confidence": "medium",
+        "note": "Umbrella mapping; refine if needed"
+      }
+    ]
+  }
+}

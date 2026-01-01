@@ -1,0 +1,23 @@
+{
+  "id": "clacks/security_misconfiguration/open_redirect/lack_of_security_speed_bump_page",
+  "slug": "clacks/security_misconfiguration/open_redirect/lack_of_security_speed_bump_page",
+  "title": "Lack of Security Speed Bump Page",
+  "aliases": [
+    "lack of security speed bump page",
+    "lack_of_security_speed_bump_page"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/unvalidated_redirects_and_forwards.lack_of_security_speed_bump_page",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-601",
+        "confidence": "high"
+      }
+    ]
+  }
+}

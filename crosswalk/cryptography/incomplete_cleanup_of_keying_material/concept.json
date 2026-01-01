@@ -1,0 +1,30 @@
+{
+  "id": "clacks/cryptography/incomplete_cleanup_of_keying_material",
+  "slug": "clacks/cryptography/incomplete_cleanup_of_keying_material",
+  "title": "Incomplete Cleanup of Keying Material",
+  "aliases": [
+    "incomplete cleanup of keying material",
+    "incomplete_cleanup_of_keying_material"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/cryptographic_weakness.incomplete_cleanup_of_keying_material",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A02",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-310",
+        "confidence": "medium",
+        "note": "Umbrella mapping; refine if needed"
+      }
+    ]
+  }
+}

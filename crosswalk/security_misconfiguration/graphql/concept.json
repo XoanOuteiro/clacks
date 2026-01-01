@@ -1,0 +1,48 @@
+{
+  "id": "clacks/security_misconfiguration/graphql",
+  "slug": "clacks/security_misconfiguration/graphql",
+  "title": "GraphQL Security Issues",
+  "aliases": [
+    "graphql security",
+    "graphql"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-285",
+        "confidence": "medium"
+      },
+      {
+        "id": "cwe/CWE-400",
+        "confidence": "medium"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A05",
+        "confidence": "medium"
+      },
+      {
+        "id": "owasp/top10/2021/A01",
+        "confidence": "medium"
+      }
+    ],
+    "owasp_api10": [
+      {
+        "id": "owasp/api/2023/API04",
+        "confidence": "medium"
+      },
+      {
+        "id": "owasp/api/2023/API05",
+        "confidence": "medium"
+      }
+    ],
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/server_security_misconfiguration",
+        "confidence": "low",
+        "note": "GraphQL issues spread across misconfig/access control"
+      }
+    ]
+  }
+}

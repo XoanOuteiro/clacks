@@ -1,0 +1,30 @@
+{
+  "id": "clacks/security_misconfiguration/smart_contract/uninitialized_variables",
+  "slug": "clacks/security_misconfiguration/smart_contract/uninitialized_variables",
+  "title": "Uninitialized Variables",
+  "aliases": [
+    "uninitialized variables",
+    "uninitialized_variables"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/smart_contract_misconfiguration.uninitialized_variables",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A05",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-16",
+        "confidence": "medium",
+        "note": "Umbrella mapping; refine if needed"
+      }
+    ]
+  }
+}

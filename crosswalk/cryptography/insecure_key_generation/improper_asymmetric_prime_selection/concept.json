@@ -1,0 +1,30 @@
+{
+  "id": "clacks/cryptography/insecure_key_generation/improper_asymmetric_prime_selection",
+  "slug": "clacks/cryptography/insecure_key_generation/improper_asymmetric_prime_selection",
+  "title": "Improper Asymmetric Prime Selection",
+  "aliases": [
+    "improper asymmetric prime selection",
+    "improper_asymmetric_prime_selection"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/cryptographic_weakness.insecure_key_generation.improper_asymmetric_prime_selection",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A02",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-310",
+        "confidence": "medium",
+        "note": "Umbrella mapping; refine if needed"
+      }
+    ]
+  }
+}

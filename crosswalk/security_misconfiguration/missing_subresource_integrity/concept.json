@@ -1,0 +1,30 @@
+{
+  "id": "clacks/security_misconfiguration/missing_subresource_integrity",
+  "slug": "clacks/security_misconfiguration/missing_subresource_integrity",
+  "title": "Missing Subresource Integrity",
+  "aliases": [
+    "missing subresource integrity",
+    "missing_subresource_integrity"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/server_security_misconfiguration.missing_subresource_integrity",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A05",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-16",
+        "confidence": "medium",
+        "note": "Umbrella mapping; refine if needed"
+      }
+    ]
+  }
+}

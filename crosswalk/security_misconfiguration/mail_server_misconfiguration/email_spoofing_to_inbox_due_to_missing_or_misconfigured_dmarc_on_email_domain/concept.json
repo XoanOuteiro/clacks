@@ -1,0 +1,30 @@
+{
+  "id": "clacks/security_misconfiguration/mail_server_misconfiguration/email_spoofing_to_inbox_due_to_missing_or_misconfigured_dmarc_on_email_domain",
+  "slug": "clacks/security_misconfiguration/mail_server_misconfiguration/email_spoofing_to_inbox_due_to_missing_or_misconfigured_dmarc_on_email_domain",
+  "title": "Email Spoofing to Inbox due to Missing or Misconfigured DMARC on Email Domain",
+  "aliases": [
+    "email spoofing to inbox due to missing or misconfigured dmarc on email domain",
+    "email_spoofing_to_inbox_due_to_missing_or_misconfigured_dmarc_on_email_domain"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/server_security_misconfiguration.mail_server_misconfiguration.email_spoofing_to_inbox_due_to_missing_or_misconfigured_dmarc_on_email_domain",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A05",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-16",
+        "confidence": "medium",
+        "note": "Umbrella mapping; refine if needed"
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "clacks/security_misconfiguration/server_side_request_forgery_ssrf/internal_scan_and_or_medium_impact",
+  "slug": "clacks/security_misconfiguration/server_side_request_forgery_ssrf/internal_scan_and_or_medium_impact",
+  "title": "Internal Scan and/or Medium Impact",
+  "aliases": [
+    "internal scan and/or medium impact",
+    "internal scan and or medium impact",
+    "internal_scan_and_or_medium_impact"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/server_security_misconfiguration.server_side_request_forgery_ssrf.internal_scan_and_or_medium_impact",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A10",
+        "confidence": "medium"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-918",
+        "confidence": "high"
+      }
+    ]
+  }
+}

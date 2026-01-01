@@ -1,0 +1,30 @@
+{
+  "id": "clacks/security_misconfiguration/server_side_request_forgery_ssrf/external_dns_query_only",
+  "slug": "clacks/security_misconfiguration/server_side_request_forgery_ssrf/external_dns_query_only",
+  "title": "External - DNS Query Only",
+  "aliases": [
+    "external - dns query only",
+    "external dns query only",
+    "external_dns_query_only"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/server_security_misconfiguration.server_side_request_forgery_ssrf.external_dns_query_only",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A10",
+        "confidence": "medium"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-918",
+        "confidence": "high"
+      }
+    ]
+  }
+}

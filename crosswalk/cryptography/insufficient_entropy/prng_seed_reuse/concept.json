@@ -1,0 +1,31 @@
+{
+  "id": "clacks/cryptography/insufficient_entropy/prng_seed_reuse",
+  "slug": "clacks/cryptography/insufficient_entropy/prng_seed_reuse",
+  "title": "Pseudo-Random Number Generator (PRNG) Seed Reuse",
+  "aliases": [
+    "pseudo-random number generator (prng) seed reuse",
+    "prng seed reuse",
+    "prng_seed_reuse"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/cryptographic_weakness.insufficient_entropy.prng_seed_reuse",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A02",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-310",
+        "confidence": "medium",
+        "note": "Umbrella mapping; refine if needed"
+      }
+    ]
+  }
+}

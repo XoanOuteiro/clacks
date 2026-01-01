@@ -1,0 +1,35 @@
+{
+  "id": "clacks/security_misconfiguration/caching",
+  "slug": "clacks/security_misconfiguration/caching",
+  "title": "Caching Issues",
+  "aliases": [
+    "cache",
+    "caching"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-525",
+        "confidence": "medium",
+        "note": "Use of Web Cache Containing Sensitive Information (related)"
+      },
+      {
+        "id": "cwe/CWE-444",
+        "confidence": "medium"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A05",
+        "confidence": "high"
+      }
+    ],
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/server_security_misconfiguration.cache_poisoning",
+        "confidence": "medium",
+        "note": "Cache-related issues often under misconfiguration"
+      }
+    ]
+  }
+}

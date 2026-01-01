@@ -1,0 +1,30 @@
+{
+  "id": "clacks/memory_safety/binary_hardening/lack_of_obfuscation",
+  "slug": "clacks/memory_safety/binary_hardening/lack_of_obfuscation",
+  "title": "Lack of Obfuscation",
+  "aliases": [
+    "lack of obfuscation",
+    "lack_of_obfuscation"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/lack_of_binary_hardening.lack_of_obfuscation",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A04",
+        "confidence": "medium"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-119",
+        "confidence": "medium",
+        "note": "Umbrella mapping; refine if needed"
+      }
+    ]
+  }
+}

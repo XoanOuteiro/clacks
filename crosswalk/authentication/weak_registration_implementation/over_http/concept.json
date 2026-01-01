@@ -1,0 +1,30 @@
+{
+  "id": "clacks/authentication/weak_registration_implementation/over_http",
+  "slug": "clacks/authentication/weak_registration_implementation/over_http",
+  "title": "Over HTTP",
+  "aliases": [
+    "over http",
+    "over_http"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/broken_authentication_and_session_management.weak_registration_implementation.over_http",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A07",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-287",
+        "confidence": "medium",
+        "note": "Umbrella mapping; refine if needed"
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "clacks/injection/server_side/http_response_manipulation/response_splitting_crlf",
+  "slug": "clacks/injection/server_side/http_response_manipulation/response_splitting_crlf",
+  "title": "Response Splitting (CRLF)",
+  "aliases": [
+    "response splitting (crlf)",
+    "response splitting crlf",
+    "response_splitting_crlf"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/server_side_injection.http_response_manipulation.response_splitting_crlf",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A03",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-74",
+        "confidence": "medium",
+        "note": "Umbrella mapping; refine if needed"
+      }
+    ]
+  }
+}

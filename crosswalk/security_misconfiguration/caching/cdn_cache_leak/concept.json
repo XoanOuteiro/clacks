@@ -1,0 +1,33 @@
+{
+  "id": "clacks/security_misconfiguration/caching/cdn_cache_leak",
+  "slug": "clacks/security_misconfiguration/caching/cdn_cache_leak",
+  "title": "CDN Cache Leakage",
+  "aliases": [
+    "cdn cache leak"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-444",
+        "confidence": "medium"
+      },
+      {
+        "id": "cwe/CWE-525",
+        "confidence": "medium"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A05",
+        "confidence": "high"
+      }
+    ],
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/server_security_misconfiguration.cache_poisoning",
+        "confidence": "medium",
+        "note": "Best-effort mapping; VRT cache poisoning node"
+      }
+    ]
+  }
+}

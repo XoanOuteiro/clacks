@@ -1,0 +1,30 @@
+{
+  "id": "clacks/security_misconfiguration/weakness_in_firmware_updates/firmware_cannot_be_updated",
+  "slug": "clacks/security_misconfiguration/weakness_in_firmware_updates/firmware_cannot_be_updated",
+  "title": "Firmware cannot be updated",
+  "aliases": [
+    "firmware cannot be updated",
+    "firmware_cannot_be_updated"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/insecure_os_firmware.weakness_in_firmware_updates.firmware_cannot_be_updated",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A05",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-16",
+        "confidence": "medium",
+        "note": "Umbrella mapping; refine if needed"
+      }
+    ]
+  }
+}

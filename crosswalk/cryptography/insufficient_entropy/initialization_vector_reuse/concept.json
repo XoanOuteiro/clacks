@@ -1,0 +1,31 @@
+{
+  "id": "clacks/cryptography/insufficient_entropy/initialization_vector_reuse",
+  "slug": "clacks/cryptography/insufficient_entropy/initialization_vector_reuse",
+  "title": "Initialization Vector (IV) Reuse",
+  "aliases": [
+    "initialization vector (iv) reuse",
+    "initialization vector reuse",
+    "initialization_vector_reuse"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/cryptographic_weakness.insufficient_entropy.initialization_vector_reuse",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A02",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-310",
+        "confidence": "medium",
+        "note": "Umbrella mapping; refine if needed"
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "clacks/cryptography/insecure_key_generation/insufficient_key_space",
+  "slug": "clacks/cryptography/insecure_key_generation/insufficient_key_space",
+  "title": "Insufficient Key Space",
+  "aliases": [
+    "insufficient key space",
+    "insufficient_key_space"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/cryptographic_weakness.insecure_key_generation.insufficient_key_space",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A02",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-310",
+        "confidence": "medium",
+        "note": "Umbrella mapping; refine if needed"
+      }
+    ]
+  }
+}

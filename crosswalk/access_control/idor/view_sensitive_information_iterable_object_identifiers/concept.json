@@ -1,0 +1,36 @@
+{
+  "id": "clacks/access_control/idor/view_sensitive_information_iterable_object_identifiers",
+  "slug": "clacks/access_control/idor/view_sensitive_information_iterable_object_identifiers",
+  "title": "View Sensitive Information(Iterable Object Identifiers)",
+  "aliases": [
+    "view sensitive information(iterable object identifiers)",
+    "view sensitive information iterable object identifiers",
+    "view_sensitive_information_iterable_object_identifiers"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/broken_access_control.idor.view_sensitive_information_iterable_object_identifiers",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A01",
+        "confidence": "high"
+      }
+    ],
+    "owasp_api10": [
+      {
+        "id": "owasp/api/2023/API01",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-639",
+        "confidence": "high"
+      }
+    ]
+  }
+}

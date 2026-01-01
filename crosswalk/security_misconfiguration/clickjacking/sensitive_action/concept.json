@@ -1,0 +1,25 @@
+{
+  "id": "clacks/security_misconfiguration/clickjacking/sensitive_action",
+  "slug": "clacks/security_misconfiguration/clickjacking/sensitive_action",
+  "title": "Sensitive Click-Based Action",
+  "aliases": [
+    "sensitive click-based action",
+    "sensitive action",
+    "sensitive_action"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/server_security_misconfiguration.clickjacking.sensitive_action",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-1021",
+        "confidence": "medium",
+        "note": "UI redress family CWE varies"
+      }
+    ]
+  }
+}

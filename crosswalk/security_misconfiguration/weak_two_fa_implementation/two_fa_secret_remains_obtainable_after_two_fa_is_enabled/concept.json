@@ -1,0 +1,31 @@
+{
+  "id": "clacks/security_misconfiguration/weak_two_fa_implementation/two_fa_secret_remains_obtainable_after_two_fa_is_enabled",
+  "slug": "clacks/security_misconfiguration/weak_two_fa_implementation/two_fa_secret_remains_obtainable_after_two_fa_is_enabled",
+  "title": "2FA Secret Remains Obtainable After 2FA is Enabled",
+  "aliases": [
+    "2fa secret remains obtainable after 2fa is enabled",
+    "two fa secret remains obtainable after two fa is enabled",
+    "two_fa_secret_remains_obtainable_after_two_fa_is_enabled"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/insufficient_security_configurability.weak_two_fa_implementation.two_fa_secret_remains_obtainable_after_two_fa_is_enabled",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A05",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-16",
+        "confidence": "medium",
+        "note": "Umbrella mapping; refine if needed"
+      }
+    ]
+  }
+}

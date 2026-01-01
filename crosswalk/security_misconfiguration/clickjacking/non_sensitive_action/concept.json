@@ -1,0 +1,25 @@
+{
+  "id": "clacks/security_misconfiguration/clickjacking/non_sensitive_action",
+  "slug": "clacks/security_misconfiguration/clickjacking/non_sensitive_action",
+  "title": "Non-Sensitive Action",
+  "aliases": [
+    "non-sensitive action",
+    "non sensitive action",
+    "non_sensitive_action"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/server_security_misconfiguration.clickjacking.non_sensitive_action",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-1021",
+        "confidence": "medium",
+        "note": "UI redress family CWE varies"
+      }
+    ]
+  }
+}

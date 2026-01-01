@@ -1,0 +1,31 @@
+{
+  "id": "clacks/security_misconfiguration/hardcoded_password/non_privileged_user",
+  "slug": "clacks/security_misconfiguration/hardcoded_password/non_privileged_user",
+  "title": "Non-Privileged User",
+  "aliases": [
+    "non-privileged user",
+    "non privileged user",
+    "non_privileged_user"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/insecure_os_firmware.hardcoded_password.non_privileged_user",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A05",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-16",
+        "confidence": "medium",
+        "note": "Umbrella mapping; refine if needed"
+      }
+    ]
+  }
+}

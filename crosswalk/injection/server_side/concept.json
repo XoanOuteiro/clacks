@@ -3,8 +3,8 @@
   "slug": "clacks/injection/server_side",
   "title": "Server-Side Injection",
   "aliases": [
-    "server-side injection",
-    "server side injection"
+    "server side injection",
+    "server-side injection"
   ],
   "mappings": {
     "cwe": [
@@ -25,12 +25,5 @@
         "confidence": "high"
       }
     ]
-  },
-  "also_in": [
-    {
-      "slug": "clacks/injection",
-      "confidence": "high",
-      "note": "Refinement of injection into server-side primitives"
-    }
-  ]
+  }
 }

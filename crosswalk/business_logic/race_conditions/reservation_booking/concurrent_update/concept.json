@@ -1,0 +1,37 @@
+{
+  "id": "clacks/business_logic/race_conditions/reservation_booking/concurrent_update",
+  "slug": "clacks/business_logic/race_conditions/reservation_booking/concurrent_update",
+  "title": "Booking / Reservation Race Condition: Concurrent Update",
+  "aliases": [
+    "race condition",
+    "concurrent update",
+    "concurrent update",
+    "race update",
+    "reservation booking"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-362",
+        "confidence": "high"
+      },
+      {
+        "id": "cwe/CWE-367",
+        "confidence": "medium"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A04",
+        "confidence": "medium"
+      }
+    ],
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/external_behavior",
+        "confidence": "low",
+        "note": "VRT best-effort: race conditions are often business-logic/external-behavior"
+      }
+    ]
+  }
+}

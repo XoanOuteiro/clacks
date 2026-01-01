@@ -1,0 +1,30 @@
+{
+  "id": "clacks/security_misconfiguration/physical/bypass_of_physical_access_control",
+  "slug": "clacks/security_misconfiguration/physical/bypass_of_physical_access_control",
+  "title": "Bypass of physical access control",
+  "aliases": [
+    "bypass of physical access control",
+    "bypass_of_physical_access_control"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/physical_security_issues.bypass_of_physical_access_control",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A05",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-16",
+        "confidence": "medium",
+        "note": "Umbrella mapping; refine if needed"
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "clacks/security_misconfiguration/automotive/rsu/sybil_attack",
+  "slug": "clacks/security_misconfiguration/automotive/rsu/sybil_attack",
+  "title": "Sybil Attack",
+  "aliases": [
+    "sybil attack",
+    "sybil_attack"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/automotive_security_misconfiguration.rsu.sybil_attack",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A05",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-16",
+        "confidence": "medium",
+        "note": "Umbrella mapping; refine if needed"
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "clacks/security_misconfiguration/path_traversal",
+  "slug": "clacks/security_misconfiguration/path_traversal",
+  "title": "Path Traversal",
+  "aliases": [
+    "path traversal",
+    "path_traversal"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/server_security_misconfiguration.path_traversal",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-22",
+        "confidence": "high"
+      }
+    ]
+  }
+}

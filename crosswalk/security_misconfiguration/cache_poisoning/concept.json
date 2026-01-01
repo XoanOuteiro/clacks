@@ -1,44 +1,30 @@
 {
   "id": "clacks/security_misconfiguration/cache_poisoning",
   "slug": "clacks/security_misconfiguration/cache_poisoning",
-  "title": "Web Cache Poisoning",
+  "title": "Cache Poisoning",
   "aliases": [
-    "cache poisoning"
+    "cache poisoning",
+    "cache_poisoning"
   ],
   "mappings": {
-    "cwe": [
+    "bugcrowd_vrt": [
       {
-        "id": "cwe/CWE-16",
-        "confidence": "medium",
-        "note": "Umbrella mapping for family; subtype may have more specific CWE"
+        "id": "bugcrowd/vrt/server_security_misconfiguration.cache_poisoning",
+        "confidence": "high"
       }
     ],
     "owasp_top10": [
       {
         "id": "owasp/top10/2021/A05",
-        "confidence": "medium"
+        "confidence": "high"
       }
     ],
-    "bugcrowd_vrt": [
+    "cwe": [
       {
-        "id": "bugcrowd/vrt/server_security_misconfiguration",
+        "id": "cwe/CWE-16",
         "confidence": "medium",
-        "note": "Best-effort mapping to closest VRT umbrella node"
-      }
-    ],
-    "mitre_attack": [
-      {
-        "id": "mitre/T1190",
-        "confidence": "low",
-        "note": "Technique mapping depends on exploitation scenario"
+        "note": "Umbrella mapping; refine if needed"
       }
     ]
-  },
-  "also_in": [
-    {
-      "slug": "clacks/security_misconfiguration",
-      "confidence": "high",
-      "note": "Family umbrella"
-    }
-  ]
+  }
 }

@@ -1,0 +1,32 @@
+{
+  "id": "clacks/business_logic/ai_security/ai_safety/misinformation_wrong_factual_data",
+  "slug": "clacks/business_logic/ai_security/ai_safety/misinformation_wrong_factual_data",
+  "title": "Misinformation / Wrong Factual Data",
+  "aliases": [
+    "misinformation / wrong factual data",
+    "misinformation wrong factual data",
+    "misinformation_wrong_factual_data"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/ai_application_security.ai_safety.misinformation_wrong_factual_data",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A04",
+        "confidence": "medium",
+        "note": "Often design/workflow-related"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-840",
+        "confidence": "medium",
+        "note": "Umbrella mapping; refine if needed"
+      }
+    ]
+  }
+}

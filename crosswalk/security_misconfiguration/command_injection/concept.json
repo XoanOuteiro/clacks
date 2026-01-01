@@ -1,0 +1,29 @@
+{
+  "id": "clacks/security_misconfiguration/command_injection",
+  "slug": "clacks/security_misconfiguration/command_injection",
+  "title": "Command Injection",
+  "aliases": [
+    "command injection",
+    "command_injection"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/insecure_os_firmware.command_injection",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A03",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-78",
+        "confidence": "high"
+      }
+    ]
+  }
+}

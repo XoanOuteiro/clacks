@@ -1,0 +1,30 @@
+{
+  "id": "clacks/injection/server_side/exposed_data/sensitive_data",
+  "slug": "clacks/injection/server_side/exposed_data/sensitive_data",
+  "title": "Sensitive Data",
+  "aliases": [
+    "sensitive data",
+    "sensitive_data"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/server_side_injection.exposed_data.sensitive_data",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A03",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-74",
+        "confidence": "medium",
+        "note": "Umbrella mapping; refine if needed"
+      }
+    ]
+  }
+}

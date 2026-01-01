@@ -1,0 +1,30 @@
+{
+  "id": "clacks/data_exposure/visible_detailed_error_page/descriptive_stack_trace",
+  "slug": "clacks/data_exposure/visible_detailed_error_page/descriptive_stack_trace",
+  "title": "Descriptive Stack Trace",
+  "aliases": [
+    "descriptive stack trace",
+    "descriptive_stack_trace"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/sensitive_data_exposure.visible_detailed_error_page.descriptive_stack_trace",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A02",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-200",
+        "confidence": "medium",
+        "note": "Umbrella mapping; refine if needed"
+      }
+    ]
+  }
+}

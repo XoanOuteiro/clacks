@@ -1,0 +1,31 @@
+{
+  "id": "clacks/cryptography/insufficient_entropy/predictable_prng_seed",
+  "slug": "clacks/cryptography/insufficient_entropy/predictable_prng_seed",
+  "title": "Predictable Pseudo-Random Number Generator (PRNG) Seed",
+  "aliases": [
+    "predictable pseudo-random number generator (prng) seed",
+    "predictable prng seed",
+    "predictable_prng_seed"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/cryptographic_weakness.insufficient_entropy.predictable_prng_seed",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A02",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-310",
+        "confidence": "medium",
+        "note": "Umbrella mapping; refine if needed"
+      }
+    ]
+  }
+}

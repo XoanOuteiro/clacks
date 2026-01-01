@@ -1,0 +1,29 @@
+{
+  "id": "clacks/security_misconfiguration/server_side_request_forgery_ssrf/internal_high_impact",
+  "slug": "clacks/security_misconfiguration/server_side_request_forgery_ssrf/internal_high_impact",
+  "title": "Internal High Impact",
+  "aliases": [
+    "internal high impact",
+    "internal_high_impact"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/server_security_misconfiguration.server_side_request_forgery_ssrf.internal_high_impact",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A10",
+        "confidence": "medium"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-918",
+        "confidence": "high"
+      }
+    ]
+  }
+}

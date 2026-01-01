@@ -1,0 +1,30 @@
+{
+  "id": "clacks/security_misconfiguration/cloud/misconfigured_services_and_apis/exposed_debug_or_admin_interfaces",
+  "slug": "clacks/security_misconfiguration/cloud/misconfigured_services_and_apis/exposed_debug_or_admin_interfaces",
+  "title": "Exposed Debug or Admin Interfaces",
+  "aliases": [
+    "exposed debug or admin interfaces",
+    "exposed_debug_or_admin_interfaces"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/cloud_security.misconfigured_services_and_apis.exposed_debug_or_admin_interfaces",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A05",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-16",
+        "confidence": "medium",
+        "note": "Umbrella mapping; refine if needed"
+      }
+    ]
+  }
+}

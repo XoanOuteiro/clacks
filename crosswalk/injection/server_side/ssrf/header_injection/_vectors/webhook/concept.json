@@ -1,0 +1,24 @@
+{
+  "id": "clacks/injection/server_side/ssrf/header_injection/_vectors/webhook",
+  "slug": "clacks/injection/server_side/ssrf/header_injection/_vectors/webhook",
+  "title": "Webhook",
+  "aliases": [
+    "webhook"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-693",
+        "confidence": "low",
+        "note": "Qualifier / modifier concept"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A01",
+        "confidence": "low"
+      }
+    ]
+  },
+  "kind": "specifier"
+}

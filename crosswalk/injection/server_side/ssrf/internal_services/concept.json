@@ -1,0 +1,32 @@
+{
+  "id": "clacks/injection/server_side/ssrf/internal_services",
+  "slug": "clacks/injection/server_side/ssrf/internal_services",
+  "title": "SSRF to Internal Services",
+  "aliases": [
+    "ssrf",
+    "internal service",
+    "localhost",
+    "127.0.0.1"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-918",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A10",
+        "confidence": "high"
+      }
+    ],
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/server_side_injection.ssrf",
+        "confidence": "low",
+        "note": "Variant-level mapping; VRT often rates SSRF generically"
+      }
+    ]
+  }
+}

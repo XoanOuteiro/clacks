@@ -1,0 +1,31 @@
+{
+  "id": "clacks/authentication/failure_to_invalidate_session/permission_change",
+  "slug": "clacks/authentication/failure_to_invalidate_session/permission_change",
+  "title": "On Permission Change",
+  "aliases": [
+    "on permission change",
+    "permission change",
+    "permission_change"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/broken_authentication_and_session_management.failure_to_invalidate_session.permission_change",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A07",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-287",
+        "confidence": "medium",
+        "note": "Umbrella mapping; refine if needed"
+      }
+    ]
+  }
+}

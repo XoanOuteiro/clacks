@@ -3,15 +3,14 @@
   "slug": "clacks/injection/client_side",
   "title": "Client-Side Injection",
   "aliases": [
-    "client-side injection",
-    "client side injection"
+    "client side injection",
+    "client-side injection"
   ],
   "mappings": {
     "cwe": [
       {
         "id": "cwe/CWE-74",
-        "confidence": "medium",
-        "note": "Injection umbrella; specific CWEs used per subtype"
+        "confidence": "medium"
       }
     ],
     "owasp_top10": [
@@ -26,12 +25,5 @@
         "confidence": "high"
       }
     ]
-  },
-  "also_in": [
-    {
-      "slug": "clacks/injection",
-      "confidence": "high",
-      "note": "Refinement of injection into client-side primitives"
-    }
-  ]
+  }
 }

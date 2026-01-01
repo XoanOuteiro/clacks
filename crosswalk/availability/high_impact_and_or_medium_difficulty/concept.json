@@ -1,0 +1,31 @@
+{
+  "id": "clacks/availability/high_impact_and_or_medium_difficulty",
+  "slug": "clacks/availability/high_impact_and_or_medium_difficulty",
+  "title": "High Impact and/or Medium Difficulty",
+  "aliases": [
+    "high impact and/or medium difficulty",
+    "high impact and or medium difficulty",
+    "high_impact_and_or_medium_difficulty"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/application_level_denial_of_service_dos.high_impact_and_or_medium_difficulty",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A10",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-400",
+        "confidence": "medium",
+        "note": "Umbrella mapping; refine if needed"
+      }
+    ]
+  }
+}

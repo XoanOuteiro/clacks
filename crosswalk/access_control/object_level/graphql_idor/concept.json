@@ -1,0 +1,36 @@
+{
+  "id": "clacks/access_control/object_level/graphql_idor",
+  "slug": "clacks/access_control/object_level/graphql_idor",
+  "title": "GraphQL IDOR",
+  "aliases": [
+    "idor",
+    "bola",
+    "graphql idor"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-639",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A01",
+        "confidence": "high"
+      }
+    ],
+    "owasp_api10": [
+      {
+        "id": "owasp/api/2023/API01",
+        "confidence": "high"
+      }
+    ],
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/broken_access_control.insecure_direct_object_references",
+        "confidence": "high"
+      }
+    ]
+  }
+}

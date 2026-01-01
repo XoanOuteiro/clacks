@@ -1,0 +1,31 @@
+{
+  "id": "clacks/security_misconfiguration/lack_of_security_headers/x_content_security_policy",
+  "slug": "clacks/security_misconfiguration/lack_of_security_headers/x_content_security_policy",
+  "title": "X-Content-Security-Policy",
+  "aliases": [
+    "x-content-security-policy",
+    "x content security policy",
+    "x_content_security_policy"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/server_security_misconfiguration.lack_of_security_headers.x_content_security_policy",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A05",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-16",
+        "confidence": "medium",
+        "note": "Umbrella mapping; refine if needed"
+      }
+    ]
+  }
+}

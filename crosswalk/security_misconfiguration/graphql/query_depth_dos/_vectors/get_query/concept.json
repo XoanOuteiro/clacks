@@ -1,0 +1,24 @@
+{
+  "id": "clacks/security_misconfiguration/graphql/query_depth_dos/_vectors/get_query",
+  "slug": "clacks/security_misconfiguration/graphql/query_depth_dos/_vectors/get_query",
+  "title": "Get Query",
+  "aliases": [
+    "get query"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-693",
+        "confidence": "low",
+        "note": "Qualifier / modifier concept"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A01",
+        "confidence": "low"
+      }
+    ]
+  },
+  "kind": "specifier"
+}

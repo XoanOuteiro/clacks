@@ -1,0 +1,30 @@
+{
+  "id": "clacks/access_control/exposed_sensitive_android_intent",
+  "slug": "clacks/access_control/exposed_sensitive_android_intent",
+  "title": "Exposed Sensitive Android Intent",
+  "aliases": [
+    "exposed sensitive android intent",
+    "exposed_sensitive_android_intent"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/broken_access_control.exposed_sensitive_android_intent",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A01",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-284",
+        "confidence": "medium",
+        "note": "Umbrella mapping; refine if needed"
+      }
+    ]
+  }
+}

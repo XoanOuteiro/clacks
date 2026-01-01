@@ -1,0 +1,31 @@
+{
+  "id": "clacks/security_misconfiguration/directory_listing_enabled/non_sensitive_data_exposure",
+  "slug": "clacks/security_misconfiguration/directory_listing_enabled/non_sensitive_data_exposure",
+  "title": "Non-Sensitive Data Exposure",
+  "aliases": [
+    "non-sensitive data exposure",
+    "non sensitive data exposure",
+    "non_sensitive_data_exposure"
+  ],
+  "mappings": {
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/server_security_misconfiguration.directory_listing_enabled.non_sensitive_data_exposure",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A05",
+        "confidence": "high"
+      }
+    ],
+    "cwe": [
+      {
+        "id": "cwe/CWE-16",
+        "confidence": "medium",
+        "note": "Umbrella mapping; refine if needed"
+      }
+    ]
+  }
+}
