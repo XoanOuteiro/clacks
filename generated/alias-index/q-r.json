@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0",
+  "kind": "alias-index",
+  "shard": "q-r",
+  "aliases": {
+    "rest api": [
+      "concept:api"
+    ],
+    "reflected xss": [
+      "concept:xss-reflected"
+    ],
+    "rxss": [
+      "concept:xss-reflected"
+    ],
+    "reverse tabnabbing": [
+      "concept:tabnabbing"
+    ],
+    "redirect chain": [
+      "concept:open-redirect-chaining"
+    ],
+    "request smuggling": [
+      "concept:request-smuggling"
+    ],
+    "request smuggling (cl.te)": [
+      "concept:request-smuggling-cl-te"
+    ],
+    "request smuggling cl te": [
+      "concept:request-smuggling-cl-te"
+    ],
+    "request smuggling (te.cl)": [
+      "concept:request-smuggling-te-cl"
+    ],
+    "request smuggling te cl": [
+      "concept:request-smuggling-te-cl"
+    ],
+    "rfi": [
+      "concept:file-inclusion",
+      "concept:rfi"
+    ],
+    "remote file inclusion": [
+      "concept:rfi"
+    ],
+    "rate limiting missing": [
+      "concept:rate-limiting-missing"
+    ],
+    "rate limit bypass": [
+      "concept:rate-limiting-missing"
+    ],
+    "resource consumption": [
+      "concept:resource-consumption"
+    ],
+    "referrer leakage": [
+      "concept:referrer-leakage"
+    ],
+    "referer leakage": [
+      "concept:referrer-leakage"
+    ],
+    "race condition": [
+      "concept:race-condition"
+    ],
+    "replay attack": [
+      "concept:replay-attack"
+    ],
+    "request replay": [
+      "concept:replay-attack"
+    ],
+    "regular expression dos": [
+      "concept:redos"
+    ],
+    "redos": [
+      "concept:redos"
+    ],
+    "regex dos": [
+      "concept:redos"
+    ],
+    "regular expression denial of service": [
+      "concept:redos"
+    ]
+  }
+}

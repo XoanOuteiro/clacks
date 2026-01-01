@@ -1,0 +1,275 @@
+{
+  "schema_version": "1.0",
+  "kind": "alias-index",
+  "shard": "s-t",
+  "aliases": {
+    "server-side": [
+      "concept:server"
+    ],
+    "server": [
+      "concept:server"
+    ],
+    "session management": [
+      "concept:session-management"
+    ],
+    "session": [
+      "concept:session-management"
+    ],
+    "security misconfiguration": [
+      "concept:misconfiguration"
+    ],
+    "software and data integrity": [
+      "concept:integrity"
+    ],
+    "supply chain integrity": [
+      "concept:integrity"
+    ],
+    "security headers": [
+      "concept:security-headers"
+    ],
+    "stored xss": [
+      "concept:xss-stored"
+    ],
+    "sxss": [
+      "concept:xss-stored"
+    ],
+    "sxxss": [
+      "concept:xss-stored"
+    ],
+    "state bypass": [
+      "concept:csrf-oauth"
+    ],
+    "tabnabbing": [
+      "concept:tabnabbing"
+    ],
+    "sql injection": [
+      "concept:sql-injection"
+    ],
+    "sqli": [
+      "concept:sql-injection"
+    ],
+    "sql injection blind": [
+      "concept:sql-injection-blind"
+    ],
+    "sql injection blind boolean": [
+      "concept:sql-injection-blind-boolean"
+    ],
+    "time-based blind sql injection": [
+      "concept:sql-injection-blind-time"
+    ],
+    "sql injection blind time": [
+      "concept:sql-injection-blind-time"
+    ],
+    "time blind sqli": [
+      "concept:sql-injection-blind-time"
+    ],
+    "time delay sqli": [
+      "concept:sql-injection-blind-time"
+    ],
+    "time-based blind sqli": [
+      "concept:sql-injection-blind-time"
+    ],
+    "sql injection error based": [
+      "concept:sql-injection-error-based"
+    ],
+    "sql injection union based": [
+      "concept:sql-injection-union-based"
+    ],
+    "stacked queries sql injection": [
+      "concept:sql-injection-stacked-queries"
+    ],
+    "sql injection stacked queries": [
+      "concept:sql-injection-stacked-queries"
+    ],
+    "stacked queries": [
+      "concept:sql-injection-stacked-queries"
+    ],
+    "stacked queries sqli": [
+      "concept:sql-injection-stacked-queries"
+    ],
+    "sql injection oob": [
+      "concept:sql-injection-oob"
+    ],
+    "second-order sql injection": [
+      "concept:sql-injection-second-order"
+    ],
+    "sql injection second order": [
+      "concept:sql-injection-second-order"
+    ],
+    "second order sqli": [
+      "concept:sql-injection-second-order"
+    ],
+    "stored sqli": [
+      "concept:sql-injection-second-order"
+    ],
+    "spel injection": [
+      "concept:expression-language-injection"
+    ],
+    "server-side includes injection": [
+      "concept:ssi-injection"
+    ],
+    "ssi injection": [
+      "concept:ssi-injection"
+    ],
+    "smtp header injection": [
+      "concept:smtp-injection"
+    ],
+    "smtp injection": [
+      "concept:smtp-injection"
+    ],
+    "server-side template injection": [
+      "concept:ssti"
+    ],
+    "ssti": [
+      "concept:ssti"
+    ],
+    "template injection": [
+      "concept:ssti"
+    ],
+    "ssti (jinja2)": [
+      "concept:ssti-jinja"
+    ],
+    "ssti jinja": [
+      "concept:ssti-jinja"
+    ],
+    "ssti (twig)": [
+      "concept:ssti-twig"
+    ],
+    "ssti twig": [
+      "concept:ssti-twig"
+    ],
+    "twig ssti": [
+      "concept:ssti-twig"
+    ],
+    "ssti (freemarker)": [
+      "concept:ssti-freemarker"
+    ],
+    "ssti freemarker": [
+      "concept:ssti-freemarker"
+    ],
+    "ssti (velocity)": [
+      "concept:ssti-velocity"
+    ],
+    "ssti velocity": [
+      "concept:ssti-velocity"
+    ],
+    "ssti (handlebars)": [
+      "concept:ssti-handlebars"
+    ],
+    "ssti handlebars": [
+      "concept:ssti-handlebars"
+    ],
+    "server-side request forgery": [
+      "concept:ssrf"
+    ],
+    "ssrf": [
+      "concept:ssrf"
+    ],
+    "ssrf to cloud metadata": [
+      "concept:ssrf-metadata"
+    ],
+    "ssrf metadata": [
+      "concept:ssrf-metadata"
+    ],
+    "ssrf internal port scan": [
+      "concept:ssrf-internal-scan"
+    ],
+    "ssrf internal scan": [
+      "concept:ssrf-internal-scan"
+    ],
+    "ssrf portscan": [
+      "concept:ssrf-internal-scan"
+    ],
+    "ssrf scanning": [
+      "concept:ssrf-internal-scan"
+    ],
+    "ssrf via gopher": [
+      "concept:ssrf-gopher"
+    ],
+    "ssrf gopher": [
+      "concept:ssrf-gopher"
+    ],
+    "ssrf redirect bypass": [
+      "concept:ssrf-redirect-bypass"
+    ],
+    "ssrf dns rebinding": [
+      "concept:ssrf-dns-rebinding"
+    ],
+    "te.cl": [
+      "concept:request-smuggling",
+      "concept:request-smuggling-te-cl"
+    ],
+    "traversal": [
+      "concept:path-traversal"
+    ],
+    "svg upload xss": [
+      "concept:file-upload-svg-xss"
+    ],
+    "svg xss": [
+      "concept:file-upload-svg-xss"
+    ],
+    "session fixation": [
+      "concept:session-fixation"
+    ],
+    "session hijacking": [
+      "concept:session-hijacking"
+    ],
+    "saml misconfiguration": [
+      "concept:saml-misconfiguration"
+    ],
+    "saml auth bypass": [
+      "concept:saml-misconfiguration"
+    ],
+    "shadow api": [
+      "concept:inventory-management"
+    ],
+    "swagger/openapi ui exposed": [
+      "concept:swagger-ui-exposed"
+    ],
+    "swagger ui exposed": [
+      "concept:swagger-ui-exposed"
+    ],
+    "swagger exposed": [
+      "concept:swagger-ui-exposed"
+    ],
+    "stack trace exposure": [
+      "concept:debug-endpoint-exposure"
+    ],
+    "source map exposure": [
+      "concept:source-map-exposure"
+    ],
+    "sourcemap exposure": [
+      "concept:source-map-exposure"
+    ],
+    "tls misconfiguration": [
+      "concept:tls-misconfiguration"
+    ],
+    "sha1": [
+      "concept:weak-hash"
+    ],
+    "sensitive data exposure": [
+      "concept:sensitive-data-exposure"
+    ],
+    "token leak": [
+      "concept:sensitive-data-exposure"
+    ],
+    "secrets exposure": [
+      "concept:secrets-exposure"
+    ],
+    "timing issue": [
+      "concept:race-condition"
+    ],
+    "toctou": [
+      "concept:toctou"
+    ],
+    "time of check time of use": [
+      "concept:toctou"
+    ],
+    "time-of-check time-of-use": [
+      "concept:toctou"
+    ],
+    "typosquatting": [
+      "concept:typosquatting"
+    ]
+  }
+}

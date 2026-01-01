@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0",
+  "kind": "alias-index",
+  "shard": "e-f",
+  "aliases": {
+    "file handling": [
+      "concept:file-handling"
+    ],
+    "frameable response": [
+      "concept:clickjacking"
+    ],
+    "error-based sql injection": [
+      "concept:sql-injection-error-based"
+    ],
+    "error based sqli": [
+      "concept:sql-injection-error-based"
+    ],
+    "error-based sqli": [
+      "concept:sql-injection-error-based"
+    ],
+    "expression language injection": [
+      "concept:expression-language-injection"
+    ],
+    "email header injection": [
+      "concept:smtp-injection"
+    ],
+    "excel injection": [
+      "concept:csv-injection"
+    ],
+    "formula injection": [
+      "concept:csv-injection"
+    ],
+    "freemarker ssti": [
+      "concept:ssti-freemarker"
+    ],
+    "file inclusion": [
+      "concept:file-inclusion"
+    ],
+    "file upload": [
+      "concept:file-upload"
+    ],
+    "file upload content-type bypass": [
+      "concept:file-upload-content-type-bypass"
+    ],
+    "file upload content type bypass": [
+      "concept:file-upload-content-type-bypass"
+    ],
+    "file upload extension bypass": [
+      "concept:file-upload-extension-bypass"
+    ],
+    "file upload svg xss": [
+      "concept:file-upload-svg-xss"
+    ],
+    "file upload polyglot": [
+      "concept:file-upload-polyglot"
+    ],
+    "forgot password bug": [
+      "concept:password-reset-weakness"
+    ],
+    "expensive query dos": [
+      "concept:resource-consumption"
+    ],
+    "exposed directory listing": [
+      "concept:directory-listing"
+    ],
+    "exposed .git directory": [
+      "concept:git-exposure"
+    ],
+    "exposed .git": [
+      "concept:git-exposure"
+    ],
+    "exposed .env file": [
+      "concept:env-exposure"
+    ],
+    "env exposure": [
+      "concept:env-exposure"
+    ],
+    "env file exposure": [
+      "concept:env-exposure"
+    ],
+    "exposed admin panel": [
+      "concept:admin-panel-exposed"
+    ],
+    "embedded credentials": [
+      "concept:hardcoded-secrets"
+    ]
+  }
+}

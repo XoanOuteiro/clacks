@@ -1,0 +1,197 @@
+{
+  "schema_version": "1.0",
+  "kind": "alias-index",
+  "shard": "c-d",
+  "aliases": {
+    "client-side": [
+      "concept:client"
+    ],
+    "client": [
+      "concept:client"
+    ],
+    "cryptography": [
+      "concept:crypto"
+    ],
+    "crypto": [
+      "concept:crypto"
+    ],
+    "components": [
+      "concept:components"
+    ],
+    "dependency": [
+      "concept:components"
+    ],
+    "dos": [
+      "concept:availability"
+    ],
+    "data exposure": [
+      "concept:data-exposure"
+    ],
+    "cross-site scripting": [
+      "concept:xss"
+    ],
+    "cross site scripting": [
+      "concept:xss"
+    ],
+    "dom xss": [
+      "concept:xss-dom"
+    ],
+    "dom-based xss": [
+      "concept:xss-dom"
+    ],
+    "domxss": [
+      "concept:xss-dom"
+    ],
+    "csp bypass (xss)": [
+      "concept:xss-csp-bypass"
+    ],
+    "csp bypass": [
+      "concept:xss-csp-bypass"
+    ],
+    "css injection": [
+      "concept:css-injection"
+    ],
+    "cross-site request forgery": [
+      "concept:csrf"
+    ],
+    "csrf": [
+      "concept:csrf"
+    ],
+    "cross site request forgery": [
+      "concept:csrf"
+    ],
+    "csrf login": [
+      "concept:csrf-login"
+    ],
+    "csrf oauth": [
+      "concept:csrf-oauth"
+    ],
+    "clickjacking": [
+      "concept:clickjacking"
+    ],
+    "crlf injection": [
+      "concept:crlf-injection"
+    ],
+    "csv injection": [
+      "concept:csv-injection"
+    ],
+    "command injection": [
+      "concept:command-injection"
+    ],
+    "cmdi": [
+      "concept:command-injection"
+    ],
+    "command injection blind": [
+      "concept:command-injection-blind"
+    ],
+    "code injection": [
+      "concept:code-injection"
+    ],
+    "deserialization": [
+      "concept:unsafe-deserialization"
+    ],
+    "dotnet deserialization": [
+      "concept:dotnet-deserialization"
+    ],
+    "dns rebinding": [
+      "concept:ssrf-dns-rebinding"
+    ],
+    "cl.te": [
+      "concept:request-smuggling",
+      "concept:request-smuggling-cl-te"
+    ],
+    "cache poisoning": [
+      "concept:cache-poisoning"
+    ],
+    "cache deception": [
+      "concept:cache-deception"
+    ],
+    "cache key confusion": [
+      "concept:cache-key-confusion"
+    ],
+    "cross-site websocket hijacking": [
+      "concept:websocket-origin-validation"
+    ],
+    "cswsh": [
+      "concept:websocket-origin-validation"
+    ],
+    "directory traversal": [
+      "concept:path-traversal"
+    ],
+    "double extension upload": [
+      "concept:file-upload-extension-bypass"
+    ],
+    "default credentials": [
+      "concept:default-credentials"
+    ],
+    "default password": [
+      "concept:default-credentials"
+    ],
+    "cookie theft": [
+      "concept:session-hijacking"
+    ],
+    "cookie flags missing": [
+      "concept:cookie-flags-missing"
+    ],
+    "cookie httponly missing": [
+      "concept:cookie-httponly-missing"
+    ],
+    "cookie secure missing": [
+      "concept:cookie-secure-missing"
+    ],
+    "cookie samesite missing": [
+      "concept:cookie-samesite-missing"
+    ],
+    "directory listing enabled": [
+      "concept:directory-listing"
+    ],
+    "directory listing": [
+      "concept:directory-listing"
+    ],
+    "debug endpoint exposure": [
+      "concept:debug-endpoint-exposure"
+    ],
+    "debug endpoint": [
+      "concept:debug-endpoint-exposure"
+    ],
+    "debug mode enabled": [
+      "concept:debug-endpoint-exposure"
+    ],
+    "default configuration exposure": [
+      "concept:default-config-exposure"
+    ],
+    "default config exposure": [
+      "concept:default-config-exposure"
+    ],
+    "cors misconfiguration": [
+      "concept:cors-misconfiguration"
+    ],
+    "cors bypass": [
+      "concept:cors-misconfiguration"
+    ],
+    "cors wildcard with credentials": [
+      "concept:cors-wildcard-credentials"
+    ],
+    "cors wildcard credentials": [
+      "concept:cors-wildcard-credentials"
+    ],
+    "cors null origin allowed": [
+      "concept:cors-null-origin"
+    ],
+    "cors null origin": [
+      "concept:cors-null-origin"
+    ],
+    "credentials exposure": [
+      "concept:secrets-exposure"
+    ],
+    "double spend": [
+      "concept:idempotency-issues"
+    ],
+    "duplicate transaction": [
+      "concept:idempotency-issues"
+    ],
+    "dependency confusion": [
+      "concept:dependency-confusion"
+    ]
+  }
+}

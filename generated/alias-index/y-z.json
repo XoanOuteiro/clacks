@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "kind": "alias-index",
+  "shard": "y-z",
+  "aliases": {
+    "ysoserial": [
+      "concept:java-deserialization"
+    ],
+    "zip slip": [
+      "concept:zip-slip"
+    ],
+    "zip bomb": [
+      "concept:zip-bomb"
+    ],
+    "zombie api": [
+      "concept:inventory-management"
+    ]
+  }
+}

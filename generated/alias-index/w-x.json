@@ -1,0 +1,100 @@
+{
+  "schema_version": "1.0",
+  "kind": "alias-index",
+  "shard": "w-x",
+  "aliases": {
+    "weakness": [
+      "concept:weakness"
+    ],
+    "web": [
+      "concept:web"
+    ],
+    "web application": [
+      "concept:web"
+    ],
+    "webapp": [
+      "concept:web"
+    ],
+    "workflow": [
+      "concept:business-logic"
+    ],
+    "xss": [
+      "concept:xss"
+    ],
+    "xss reflected": [
+      "concept:xss-reflected"
+    ],
+    "xss stored": [
+      "concept:xss-stored"
+    ],
+    "xss dom": [
+      "concept:xss-dom"
+    ],
+    "xss mutation": [
+      "concept:xss-mutation"
+    ],
+    "xss blind": [
+      "concept:xss-blind"
+    ],
+    "xss polyglot": [
+      "concept:xss-polyglot"
+    ],
+    "xss csp bypass": [
+      "concept:xss-csp-bypass"
+    ],
+    "xsrf": [
+      "concept:csrf"
+    ],
+    "xpath injection": [
+      "concept:xpath-injection"
+    ],
+    "web cache poisoning": [
+      "concept:cache-poisoning"
+    ],
+    "web cache deception": [
+      "concept:cache-deception"
+    ],
+    "websocket origin validation": [
+      "concept:websocket-origin-validation"
+    ],
+    "xml external entity": [
+      "concept:xxe"
+    ],
+    "xxe": [
+      "concept:xxe"
+    ],
+    "xxe blind": [
+      "concept:xxe-blind"
+    ],
+    "xml bomb (billion laughs)": [
+      "concept:xml-bomb"
+    ],
+    "xml bomb": [
+      "concept:xml-bomb"
+    ],
+    "weak password reset": [
+      "concept:password-reset-weakness"
+    ],
+    "workflow abuse": [
+      "concept:business-flow-abuse"
+    ],
+    "weak content-security-policy": [
+      "concept:weak-csp"
+    ],
+    "weak csp": [
+      "concept:weak-csp"
+    ],
+    "weak tls": [
+      "concept:tls-misconfiguration"
+    ],
+    "weak hashing": [
+      "concept:weak-hash"
+    ],
+    "weak hash": [
+      "concept:weak-hash"
+    ],
+    "weak randomness": [
+      "concept:weak-randomness"
+    ]
+  }
+}

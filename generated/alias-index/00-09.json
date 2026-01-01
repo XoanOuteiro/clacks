@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0",
+  "kind": "alias-index",
+  "shard": "00-09",
+  "aliases": {
+    "2fa bypass": [
+      "concept:mfa-bypass"
+    ],
+    "2fa bruteforce": [
+      "concept:otp-bruteforce"
+    ]
+  }
+}
