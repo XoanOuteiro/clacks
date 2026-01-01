@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:weak-crypto-mobile",
+  "slug": "weak-crypto-mobile",
+  "title": "Weak Cryptography (Mobile)",
+  "kind": "vulnerability",
+  "aliases": [
+    "insecure crypto mobile",
+    "weak crypto mobile"
+  ],
+  "parents": [
+    "concept:mobile-crypto"
+  ],
+  "mappings": {
+    "owasp_mobile10": [
+      {
+        "id": "owasp/mobile10/2024/M10",
+        "confidence": "high"
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:xsleaks-redirect",
+  "slug": "xsleaks-redirect",
+  "title": "Redirect XS-Leak",
+  "kind": "variant",
+  "aliases": [
+    "redirect xsleak"
+  ],
+  "parents": [
+    "concept:xsleaks-generic"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-200",
+        "confidence": "high"
+      }
+    ]
+  }
+}

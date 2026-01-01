@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:file-handling",
+  "slug": "file-handling",
+  "title": "File Handling",
+  "kind": "category",
+  "aliases": [
+    "file handling"
+  ],
+  "parents": [
+    "concept:web"
+  ],
+  "mappings": {}
+}

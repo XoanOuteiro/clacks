@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:ssrf-dns-rebinding",
+  "slug": "ssrf-dns-rebinding",
+  "title": "DNS Rebinding",
+  "kind": "variant",
+  "aliases": [
+    "dns rebinding"
+  ],
+  "parents": [
+    "concept:ssrf"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-918",
+        "confidence": "high"
+      }
+    ]
+  }
+}

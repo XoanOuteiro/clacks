@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:webview-mixed-content",
+  "slug": "webview-mixed-content",
+  "title": "WebView Mixed Content Allowed",
+  "kind": "variant",
+  "aliases": [
+    "mixed content webview"
+  ],
+  "parents": [
+    "concept:insecure-webview"
+  ],
+  "mappings": {
+    "owasp_mobile10": [
+      {
+        "id": "owasp/mobile10/2024/M4",
+        "confidence": "high"
+      }
+    ]
+  }
+}

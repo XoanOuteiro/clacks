@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:cache-deception",
+  "slug": "cache-deception",
+  "title": "Web Cache Deception",
+  "kind": "variant",
+  "aliases": [
+    "cache deception"
+  ],
+  "parents": [
+    "concept:cache-poisoning"
+  ],
+  "mappings": {}
+}

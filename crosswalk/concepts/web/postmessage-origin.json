@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:postmessage-origin",
+  "slug": "postmessage-origin",
+  "title": "postMessage Origin Validation Missing",
+  "kind": "vulnerability",
+  "aliases": [
+    "postmessage missing origin check",
+    "postmessage origin"
+  ],
+  "parents": [
+    "concept:access-control",
+    "concept:dom-security"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-346",
+        "confidence": "high"
+      }
+    ]
+  }
+}

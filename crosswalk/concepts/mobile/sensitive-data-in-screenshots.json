@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:sensitive-data-in-screenshots",
+  "slug": "sensitive-data-in-screenshots",
+  "title": "Sensitive Data in Screenshots",
+  "kind": "vulnerability",
+  "aliases": [
+    "flag_secure missing",
+    "sensitive screenshots"
+  ],
+  "parents": [
+    "concept:mobile-storage",
+    "concept:privacy"
+  ],
+  "mappings": {
+    "owasp_mobile10": [
+      {
+        "id": "owasp/mobile10/2024/M6",
+        "confidence": "high"
+      },
+      {
+        "id": "owasp/mobile10/2024/M9",
+        "confidence": "high"
+      }
+    ]
+  }
+}

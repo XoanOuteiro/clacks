@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:tapjacking-web",
+  "slug": "tapjacking-web",
+  "title": "Tapjacking (Web)",
+  "kind": "variant",
+  "aliases": [
+    "tapjacking web"
+  ],
+  "parents": [
+    "concept:clickjacking"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-1021",
+        "confidence": "high"
+      }
+    ]
+  }
+}

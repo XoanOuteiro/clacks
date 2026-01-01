@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:android-allowbackup-true",
+  "slug": "android-allowbackup-true",
+  "title": "Android allowBackup=true",
+  "kind": "variant",
+  "aliases": [
+    "allowbackup true"
+  ],
+  "parents": [
+    "concept:android",
+    "concept:insecure-backup"
+  ],
+  "mappings": {
+    "owasp_mobile10": [
+      {
+        "id": "owasp/mobile10/2024/M9",
+        "confidence": "high"
+      }
+    ]
+  }
+}

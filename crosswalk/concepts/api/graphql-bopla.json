@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:graphql-bopla",
+  "slug": "graphql-bopla",
+  "title": "GraphQL BOPLA / Mass Assignment",
+  "kind": "variant",
+  "aliases": [
+    "graphql bopla",
+    "graphql mass assignment"
+  ],
+  "parents": [
+    "concept:bopla",
+    "concept:graphql"
+  ],
+  "mappings": {
+    "owasp_api10": [
+      {
+        "id": "owasp/api10/2023/API3",
+        "confidence": "high"
+      }
+    ]
+  }
+}

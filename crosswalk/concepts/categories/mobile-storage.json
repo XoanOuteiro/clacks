@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:mobile-storage",
+  "slug": "mobile-storage",
+  "title": "Mobile Data Storage",
+  "kind": "category",
+  "aliases": [
+    "local storage",
+    "mobile storage"
+  ],
+  "parents": [
+    "concept:data-exposure",
+    "concept:mobile"
+  ],
+  "mappings": {
+    "owasp_mobile10": [
+      {
+        "id": "owasp/mobile10/2024/M9",
+        "confidence": "high"
+      }
+    ]
+  }
+}

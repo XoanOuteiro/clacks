@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:tamper-detection-missing",
+  "slug": "tamper-detection-missing",
+  "title": "Missing Tamper Detection",
+  "kind": "variant",
+  "aliases": [
+    "tamper detection missing"
+  ],
+  "parents": [
+    "concept:insufficient-binary-protection"
+  ],
+  "mappings": {
+    "owasp_mobile10": [
+      {
+        "id": "owasp/mobile10/2024/M7",
+        "confidence": "high"
+      }
+    ]
+  }
+}

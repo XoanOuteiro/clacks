@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:xss-react",
+  "slug": "xss-react",
+  "title": "XSS (React)",
+  "kind": "variant",
+  "aliases": [
+    "react xss"
+  ],
+  "parents": [
+    "concept:xss-generic"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-79",
+        "confidence": "high"
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:xsleaks-frame-counting",
+  "slug": "xsleaks-frame-counting",
+  "title": "Frame Counting XS-Leak",
+  "kind": "variant",
+  "aliases": [
+    "frame counting xsleak"
+  ],
+  "parents": [
+    "concept:xsleaks-generic"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-200",
+        "confidence": "high"
+      }
+    ]
+  }
+}

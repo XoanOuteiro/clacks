@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:mobile-communication",
+  "slug": "mobile-communication",
+  "title": "Mobile Communication",
+  "kind": "category",
+  "aliases": [
+    "mobile communication",
+    "networking"
+  ],
+  "parents": [
+    "concept:crypto",
+    "concept:mobile"
+  ],
+  "mappings": {
+    "owasp_mobile10": [
+      {
+        "id": "owasp/mobile10/2024/M5",
+        "confidence": "high"
+      }
+    ]
+  }
+}

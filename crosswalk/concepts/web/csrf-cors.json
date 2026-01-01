@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:csrf-cors",
+  "slug": "csrf-cors",
+  "title": "CSRF via CORS Misconfig",
+  "kind": "variant",
+  "aliases": [
+    "csrf cors"
+  ],
+  "parents": [
+    "concept:csrf-generic"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-352",
+        "confidence": "high"
+      }
+    ]
+  },
+  "notes": [
+    "Depends on credentialed cross-origin requests."
+  ]
+}

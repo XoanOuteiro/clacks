@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:host-header-injection",
+  "slug": "host-header-injection",
+  "title": "Host Header Injection",
+  "kind": "vulnerability",
+  "aliases": [
+    "host header injection"
+  ],
+  "parents": [
+    "concept:http",
+    "concept:injection"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-644",
+        "confidence": "high"
+      }
+    ]
+  }
+}

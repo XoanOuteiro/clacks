@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:insecure-data-storage",
+  "slug": "insecure-data-storage",
+  "title": "Insecure Data Storage",
+  "kind": "vulnerability",
+  "aliases": [
+    "insecure data storage",
+    "plaintext storage"
+  ],
+  "parents": [
+    "concept:mobile-storage"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-312",
+        "confidence": "medium"
+      },
+      {
+        "id": "cwe/CWE-922",
+        "confidence": "medium"
+      }
+    ],
+    "owasp_mobile10": [
+      {
+        "id": "owasp/mobile10/2024/M9",
+        "confidence": "high"
+      }
+    ]
+  }
+}

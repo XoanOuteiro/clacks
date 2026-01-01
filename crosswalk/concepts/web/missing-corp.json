@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:missing-corp",
+  "slug": "missing-corp",
+  "title": "Missing CORP",
+  "kind": "vulnerability",
+  "aliases": [
+    "cross-origin-resource-policy missing",
+    "missing corp"
+  ],
+  "parents": [
+    "concept:security-headers"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-693",
+        "confidence": "high"
+      }
+    ]
+  }
+}

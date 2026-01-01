@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:indexeddb-sensitive",
+  "slug": "indexeddb-sensitive",
+  "title": "Sensitive Data in IndexedDB",
+  "kind": "vulnerability",
+  "aliases": [
+    "indexeddb sensitive"
+  ],
+  "parents": [
+    "concept:data-exposure",
+    "concept:storage-web"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-922",
+        "confidence": "high"
+      }
+    ]
+  }
+}

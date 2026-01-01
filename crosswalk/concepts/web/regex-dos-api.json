@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:regex-dos-api",
+  "slug": "regex-dos-api",
+  "title": "ReDoS in API",
+  "kind": "variant",
+  "aliases": [
+    "redos api",
+    "regex dos api"
+  ],
+  "parents": [
+    "concept:resource-consumption"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-400",
+        "confidence": "high"
+      }
+    ]
+  }
+}

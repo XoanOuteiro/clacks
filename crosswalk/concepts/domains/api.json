@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:api",
+  "slug": "api",
+  "title": "API",
+  "kind": "category",
+  "aliases": [
+    "api",
+    "graphql api",
+    "grpc",
+    "rest api",
+    "soap"
+  ],
+  "parents": [
+    "concept:web"
+  ],
+  "mappings": {}
+}

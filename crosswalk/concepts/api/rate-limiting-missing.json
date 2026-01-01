@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:rate-limiting-missing",
+  "slug": "rate-limiting-missing",
+  "title": "Missing Rate Limiting",
+  "kind": "vulnerability",
+  "aliases": [
+    "missing rate limiting",
+    "rate limit bypass"
+  ],
+  "parents": [
+    "concept:api",
+    "concept:availability"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-307",
+        "confidence": "high"
+      }
+    ],
+    "owasp_api10": [
+      {
+        "id": "owasp/api10/2023/API4",
+        "confidence": "high"
+      }
+    ]
+  }
+}

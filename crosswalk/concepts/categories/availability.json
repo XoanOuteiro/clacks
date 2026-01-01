@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:availability",
+  "slug": "availability",
+  "title": "Availability",
+  "kind": "category",
+  "aliases": [
+    "availability",
+    "dos"
+  ],
+  "parents": [
+    "concept:clacks"
+  ],
+  "mappings": {
+    "owasp_api10": [
+      {
+        "id": "owasp/api10/2023/API4",
+        "confidence": "medium"
+      }
+    ]
+  }
+}

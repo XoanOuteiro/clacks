@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:webhook-origin-validation",
+  "slug": "webhook-origin-validation",
+  "title": "Weak Webhook Origin Validation",
+  "kind": "variant",
+  "aliases": [
+    "webhook origin validation"
+  ],
+  "parents": [
+    "concept:webhook-signature-missing"
+  ],
+  "mappings": {}
+}

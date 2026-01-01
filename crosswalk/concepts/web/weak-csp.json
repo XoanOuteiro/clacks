@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:weak-csp",
+  "slug": "weak-csp",
+  "title": "Weak Content-Security-Policy",
+  "kind": "variant",
+  "aliases": [
+    "weak csp"
+  ],
+  "parents": [
+    "concept:missing-csp"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-693",
+        "confidence": "high"
+      }
+    ]
+  }
+}

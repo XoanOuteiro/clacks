@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:mobile-crypto",
+  "slug": "mobile-crypto",
+  "title": "Mobile Cryptography",
+  "kind": "category",
+  "aliases": [
+    "mobile crypto"
+  ],
+  "parents": [
+    "concept:crypto",
+    "concept:mobile"
+  ],
+  "mappings": {
+    "owasp_mobile10": [
+      {
+        "id": "owasp/mobile10/2024/M10",
+        "confidence": "high"
+      }
+    ]
+  }
+}

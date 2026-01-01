@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:xss-samesite-bypass",
+  "slug": "xss-samesite-bypass",
+  "title": "XSS SameSite Bypass",
+  "kind": "variant",
+  "aliases": [
+    "samesite bypass via xss"
+  ],
+  "parents": [
+    "concept:xss-generic"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-79",
+        "confidence": "high"
+      }
+    ]
+  }
+}

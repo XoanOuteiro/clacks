@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:cors-reflection",
+  "slug": "cors-reflection",
+  "title": "Origin Reflection CORS",
+  "kind": "variant",
+  "aliases": [
+    "cors origin reflection",
+    "reflect origin"
+  ],
+  "parents": [
+    "concept:cors-misconfiguration"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-942",
+        "confidence": "high"
+      }
+    ]
+  }
+}

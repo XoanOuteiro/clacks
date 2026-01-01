@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:client",
+  "slug": "client",
+  "title": "Client-Side",
+  "kind": "category",
+  "aliases": [
+    "browser",
+    "client-side"
+  ],
+  "parents": [
+    "concept:web"
+  ],
+  "mappings": {}
+}

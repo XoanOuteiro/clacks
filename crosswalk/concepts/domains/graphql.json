@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:graphql",
+  "slug": "graphql",
+  "title": "GraphQL",
+  "kind": "category",
+  "aliases": [
+    "graphql"
+  ],
+  "parents": [
+    "concept:api",
+    "concept:protocol"
+  ],
+  "mappings": {}
+}

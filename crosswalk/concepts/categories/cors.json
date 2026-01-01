@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:cors",
+  "slug": "cors",
+  "title": "CORS",
+  "kind": "category",
+  "aliases": [
+    "cors"
+  ],
+  "parents": [
+    "concept:misconfiguration",
+    "concept:web"
+  ],
+  "mappings": {}
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:clickjacking-ui-redress",
+  "slug": "clickjacking-ui-redress",
+  "title": "UI Redressing",
+  "kind": "variant",
+  "aliases": [
+    "ui redressing"
+  ],
+  "parents": [
+    "concept:clickjacking"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-1021",
+        "confidence": "high"
+      }
+    ]
+  }
+}

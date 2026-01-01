@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:android",
+  "slug": "android",
+  "title": "Android",
+  "kind": "category",
+  "aliases": [
+    "android"
+  ],
+  "parents": [
+    "concept:mobile"
+  ],
+  "mappings": {}
+}

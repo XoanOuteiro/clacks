@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:mobile-supply-chain",
+  "slug": "mobile-supply-chain",
+  "title": "Mobile Supply Chain",
+  "kind": "category",
+  "aliases": [
+    "mobile supply chain",
+    "sdk supply chain"
+  ],
+  "parents": [
+    "concept:integrity",
+    "concept:mobile"
+  ],
+  "mappings": {
+    "owasp_mobile10": [
+      {
+        "id": "owasp/mobile10/2024/M2",
+        "confidence": "high"
+      }
+    ]
+  }
+}

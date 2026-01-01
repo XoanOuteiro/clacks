@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:missing-permissions-policy",
+  "slug": "missing-permissions-policy",
+  "title": "Missing Permissions-Policy",
+  "kind": "vulnerability",
+  "aliases": [
+    "missing feature-policy",
+    "missing permissions-policy"
+  ],
+  "parents": [
+    "concept:security-headers"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-693",
+        "confidence": "high"
+      }
+    ]
+  }
+}

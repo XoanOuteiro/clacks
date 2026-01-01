@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:mobile-input",
+  "slug": "mobile-input",
+  "title": "Mobile Input/Output Validation",
+  "kind": "category",
+  "aliases": [
+    "mobile validation",
+    "output validation"
+  ],
+  "parents": [
+    "concept:input-validation",
+    "concept:mobile"
+  ],
+  "mappings": {
+    "owasp_mobile10": [
+      {
+        "id": "owasp/mobile10/2024/M4",
+        "confidence": "high"
+      }
+    ]
+  }
+}

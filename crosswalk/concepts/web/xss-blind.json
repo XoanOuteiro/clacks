@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:xss-blind",
+  "slug": "xss-blind",
+  "title": "Blind XSS",
+  "kind": "variant",
+  "aliases": [
+    "blind xss",
+    "bxss"
+  ],
+  "parents": [
+    "concept:xss-generic"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-79",
+        "confidence": "high"
+      }
+    ]
+  }
+}

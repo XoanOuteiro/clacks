@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:browser-isolation",
+  "slug": "browser-isolation",
+  "title": "Browser Isolation",
+  "kind": "category",
+  "aliases": [
+    "cross-origin isolation",
+    "site isolation"
+  ],
+  "parents": [
+    "concept:browser"
+  ],
+  "mappings": {}
+}

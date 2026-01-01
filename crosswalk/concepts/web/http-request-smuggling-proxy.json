@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:http-request-smuggling-proxy",
+  "slug": "http-request-smuggling-proxy",
+  "title": "Proxy Request Smuggling",
+  "kind": "variant",
+  "aliases": [
+    "proxy request smuggling"
+  ],
+  "parents": [
+    "concept:request-smuggling"
+  ],
+  "mappings": {}
+}

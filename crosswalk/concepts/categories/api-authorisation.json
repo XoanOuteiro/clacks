@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:api-authorisation",
+  "slug": "api-authorisation",
+  "title": "API Authorization",
+  "kind": "category",
+  "aliases": [
+    "api authorization",
+    "api authz"
+  ],
+  "parents": [
+    "concept:access-control",
+    "concept:api"
+  ],
+  "mappings": {}
+}

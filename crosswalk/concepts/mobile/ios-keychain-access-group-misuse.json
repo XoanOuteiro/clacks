@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:ios-keychain-access-group-misuse",
+  "slug": "ios-keychain-access-group-misuse",
+  "title": "iOS Keychain Access Group Misuse",
+  "kind": "vulnerability",
+  "aliases": [
+    "keychain access group misuse"
+  ],
+  "parents": [
+    "concept:ios",
+    "concept:mobile-storage"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-922",
+        "confidence": "high"
+      }
+    ],
+    "owasp_mobile10": [
+      {
+        "id": "owasp/mobile10/2024/M9",
+        "confidence": "high"
+      }
+    ]
+  }
+}

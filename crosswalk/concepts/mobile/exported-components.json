@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:exported-components",
+  "slug": "exported-components",
+  "title": "Exported Components",
+  "kind": "vulnerability",
+  "aliases": [
+    "exported activity",
+    "exported receiver",
+    "exported service"
+  ],
+  "parents": [
+    "concept:android",
+    "concept:misconfiguration"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-926",
+        "confidence": "high"
+      }
+    ],
+    "owasp_mobile10": [
+      {
+        "id": "owasp/mobile10/2024/M8",
+        "confidence": "high"
+      }
+    ]
+  }
+}

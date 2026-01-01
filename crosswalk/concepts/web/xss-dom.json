@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:xss-dom",
+  "slug": "xss-dom",
+  "title": "DOM XSS",
+  "kind": "variant",
+  "aliases": [
+    "dom xss",
+    "dom-based xss",
+    "domxss"
+  ],
+  "parents": [
+    "concept:xss-generic"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-79",
+        "confidence": "high"
+      }
+    ]
+  }
+}

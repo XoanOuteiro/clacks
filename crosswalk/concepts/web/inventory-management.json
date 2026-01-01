@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:inventory-management",
+  "slug": "inventory-management",
+  "title": "Improper Inventory Management",
+  "kind": "vulnerability",
+  "aliases": [
+    "shadow api",
+    "undocumented api"
+  ],
+  "parents": [
+    "concept:api-governance",
+    "concept:misconfiguration"
+  ],
+  "mappings": {
+    "owasp_api10": [
+      {
+        "id": "owasp/api10/2023/API9",
+        "confidence": "high"
+      }
+    ]
+  }
+}

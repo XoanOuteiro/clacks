@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:search-endpoint-dos",
+  "slug": "search-endpoint-dos",
+  "title": "Search Endpoint DoS",
+  "kind": "variant",
+  "aliases": [
+    "expensive search",
+    "search dos"
+  ],
+  "parents": [
+    "concept:resource-consumption"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-400",
+        "confidence": "high"
+      }
+    ]
+  }
+}

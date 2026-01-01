@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:api-auth",
+  "slug": "api-auth",
+  "title": "API Authentication",
+  "kind": "category",
+  "aliases": [
+    "api authentication"
+  ],
+  "parents": [
+    "concept:api",
+    "concept:authentication"
+  ],
+  "mappings": {}
+}

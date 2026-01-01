@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:localstorage-sensitive",
+  "slug": "localstorage-sensitive",
+  "title": "Sensitive Data in LocalStorage",
+  "kind": "vulnerability",
+  "aliases": [
+    "localstorage sensitive",
+    "sensitive in localstorage"
+  ],
+  "parents": [
+    "concept:data-exposure",
+    "concept:storage-web"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-922",
+        "confidence": "high"
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:server",
+  "slug": "server",
+  "title": "Server-Side",
+  "kind": "category",
+  "aliases": [
+    "backend",
+    "server-side"
+  ],
+  "parents": [
+    "concept:web"
+  ],
+  "mappings": {}
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:swagger-ui-exposed",
+  "slug": "swagger-ui-exposed",
+  "title": "Swagger/OpenAPI UI Exposed",
+  "kind": "vulnerability",
+  "aliases": [
+    "openapi exposed",
+    "swagger exposed"
+  ],
+  "parents": [
+    "concept:inventory-management",
+    "concept:misconfiguration"
+  ],
+  "mappings": {
+    "owasp_api10": [
+      {
+        "id": "owasp/api10/2023/API9",
+        "confidence": "high"
+      },
+      {
+        "id": "owasp/api10/2023/API8",
+        "confidence": "high"
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:insecure-rng-mobile",
+  "slug": "insecure-rng-mobile",
+  "title": "Insecure RNG (Mobile)",
+  "kind": "variant",
+  "aliases": [
+    "insecure rng mobile"
+  ],
+  "parents": [
+    "concept:weak-crypto-mobile"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-338",
+        "confidence": "high"
+      }
+    ],
+    "owasp_mobile10": [
+      {
+        "id": "owasp/mobile10/2024/M10",
+        "confidence": "high"
+      }
+    ]
+  }
+}

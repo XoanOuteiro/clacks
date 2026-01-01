@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:http-request-splitting",
+  "slug": "http-request-splitting",
+  "title": "HTTP Response Splitting",
+  "kind": "vulnerability",
+  "aliases": [
+    "http response splitting"
+  ],
+  "parents": [
+    "concept:http",
+    "concept:injection"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-93",
+        "confidence": "high"
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:request-smuggling-cl-te",
+  "slug": "request-smuggling-cl-te",
+  "title": "Request Smuggling (CL.TE)",
+  "kind": "variant",
+  "aliases": [
+    "cl.te"
+  ],
+  "parents": [
+    "concept:request-smuggling"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-444",
+        "confidence": "high"
+      }
+    ]
+  }
+}

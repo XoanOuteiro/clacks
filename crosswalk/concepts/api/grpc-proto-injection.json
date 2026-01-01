@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:grpc-proto-injection",
+  "slug": "grpc-proto-injection",
+  "title": "gRPC Proto/Metadata Injection",
+  "kind": "vulnerability",
+  "aliases": [
+    "grpc injection",
+    "grpc metadata injection"
+  ],
+  "parents": [
+    "concept:grpc",
+    "concept:injection"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-20",
+        "confidence": "high"
+      }
+    ]
+  }
+}

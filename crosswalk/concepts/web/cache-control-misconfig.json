@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:cache-control-misconfig",
+  "slug": "cache-control-misconfig",
+  "title": "Cache-Control Misconfiguration",
+  "kind": "vulnerability",
+  "aliases": [
+    "cache-control misconfig",
+    "sensitive cached"
+  ],
+  "parents": [
+    "concept:cache",
+    "concept:misconfiguration"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-525",
+        "confidence": "high"
+      }
+    ]
+  }
+}

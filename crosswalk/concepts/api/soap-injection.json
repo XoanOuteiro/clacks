@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:soap-injection",
+  "slug": "soap-injection",
+  "title": "SOAP Injection",
+  "kind": "vulnerability",
+  "aliases": [
+    "soap injection"
+  ],
+  "parents": [
+    "concept:injection",
+    "concept:soap"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-91",
+        "confidence": "high"
+      }
+    ]
+  }
+}

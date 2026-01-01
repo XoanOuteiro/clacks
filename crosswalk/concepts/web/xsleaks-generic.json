@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:xsleaks-generic",
+  "slug": "xsleaks-generic",
+  "title": "Cross-Site Leaks",
+  "kind": "vulnerability",
+  "aliases": [
+    "cross-site leaks",
+    "xs-leaks",
+    "xsleaks"
+  ],
+  "parents": [
+    "concept:xsleaks"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-200",
+        "confidence": "high"
+      }
+    ]
+  }
+}

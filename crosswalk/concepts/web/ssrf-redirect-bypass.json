@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:ssrf-redirect-bypass",
+  "slug": "ssrf-redirect-bypass",
+  "title": "SSRF Redirect Bypass",
+  "kind": "variant",
+  "aliases": [
+    "ssrf redirect bypass"
+  ],
+  "parents": [
+    "concept:ssrf"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-918",
+        "confidence": "high"
+      }
+    ]
+  }
+}

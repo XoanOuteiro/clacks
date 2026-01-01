@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:mass-assignment",
+  "slug": "mass-assignment",
+  "title": "Mass Assignment",
+  "kind": "variant",
+  "aliases": [
+    "mass assignment",
+    "overposting"
+  ],
+  "parents": [
+    "concept:bopla"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-915",
+        "confidence": "high"
+      }
+    ]
+  }
+}

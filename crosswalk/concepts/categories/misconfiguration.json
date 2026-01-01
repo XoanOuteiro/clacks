@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:misconfiguration",
+  "slug": "misconfiguration",
+  "title": "Security Misconfiguration",
+  "kind": "category",
+  "aliases": [
+    "misconfiguration",
+    "security misconfiguration"
+  ],
+  "parents": [
+    "concept:clacks"
+  ],
+  "mappings": {
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A05",
+        "confidence": "high"
+      }
+    ],
+    "owasp_api10": [
+      {
+        "id": "owasp/api10/2023/API8",
+        "confidence": "high"
+      }
+    ],
+    "owasp_mobile10": [
+      {
+        "id": "owasp/mobile10/2024/M8",
+        "confidence": "high"
+      }
+    ]
+  }
+}

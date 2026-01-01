@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:rest-filter-abuse",
+  "slug": "rest-filter-abuse",
+  "title": "Filter/Sort Abuse",
+  "kind": "variant",
+  "aliases": [
+    "filter abuse",
+    "sort abuse"
+  ],
+  "parents": [
+    "concept:resource-consumption"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-400",
+        "confidence": "high"
+      }
+    ]
+  }
+}

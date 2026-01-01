@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:weakness",
+  "slug": "weakness",
+  "title": "Weakness (deprecated)",
+  "kind": "root",
+  "aliases": [
+    "vulnerability class",
+    "weakness"
+  ],
+  "parents": [],
+  "mappings": {},
+  "deprecated_by": "concept:clacks"
+}

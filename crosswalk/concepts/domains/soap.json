@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:soap",
+  "slug": "soap",
+  "title": "SOAP",
+  "kind": "category",
+  "aliases": [
+    "soap",
+    "xml soap"
+  ],
+  "parents": [
+    "concept:api",
+    "concept:protocol"
+  ],
+  "mappings": {}
+}

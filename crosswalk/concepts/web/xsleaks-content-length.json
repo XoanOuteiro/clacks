@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:xsleaks-content-length",
+  "slug": "xsleaks-content-length",
+  "title": "Content-Length XS-Leak",
+  "kind": "variant",
+  "aliases": [
+    "content length xsleak"
+  ],
+  "parents": [
+    "concept:xsleaks-generic"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-200",
+        "confidence": "high"
+      }
+    ]
+  }
+}

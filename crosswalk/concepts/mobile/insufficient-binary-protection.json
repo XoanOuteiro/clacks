@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:insufficient-binary-protection",
+  "slug": "insufficient-binary-protection",
+  "title": "Insufficient Binary Protections",
+  "kind": "vulnerability",
+  "aliases": [
+    "insufficient binary protections",
+    "no obfuscation"
+  ],
+  "parents": [
+    "concept:mobile-binary"
+  ],
+  "mappings": {
+    "owasp_mobile10": [
+      {
+        "id": "owasp/mobile10/2024/M7",
+        "confidence": "high"
+      }
+    ]
+  }
+}

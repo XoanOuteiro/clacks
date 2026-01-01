@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:use-of-ecb",
+  "slug": "use-of-ecb",
+  "title": "Use of ECB Mode",
+  "kind": "variant",
+  "aliases": [
+    "aes ecb",
+    "ecb mode"
+  ],
+  "parents": [
+    "concept:weak-crypto-mobile"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-327",
+        "confidence": "high"
+      }
+    ],
+    "owasp_mobile10": [
+      {
+        "id": "owasp/mobile10/2024/M10",
+        "confidence": "high"
+      }
+    ]
+  }
+}

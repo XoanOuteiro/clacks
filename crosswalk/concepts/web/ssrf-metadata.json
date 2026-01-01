@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:ssrf-metadata",
+  "slug": "ssrf-metadata",
+  "title": "SSRF to Cloud Metadata",
+  "kind": "variant",
+  "aliases": [
+    "imds ssrf",
+    "metadata ssrf"
+  ],
+  "parents": [
+    "concept:ssrf"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-918",
+        "confidence": "high"
+      }
+    ]
+  }
+}

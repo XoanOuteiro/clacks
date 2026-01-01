@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:broken-authentication",
+  "slug": "broken-authentication",
+  "title": "Broken Authentication",
+  "kind": "vulnerability",
+  "aliases": [
+    "auth bypass",
+    "broken authentication"
+  ],
+  "parents": [
+    "concept:api",
+    "concept:api-auth",
+    "concept:authentication"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-287",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A07",
+        "confidence": "medium",
+        "note": "Bucket-level mapping."
+      }
+    ],
+    "owasp_api10": [
+      {
+        "id": "owasp/api10/2023/API2",
+        "confidence": "high"
+      }
+    ]
+  }
+}

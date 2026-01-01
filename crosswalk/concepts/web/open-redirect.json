@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:open-redirect",
+  "slug": "open-redirect",
+  "title": "Open Redirect",
+  "kind": "vulnerability",
+  "aliases": [
+    "open redirect",
+    "unvalidated redirect"
+  ],
+  "parents": [
+    "concept:web"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-601",
+        "confidence": "high"
+      }
+    ]
+  }
+}

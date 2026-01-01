@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:webview-file-access",
+  "slug": "webview-file-access",
+  "title": "WebView File Access Enabled",
+  "kind": "variant",
+  "aliases": [
+    "webview file access"
+  ],
+  "parents": [
+    "concept:insecure-webview"
+  ],
+  "mappings": {
+    "owasp_mobile10": [
+      {
+        "id": "owasp/mobile10/2024/M4",
+        "confidence": "high"
+      }
+    ]
+  }
+}

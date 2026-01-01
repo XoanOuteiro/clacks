@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:browser",
+  "slug": "browser",
+  "title": "Browser/Platform",
+  "kind": "category",
+  "aliases": [
+    "browser",
+    "frontend platform",
+    "web platform"
+  ],
+  "parents": [
+    "concept:web"
+  ],
+  "mappings": {}
+}

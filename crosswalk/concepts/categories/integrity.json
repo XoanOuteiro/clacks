@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:integrity",
+  "slug": "integrity",
+  "title": "Software and Data Integrity",
+  "kind": "category",
+  "aliases": [
+    "integrity",
+    "supply chain integrity"
+  ],
+  "parents": [
+    "concept:clacks"
+  ],
+  "mappings": {
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A08",
+        "confidence": "high"
+      }
+    ]
+  }
+}

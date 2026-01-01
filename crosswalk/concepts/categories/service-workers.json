@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:service-workers",
+  "slug": "service-workers",
+  "title": "Service Workers",
+  "kind": "category",
+  "aliases": [
+    "service worker",
+    "service workers"
+  ],
+  "parents": [
+    "concept:browser"
+  ],
+  "mappings": {}
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:tapjacking-mobile",
+  "slug": "tapjacking-mobile",
+  "title": "Tapjacking (Mobile Overlay)",
+  "kind": "vulnerability",
+  "aliases": [
+    "overlay attack",
+    "tapjacking"
+  ],
+  "parents": [
+    "concept:android",
+    "concept:mobile-input"
+  ],
+  "mappings": {
+    "owasp_mobile10": [
+      {
+        "id": "owasp/mobile10/2024/M3",
+        "confidence": "high"
+      },
+      {
+        "id": "owasp/mobile10/2024/M8",
+        "confidence": "high"
+      }
+    ]
+  }
+}

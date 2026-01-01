@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:unsafe-consumption",
+  "slug": "unsafe-consumption",
+  "title": "Unsafe Consumption of APIs",
+  "kind": "vulnerability",
+  "aliases": [
+    "third party api trust",
+    "unsafe consumption of apis"
+  ],
+  "parents": [
+    "concept:api",
+    "concept:integrity"
+  ],
+  "mappings": {
+    "owasp_api10": [
+      {
+        "id": "owasp/api10/2023/API10",
+        "confidence": "high"
+      }
+    ]
+  }
+}

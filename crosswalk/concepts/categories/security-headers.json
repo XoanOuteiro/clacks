@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:security-headers",
+  "slug": "security-headers",
+  "title": "Security Headers",
+  "kind": "category",
+  "aliases": [
+    "http security headers",
+    "security headers"
+  ],
+  "parents": [
+    "concept:misconfiguration",
+    "concept:web"
+  ],
+  "mappings": {}
+}

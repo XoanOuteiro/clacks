@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:xsleaks-xcto-nosniff",
+  "slug": "xsleaks-xcto-nosniff",
+  "title": "NoSniff XS-Leak",
+  "kind": "variant",
+  "aliases": [
+    "nosniff xsleak"
+  ],
+  "parents": [
+    "concept:xsleaks-generic"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-200",
+        "confidence": "high"
+      }
+    ]
+  }
+}

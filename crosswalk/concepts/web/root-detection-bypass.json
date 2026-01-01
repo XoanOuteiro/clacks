@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:root-detection-bypass",
+  "slug": "root-detection-bypass",
+  "title": "Root/Jailbreak Detection Bypass",
+  "kind": "variant",
+  "aliases": [
+    "jailbreak detection bypass",
+    "root detection bypass"
+  ],
+  "parents": [
+    "concept:insufficient-binary-protection"
+  ],
+  "mappings": {
+    "owasp_mobile10": [
+      {
+        "id": "owasp/mobile10/2024/M7",
+        "confidence": "high"
+      }
+    ]
+  }
+}

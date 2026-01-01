@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:serialization",
+  "slug": "serialization",
+  "title": "Serialization",
+  "kind": "category",
+  "aliases": [
+    "serialization"
+  ],
+  "parents": [
+    "concept:integrity",
+    "concept:server"
+  ],
+  "mappings": {}
+}

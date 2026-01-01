@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:csrf-samesite-bypass",
+  "slug": "csrf-samesite-bypass",
+  "title": "SameSite Bypass CSRF",
+  "kind": "variant",
+  "aliases": [
+    "samesite bypass csrf"
+  ],
+  "parents": [
+    "concept:csrf-generic"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-352",
+        "confidence": "high"
+      }
+    ]
+  },
+  "notes": [
+    "Modern CSRF variants leveraging SameSite edge cases."
+  ]
+}

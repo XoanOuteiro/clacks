@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:websocket",
+  "slug": "websocket",
+  "title": "WebSocket",
+  "kind": "category",
+  "aliases": [
+    "websocket",
+    "ws",
+    "wss"
+  ],
+  "parents": [
+    "concept:protocol"
+  ],
+  "mappings": {}
+}

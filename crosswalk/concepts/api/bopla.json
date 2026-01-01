@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:bopla",
+  "slug": "bopla",
+  "title": "Broken Object Property Level Authorization",
+  "kind": "vulnerability",
+  "aliases": [
+    "bopla",
+    "mass assignment",
+    "overposting"
+  ],
+  "parents": [
+    "concept:access-control",
+    "concept:api",
+    "concept:api-authorisation"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-915",
+        "confidence": "medium"
+      },
+      {
+        "id": "cwe/CWE-639",
+        "confidence": "medium"
+      }
+    ],
+    "owasp_api10": [
+      {
+        "id": "owasp/api10/2023/API3",
+        "confidence": "high"
+      }
+    ]
+  }
+}

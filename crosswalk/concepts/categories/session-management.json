@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:session-management",
+  "slug": "session-management",
+  "title": "Session Management",
+  "kind": "category",
+  "aliases": [
+    "session",
+    "session management"
+  ],
+  "parents": [
+    "concept:authentication"
+  ],
+  "mappings": {}
+}

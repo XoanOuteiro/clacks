@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:injection",
+  "slug": "injection",
+  "title": "Injection",
+  "kind": "category",
+  "aliases": [
+    "injection"
+  ],
+  "parents": [
+    "concept:clacks"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-74",
+        "confidence": "high",
+        "note": "Category anchor; prefer leaf CWE."
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A03",
+        "confidence": "high",
+        "note": "Bucket-level mapping."
+      }
+    ]
+  }
+}

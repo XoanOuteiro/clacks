@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:debuggable-build",
+  "slug": "debuggable-build",
+  "title": "Debuggable Build Enabled",
+  "kind": "variant",
+  "aliases": [
+    "android debuggable",
+    "debug build"
+  ],
+  "parents": [
+    "concept:insufficient-binary-protection"
+  ],
+  "mappings": {
+    "owasp_mobile10": [
+      {
+        "id": "owasp/mobile10/2024/M7",
+        "confidence": "high"
+      }
+    ]
+  }
+}

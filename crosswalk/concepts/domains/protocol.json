@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:protocol",
+  "slug": "protocol",
+  "title": "Protocol",
+  "kind": "category",
+  "aliases": [
+    "network protocol",
+    "protocol"
+  ],
+  "parents": [
+    "concept:api"
+  ],
+  "mappings": {}
+}

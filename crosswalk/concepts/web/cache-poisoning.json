@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:cache-poisoning",
+  "slug": "cache-poisoning",
+  "title": "Web Cache Poisoning",
+  "kind": "vulnerability",
+  "aliases": [
+    "cache poisoning",
+    "web cache poisoning"
+  ],
+  "parents": [
+    "concept:cache",
+    "concept:web"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-444",
+        "confidence": "medium"
+      },
+      {
+        "id": "cwe/CWE-349",
+        "confidence": "medium"
+      }
+    ]
+  }
+}

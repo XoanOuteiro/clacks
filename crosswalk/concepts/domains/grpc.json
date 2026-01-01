@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:grpc",
+  "slug": "grpc",
+  "title": "gRPC",
+  "kind": "category",
+  "aliases": [
+    "grpc"
+  ],
+  "parents": [
+    "concept:api",
+    "concept:protocol"
+  ],
+  "mappings": {}
+}

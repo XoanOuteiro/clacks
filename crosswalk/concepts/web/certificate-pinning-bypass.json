@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:certificate-pinning-bypass",
+  "slug": "certificate-pinning-bypass",
+  "title": "Certificate Pinning Bypass",
+  "kind": "variant",
+  "aliases": [
+    "pinning bypass",
+    "trustkit bypass"
+  ],
+  "parents": [
+    "concept:missing-certificate-pinning"
+  ],
+  "mappings": {
+    "owasp_mobile10": [
+      {
+        "id": "owasp/mobile10/2024/M5",
+        "confidence": "high"
+      }
+    ]
+  }
+}

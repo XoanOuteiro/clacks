@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:open-redirect-oauth",
+  "slug": "open-redirect-oauth",
+  "title": "Open Redirect in OAuth",
+  "kind": "variant",
+  "aliases": [
+    "oauth open redirect",
+    "redirect uri open redirect"
+  ],
+  "parents": [
+    "concept:open-redirect"
+  ],
+  "mappings": {},
+  "notes": [
+    "Often impacts OAuth flows; validate redirect URI allowlists."
+  ]
+}

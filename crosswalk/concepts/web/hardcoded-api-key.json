@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:hardcoded-api-key",
+  "slug": "hardcoded-api-key",
+  "title": "Hardcoded API Key",
+  "kind": "variant",
+  "aliases": [
+    "embedded openapi key",
+    "hardcoded api key",
+    "hardcoded openapi key"
+  ],
+  "parents": [
+    "concept:hardcoded-secrets"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-798",
+        "confidence": "high"
+      }
+    ]
+  }
+}

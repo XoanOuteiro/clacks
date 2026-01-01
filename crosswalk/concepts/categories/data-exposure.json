@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:data-exposure",
+  "slug": "data-exposure",
+  "title": "Information Exposure",
+  "kind": "category",
+  "aliases": [
+    "data exposure",
+    "info disclosure",
+    "information exposure"
+  ],
+  "parents": [
+    "concept:clacks"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-200",
+        "confidence": "high"
+      }
+    ]
+  }
+}

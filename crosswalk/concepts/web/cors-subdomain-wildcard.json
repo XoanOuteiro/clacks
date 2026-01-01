@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:cors-subdomain-wildcard",
+  "slug": "cors-subdomain-wildcard",
+  "title": "Subdomain Wildcard CORS",
+  "kind": "variant",
+  "aliases": [
+    "subdomain wildcard cors"
+  ],
+  "parents": [
+    "concept:cors-misconfiguration"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-942",
+        "confidence": "high"
+      }
+    ]
+  }
+}

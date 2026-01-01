@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:clickjacking",
+  "slug": "clickjacking",
+  "title": "Clickjacking",
+  "kind": "vulnerability",
+  "aliases": [
+    "clickjacking",
+    "ui redress"
+  ],
+  "parents": [
+    "concept:access-control",
+    "concept:browser",
+    "concept:web"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-1021",
+        "confidence": "high"
+      }
+    ]
+  }
+}

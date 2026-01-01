@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:webhooks",
+  "slug": "webhooks",
+  "title": "Webhooks",
+  "kind": "category",
+  "aliases": [
+    "webhook",
+    "webhooks"
+  ],
+  "parents": [
+    "concept:api",
+    "concept:protocol"
+  ],
+  "mappings": {}
+}

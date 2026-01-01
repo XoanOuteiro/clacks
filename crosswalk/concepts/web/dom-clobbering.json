@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:dom-clobbering",
+  "slug": "dom-clobbering",
+  "title": "DOM Clobbering",
+  "kind": "vulnerability",
+  "aliases": [
+    "dom clobbering"
+  ],
+  "parents": [
+    "concept:dom-security",
+    "concept:xss"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-79",
+        "confidence": "high"
+      }
+    ]
+  },
+  "notes": [
+    "Often used as an XSS primitive when code trusts global DOM properties."
+  ]
+}

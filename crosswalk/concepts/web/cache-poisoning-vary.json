@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:cache-poisoning-vary",
+  "slug": "cache-poisoning-vary",
+  "title": "Vary Header Cache Poisoning",
+  "kind": "variant",
+  "aliases": [
+    "vary cache poisoning"
+  ],
+  "parents": [
+    "concept:cache-poisoning"
+  ],
+  "mappings": {}
+}

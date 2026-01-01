@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:mobile",
+  "slug": "mobile",
+  "title": "Mobile",
+  "kind": "category",
+  "aliases": [
+    "android",
+    "appsec",
+    "ios",
+    "mobile"
+  ],
+  "parents": [
+    "concept:clacks"
+  ],
+  "mappings": {}
+}

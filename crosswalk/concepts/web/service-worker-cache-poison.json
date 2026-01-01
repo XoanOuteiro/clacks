@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:service-worker-cache-poison",
+  "slug": "service-worker-cache-poison",
+  "title": "Service Worker Cache Poisoning",
+  "kind": "vulnerability",
+  "aliases": [
+    "service worker cache poisoning"
+  ],
+  "parents": [
+    "concept:cache-poisoning",
+    "concept:service-workers"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-349",
+        "confidence": "high"
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:webview-universal-access",
+  "slug": "webview-universal-access",
+  "title": "WebView Universal Access From File URLs",
+  "kind": "variant",
+  "aliases": [
+    "universal access from file urls"
+  ],
+  "parents": [
+    "concept:insecure-webview"
+  ],
+  "mappings": {
+    "owasp_mobile10": [
+      {
+        "id": "owasp/mobile10/2024/M4",
+        "confidence": "high"
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:privacy",
+  "slug": "privacy",
+  "title": "Privacy",
+  "kind": "category",
+  "aliases": [
+    "data minimization",
+    "privacy"
+  ],
+  "parents": [
+    "concept:clacks"
+  ],
+  "mappings": {
+    "owasp_mobile10": [
+      {
+        "id": "owasp/mobile10/2024/M6",
+        "confidence": "high"
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:missing-referrer-policy",
+  "slug": "missing-referrer-policy",
+  "title": "Missing Referrer-Policy",
+  "kind": "vulnerability",
+  "aliases": [
+    "missing referrer-policy"
+  ],
+  "parents": [
+    "concept:security-headers"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-200",
+        "confidence": "high"
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:http",
+  "slug": "http",
+  "title": "HTTP",
+  "kind": "category",
+  "aliases": [
+    "http",
+    "https"
+  ],
+  "parents": [
+    "concept:protocol"
+  ],
+  "mappings": {}
+}

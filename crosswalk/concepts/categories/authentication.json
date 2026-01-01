@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:authentication",
+  "slug": "authentication",
+  "title": "Authentication",
+  "kind": "category",
+  "aliases": [
+    "authentication",
+    "authn",
+    "login"
+  ],
+  "parents": [
+    "concept:clacks"
+  ],
+  "mappings": {
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A07",
+        "confidence": "high",
+        "note": "Bucket-level mapping."
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:csrf-login",
+  "slug": "csrf-login",
+  "title": "Login CSRF",
+  "kind": "variant",
+  "aliases": [
+    "login csrf"
+  ],
+  "parents": [
+    "concept:csrf-generic"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-352",
+        "confidence": "high"
+      }
+    ]
+  }
+}

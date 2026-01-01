@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:xss-angular",
+  "slug": "xss-angular",
+  "title": "XSS (Angular Template)",
+  "kind": "variant",
+  "aliases": [
+    "angular xss",
+    "angularjs xss"
+  ],
+  "parents": [
+    "concept:xss-generic"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-79",
+        "confidence": "high"
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:missing-coop",
+  "slug": "missing-coop",
+  "title": "Missing COOP",
+  "kind": "vulnerability",
+  "aliases": [
+    "cross-origin-opener-policy missing",
+    "missing coop"
+  ],
+  "parents": [
+    "concept:security-headers"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-693",
+        "confidence": "high"
+      }
+    ]
+  }
+}

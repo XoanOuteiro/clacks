@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:components",
+  "slug": "components",
+  "title": "Vulnerable Components",
+  "kind": "category",
+  "aliases": [
+    "dependency",
+    "outdated components",
+    "vulnerable components"
+  ],
+  "parents": [
+    "concept:clacks"
+  ],
+  "mappings": {
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A06",
+        "confidence": "high"
+      }
+    ]
+  }
+}

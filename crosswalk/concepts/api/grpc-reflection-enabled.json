@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:grpc-reflection-enabled",
+  "slug": "grpc-reflection-enabled",
+  "title": "gRPC Reflection Enabled",
+  "kind": "vulnerability",
+  "aliases": [
+    "grpc reflection",
+    "server reflection"
+  ],
+  "parents": [
+    "concept:grpc",
+    "concept:misconfiguration"
+  ],
+  "mappings": {
+    "owasp_api10": [
+      {
+        "id": "owasp/api10/2023/API9",
+        "confidence": "high"
+      },
+      {
+        "id": "owasp/api10/2023/API8",
+        "confidence": "high"
+      }
+    ]
+  }
+}

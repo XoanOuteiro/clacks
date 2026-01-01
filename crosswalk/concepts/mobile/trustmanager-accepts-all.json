@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "id": "concept:trustmanager-accepts-all",
+  "slug": "trustmanager-accepts-all",
+  "title": "TrustManager Accepts All Certificates",
+  "kind": "variant",
+  "aliases": [
+    "insecure trustmanager",
+    "trustmanager accepts all"
+  ],
+  "parents": [
+    "concept:android",
+    "concept:insecure-communication"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-295",
+        "confidence": "high"
+      }
+    ],
+    "owasp_mobile10": [
+      {
+        "id": "owasp/mobile10/2024/M5",
+        "confidence": "high"
+      }
+    ]
+  }
+}
