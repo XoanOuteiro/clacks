@@ -1,0 +1,38 @@
+{
+  "id": "clacks/cryptography/cbc_mac/variants/basic",
+  "slug": "clacks/cryptography/cbc_mac/variants/basic",
+  "title": "CBC-MAC Misuse (Basic)",
+  "aliases": [
+    "cbc-mac misuse",
+    "basic"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-310",
+        "confidence": "medium",
+        "note": "Umbrella mapping for family; subtype may have more specific CWE"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A02",
+        "confidence": "medium"
+      }
+    ],
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/cryptographic_failures",
+        "confidence": "low",
+        "note": "Best-effort mapping to closest VRT umbrella node"
+      }
+    ]
+  },
+  "also_in": [
+    {
+      "slug": "clacks/cryptography/cbc_mac",
+      "confidence": "high",
+      "note": "Variant of the base concept"
+    }
+  ]
+}

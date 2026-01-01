@@ -1,0 +1,37 @@
+{
+  "id": "clacks/injection/client_side",
+  "slug": "clacks/injection/client_side",
+  "title": "Client-Side Injection",
+  "aliases": [
+    "client-side injection",
+    "client side injection"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-74",
+        "confidence": "medium",
+        "note": "Injection umbrella; specific CWEs used per subtype"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A03",
+        "confidence": "high"
+      }
+    ],
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/client_side_injection",
+        "confidence": "high"
+      }
+    ]
+  },
+  "also_in": [
+    {
+      "slug": "clacks/injection",
+      "confidence": "high",
+      "note": "Refinement of injection into client-side primitives"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "clacks/injection/server_side/xxe/techniques/payload_encoding",
+  "slug": "clacks/injection/server_side/xxe/techniques/payload_encoding",
+  "title": "XML External Entity Injection (XXE) via Payload Encoding / Obfuscation",
+  "aliases": [
+    "xxe",
+    "xml external entity",
+    "encoding",
+    "obfuscation",
+    "url encoding",
+    "xxe payload encoding"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-611",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A03",
+        "confidence": "high"
+      }
+    ],
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/server_side_injection.xxe",
+        "confidence": "low",
+        "note": "Technique-level classification; VRT usually rates at vulnerability class level"
+      }
+    ]
+  },
+  "also_in": [
+    {
+      "slug": "clacks/injection/server_side/xxe",
+      "confidence": "high",
+      "note": "Technique classification for this injection class"
+    }
+  ]
+}

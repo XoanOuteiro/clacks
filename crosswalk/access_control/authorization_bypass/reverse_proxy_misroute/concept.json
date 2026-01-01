@@ -1,0 +1,43 @@
+{
+  "id": "clacks/access_control/authorization_bypass/reverse_proxy_misroute",
+  "slug": "clacks/access_control/authorization_bypass/reverse_proxy_misroute",
+  "title": "Reverse Proxy Misrouting / ACL Bypass",
+  "aliases": [
+    "proxy misrouting",
+    "acl bypass proxy"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-285",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A01",
+        "confidence": "high"
+      }
+    ],
+    "owasp_api10": [
+      {
+        "id": "owasp/api/2023/API05",
+        "confidence": "medium"
+      }
+    ],
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/broken_access_control",
+        "confidence": "medium",
+        "note": "Pattern-level bypass mapped to BAC umbrella"
+      }
+    ]
+  },
+  "also_in": [
+    {
+      "slug": "clacks/access_control/authorization_bypass",
+      "confidence": "high",
+      "note": "Authorization bypass pattern family"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "clacks/injection/client_side/xss/sinks/css_context",
+  "slug": "clacks/injection/client_side/xss/sinks/css_context",
+  "title": "XSS via Css Context Sinks",
+  "aliases": [
+    "xss sink",
+    "css context",
+    "style injection",
+    "css xss"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-79",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A03",
+        "confidence": "high"
+      }
+    ],
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/client_side_injection.cross_site_scripting",
+        "confidence": "low",
+        "note": "Technique-level classification; VRT usually rates at XSS subtype level"
+      }
+    ]
+  },
+  "also_in": [
+    {
+      "slug": "clacks/injection/client_side/xss",
+      "confidence": "high",
+      "note": "Technique classification for XSS exploitation"
+    }
+  ]
+}

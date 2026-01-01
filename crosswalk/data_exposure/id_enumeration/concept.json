@@ -1,0 +1,37 @@
+{
+  "id": "clacks/data_exposure/id_enumeration",
+  "slug": "clacks/data_exposure/id_enumeration",
+  "title": "ID Enumeration",
+  "aliases": [
+    "id enumeration"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-200",
+        "confidence": "medium",
+        "note": "Umbrella mapping for family; subtype may have more specific CWE"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A02",
+        "confidence": "medium"
+      }
+    ],
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/sensitive_data_exposure",
+        "confidence": "medium",
+        "note": "Best-effort mapping to closest VRT umbrella node"
+      }
+    ]
+  },
+  "also_in": [
+    {
+      "slug": "clacks/data_exposure",
+      "confidence": "high",
+      "note": "Family umbrella"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "clacks/access_control/function_level/missing_role_checks",
+  "slug": "clacks/access_control/function_level/missing_role_checks",
+  "title": "Missing Role/Permission Checks",
+  "aliases": [
+    "missing role check",
+    "missing permission check"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-285",
+        "confidence": "high",
+        "note": "Improper Authorization"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A01",
+        "confidence": "high"
+      }
+    ],
+    "owasp_api10": [
+      {
+        "id": "owasp/api/2023/API05",
+        "confidence": "medium",
+        "note": "BFLA aligns with broken function-level authorization"
+      }
+    ],
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/broken_access_control.broken_function_level_authorization",
+        "confidence": "medium",
+        "note": "Mapped to closest BAC node"
+      }
+    ]
+  },
+  "also_in": [
+    {
+      "slug": "clacks/access_control/function_level",
+      "confidence": "high",
+      "note": "Function-level authorization class"
+    }
+  ]
+}

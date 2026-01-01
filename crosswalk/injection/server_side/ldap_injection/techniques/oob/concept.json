@@ -1,0 +1,40 @@
+{
+  "id": "clacks/injection/server_side/ldap_injection/techniques/oob",
+  "slug": "clacks/injection/server_side/ldap_injection/techniques/oob",
+  "title": "LDAP Injection via Out-of-Band Interaction",
+  "aliases": [
+    "ldap injection",
+    "oob",
+    "dns interaction",
+    "callback",
+    "ldap injection oob"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-90",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A03",
+        "confidence": "high"
+      }
+    ],
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/server_side_injection.ldap_injection",
+        "confidence": "low",
+        "note": "Technique-level classification; VRT usually rates at vulnerability class level"
+      }
+    ]
+  },
+  "also_in": [
+    {
+      "slug": "clacks/injection/server_side/ldap_injection",
+      "confidence": "high",
+      "note": "Technique classification for this injection class"
+    }
+  ]
+}

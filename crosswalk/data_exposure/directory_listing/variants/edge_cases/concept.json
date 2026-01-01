@@ -1,0 +1,40 @@
+{
+  "id": "clacks/data_exposure/directory_listing/variants/edge_cases",
+  "slug": "clacks/data_exposure/directory_listing/variants/edge_cases",
+  "title": "Directory Listing (Edge Cases)",
+  "aliases": [
+    "directory listing",
+    "index of",
+    "edge case",
+    "edge cases"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-200",
+        "confidence": "medium",
+        "note": "Umbrella mapping for family; subtype may have more specific CWE"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A02",
+        "confidence": "medium"
+      }
+    ],
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/sensitive_data_exposure",
+        "confidence": "low",
+        "note": "Best-effort mapping to closest VRT umbrella node"
+      }
+    ]
+  },
+  "also_in": [
+    {
+      "slug": "clacks/data_exposure/directory_listing",
+      "confidence": "high",
+      "note": "Variant of the base concept"
+    }
+  ]
+}

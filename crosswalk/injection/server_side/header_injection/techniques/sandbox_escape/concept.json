@@ -1,0 +1,39 @@
+{
+  "id": "clacks/injection/server_side/header_injection/techniques/sandbox_escape",
+  "slug": "clacks/injection/server_side/header_injection/techniques/sandbox_escape",
+  "title": "HTTP Header Injection via Sandbox Escape",
+  "aliases": [
+    "header injection",
+    "response splitting",
+    "sandbox escape",
+    "header injection sandbox escape"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-113",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A03",
+        "confidence": "high"
+      }
+    ],
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/server_side_injection.header_injection",
+        "confidence": "low",
+        "note": "Technique-level classification; VRT usually rates at vulnerability class level"
+      }
+    ]
+  },
+  "also_in": [
+    {
+      "slug": "clacks/injection/server_side/header_injection",
+      "confidence": "high",
+      "note": "Technique classification for this injection class"
+    }
+  ]
+}

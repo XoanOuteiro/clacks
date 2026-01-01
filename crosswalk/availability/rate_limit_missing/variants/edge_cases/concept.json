@@ -1,0 +1,39 @@
+{
+  "id": "clacks/availability/rate_limit_missing/variants/edge_cases",
+  "slug": "clacks/availability/rate_limit_missing/variants/edge_cases",
+  "title": "Missing Rate Limiting (Edge Cases)",
+  "aliases": [
+    "missing rate limiting",
+    "edge case",
+    "edge cases"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-400",
+        "confidence": "medium",
+        "note": "Umbrella mapping for family; subtype may have more specific CWE"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A10",
+        "confidence": "medium"
+      }
+    ],
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/denial_of_service",
+        "confidence": "low",
+        "note": "Best-effort mapping to closest VRT umbrella node"
+      }
+    ]
+  },
+  "also_in": [
+    {
+      "slug": "clacks/availability/rate_limit_missing",
+      "confidence": "high",
+      "note": "Variant of the base concept"
+    }
+  ]
+}

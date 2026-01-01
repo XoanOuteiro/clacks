@@ -1,0 +1,48 @@
+{
+  "id": "clacks/injection/client_side/xss/stored",
+  "slug": "clacks/injection/client_side/xss/stored",
+  "title": "Stored XSS",
+  "aliases": [
+    "stored xss",
+    "persistent xss",
+    "sxss"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-79",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A03",
+        "confidence": "high"
+      }
+    ],
+    "mitre_attack": [
+      {
+        "id": "mitre/T1059.007",
+        "confidence": "medium"
+      }
+    ],
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/client_side_injection.cross_site_scripting.stored",
+        "confidence": "high"
+      },
+      {
+        "id": "bugcrowd/vrt/client_side_injection.cross_site_scripting.stored.privileged",
+        "confidence": "medium",
+        "note": "Use when privileged victim required"
+      }
+    ]
+  },
+  "also_in": [
+    {
+      "slug": "clacks/injection/client_side/xss",
+      "confidence": "high",
+      "note": "Subtype of XSS"
+    }
+  ]
+}

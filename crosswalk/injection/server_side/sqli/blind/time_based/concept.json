@@ -1,0 +1,55 @@
+{
+  "id": "clacks/injection/server_side/sqli/blind/time_based",
+  "slug": "clacks/injection/server_side/sqli/blind/time_based",
+  "title": "Blind Time-Based SQL Injection",
+  "aliases": [
+    "time-based sqli",
+    "sleep sqli",
+    "benchmark sqli"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-89",
+        "confidence": "high"
+      },
+      {
+        "id": "cwe/CWE-208",
+        "confidence": "medium",
+        "note": "Timing discrepancy used as inference oracle"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A03",
+        "confidence": "high"
+      }
+    ],
+    "owasp_api10": [
+      {
+        "id": "owasp/api/2023/API03",
+        "confidence": "high"
+      }
+    ],
+    "mitre_attack": [
+      {
+        "id": "mitre/T1190",
+        "confidence": "high"
+      }
+    ],
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/server_side_injection.sql_injection.blind",
+        "confidence": "medium",
+        "note": "VRT may not split this technique; mapped to nearest SQLi node"
+      }
+    ]
+  },
+  "also_in": [
+    {
+      "slug": "clacks/injection/server_side/sqli",
+      "confidence": "high",
+      "note": "Technique/variant of SQLi"
+    }
+  ]
+}

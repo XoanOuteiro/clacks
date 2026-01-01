@@ -1,9 +1,0 @@
-{
-  "crosswalk_schema_version": "1.0",
-  "generated": "2026-01-01T00:22:34Z",
-  "concept_count": 183,
-  "notes": [
-    "Hierarchy is encoded via parents; folders are for human browsing.",
-    "Generated indexes are derived artifacts."
-  ]
-}

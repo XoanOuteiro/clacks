@@ -1,0 +1,42 @@
+{
+  "id": "clacks/injection/server_side/sqli",
+  "slug": "clacks/injection/server_side/sqli",
+  "title": "SQL Injection (SQLi)",
+  "aliases": [
+    "sql injection",
+    "sqli"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-89",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A03",
+        "confidence": "high"
+      }
+    ],
+    "owasp_api10": [
+      {
+        "id": "owasp/api/2023/API03",
+        "confidence": "high",
+        "note": "Injection"
+      }
+    ],
+    "mitre_attack": [
+      {
+        "id": "mitre/T1190",
+        "confidence": "high"
+      }
+    ],
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/server_side_injection.sql_injection",
+        "confidence": "high"
+      }
+    ]
+  }
+}

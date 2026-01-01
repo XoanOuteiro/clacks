@@ -1,0 +1,43 @@
+{
+  "id": "clacks/injection",
+  "slug": "clacks/injection",
+  "title": "Injection",
+  "aliases": [
+    "injection",
+    "injection"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-74",
+        "confidence": "high",
+        "note": "Umbrella CWE for injection-style weaknesses"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A03",
+        "confidence": "high"
+      }
+    ],
+    "mitre_attack": [
+      {
+        "id": "mitre/T1190",
+        "confidence": "medium",
+        "note": "Broad mapping: exploited via public-facing apps"
+      }
+    ],
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/server_side_injection",
+        "confidence": "high",
+        "note": "Umbrella for server-side injection classes"
+      },
+      {
+        "id": "bugcrowd/vrt/client_side_injection",
+        "confidence": "medium",
+        "note": "Umbrella for client-side injection classes"
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "clacks/injection/server_side/ssti/techniques/unicode_tricks",
+  "slug": "clacks/injection/server_side/ssti/techniques/unicode_tricks",
+  "title": "Server-Side Template Injection (SSTI) via Unicode Tricks",
+  "aliases": [
+    "ssti",
+    "template injection",
+    "unicode bypass",
+    "homoglyph",
+    "ssti unicode tricks"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-94",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A03",
+        "confidence": "high"
+      }
+    ],
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/server_side_injection.server_side_template_injection",
+        "confidence": "low",
+        "note": "Technique-level classification; VRT usually rates at vulnerability class level"
+      }
+    ]
+  },
+  "also_in": [
+    {
+      "slug": "clacks/injection/server_side/ssti",
+      "confidence": "high",
+      "note": "Technique classification for this injection class"
+    }
+  ]
+}

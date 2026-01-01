@@ -1,0 +1,45 @@
+{
+  "id": "clacks/file_handling/zip_slip/variants/advanced",
+  "slug": "clacks/file_handling/zip_slip/variants/advanced",
+  "title": "Zip Slip (Advanced)",
+  "aliases": [
+    "zip slip",
+    "advanced"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-22",
+        "confidence": "medium",
+        "note": "Umbrella mapping for family; subtype may have more specific CWE"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A03",
+        "confidence": "medium"
+      }
+    ],
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/server_security_misconfiguration",
+        "confidence": "low",
+        "note": "Best-effort mapping to closest VRT umbrella node"
+      }
+    ],
+    "mitre_attack": [
+      {
+        "id": "mitre/T1190",
+        "confidence": "low",
+        "note": "Technique mapping depends on exploitation scenario"
+      }
+    ]
+  },
+  "also_in": [
+    {
+      "slug": "clacks/file_handling/zip_slip",
+      "confidence": "high",
+      "note": "Variant of the base concept"
+    }
+  ]
+}

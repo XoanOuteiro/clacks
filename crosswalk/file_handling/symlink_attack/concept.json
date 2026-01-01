@@ -1,0 +1,44 @@
+{
+  "id": "clacks/file_handling/symlink_attack",
+  "slug": "clacks/file_handling/symlink_attack",
+  "title": "Symlink Attack",
+  "aliases": [
+    "symlink attack"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-22",
+        "confidence": "medium",
+        "note": "Umbrella mapping for family; subtype may have more specific CWE"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A03",
+        "confidence": "medium"
+      }
+    ],
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/server_security_misconfiguration",
+        "confidence": "medium",
+        "note": "Best-effort mapping to closest VRT umbrella node"
+      }
+    ],
+    "mitre_attack": [
+      {
+        "id": "mitre/T1190",
+        "confidence": "low",
+        "note": "Technique mapping depends on exploitation scenario"
+      }
+    ]
+  },
+  "also_in": [
+    {
+      "slug": "clacks/file_handling",
+      "confidence": "high",
+      "note": "Family umbrella"
+    }
+  ]
+}

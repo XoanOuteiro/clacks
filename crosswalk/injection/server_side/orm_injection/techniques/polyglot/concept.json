@@ -1,0 +1,39 @@
+{
+  "id": "clacks/injection/server_side/orm_injection/techniques/polyglot",
+  "slug": "clacks/injection/server_side/orm_injection/techniques/polyglot",
+  "title": "ORM Injection via Polyglot Payload",
+  "aliases": [
+    "orm injection",
+    "hibernate injection",
+    "polyglot payload",
+    "orm injection polyglot"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-943",
+        "confidence": "high"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A03",
+        "confidence": "high"
+      }
+    ],
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/server_side_injection.sql_injection",
+        "confidence": "low",
+        "note": "Technique-level classification; VRT usually rates at vulnerability class level"
+      }
+    ]
+  },
+  "also_in": [
+    {
+      "slug": "clacks/injection/server_side/orm_injection",
+      "confidence": "high",
+      "note": "Technique classification for this injection class"
+    }
+  ]
+}

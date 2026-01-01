@@ -1,0 +1,50 @@
+{
+  "id": "clacks/access_control/object_level/bola",
+  "slug": "clacks/access_control/object_level/bola",
+  "title": "Broken Object Level Authorization (BOLA)",
+  "aliases": [
+    "bola",
+    "broken object level authorization"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-639",
+        "confidence": "high",
+        "note": "Authorization Bypass Through User-Controlled Key (common IDOR mapping)"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A01",
+        "confidence": "high"
+      }
+    ],
+    "owasp_api10": [
+      {
+        "id": "owasp/api/2023/API01",
+        "confidence": "high"
+      }
+    ],
+    "mitre_attack": [
+      {
+        "id": "mitre/T1190",
+        "confidence": "low",
+        "note": "Only if exploited for initial access; often post-auth"
+      }
+    ],
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/broken_access_control.insecure_direct_object_references",
+        "confidence": "high"
+      }
+    ]
+  },
+  "also_in": [
+    {
+      "slug": "clacks/access_control/object_level",
+      "confidence": "high",
+      "note": "Object-level authorization class"
+    }
+  ]
+}

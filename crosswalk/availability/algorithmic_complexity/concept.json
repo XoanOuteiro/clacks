@@ -1,0 +1,37 @@
+{
+  "id": "clacks/availability/algorithmic_complexity",
+  "slug": "clacks/availability/algorithmic_complexity",
+  "title": "Algorithmic Complexity DoS",
+  "aliases": [
+    "algorithmic complexity dos"
+  ],
+  "mappings": {
+    "cwe": [
+      {
+        "id": "cwe/CWE-400",
+        "confidence": "medium",
+        "note": "Umbrella mapping for family; subtype may have more specific CWE"
+      }
+    ],
+    "owasp_top10": [
+      {
+        "id": "owasp/top10/2021/A10",
+        "confidence": "medium"
+      }
+    ],
+    "bugcrowd_vrt": [
+      {
+        "id": "bugcrowd/vrt/denial_of_service",
+        "confidence": "medium",
+        "note": "Best-effort mapping to closest VRT umbrella node"
+      }
+    ]
+  },
+  "also_in": [
+    {
+      "slug": "clacks/availability",
+      "confidence": "high",
+      "note": "Family umbrella"
+    }
+  ]
+}

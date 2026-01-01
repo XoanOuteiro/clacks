@@ -1,0 +1,10 @@
+{
+  "id": "clacks/security_misconfiguration",
+  "slug": "clacks/security_misconfiguration",
+  "title": "Security Misconfiguration",
+  "aliases": [
+    "security misconfiguration",
+    "security_misconfiguration"
+  ],
+  "mappings": {}
+}
